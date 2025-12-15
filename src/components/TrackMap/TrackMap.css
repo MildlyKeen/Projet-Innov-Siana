@@ -1,0 +1,59 @@
+.track-map-card {
+  height: 100%;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  border: none;
+}
+
+.track-map-card .card-header {
+  background-color: #f8f9fa;
+  border-bottom: 2px solid #e9ecef;
+  font-weight: 600;
+}
+
+.track-container {
+  max-height: 500px;
+  overflow-y: auto;
+}
+
+.track-visual {
+  height: 40px;
+  background-color: #e9ecef;
+  border-radius: 8px;
+  overflow: hidden;
+  position: relative;
+}
+
+.track-fill {
+  height: 100%;
+  background: linear-gradient(90deg, #28a745 0%, #20c997 100%);
+  transition: width 0.3s ease;
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+}
+
+.track-item .badge.bg-danger ~ .track-fill,
+.track-item:has(.badge.bg-danger) .track-fill {
+  background: linear-gradient(90deg, #dc3545 0%, #c82333 100%);
+}
+
+.train-indicator {
+  color: white;
+  font-size: 0.875rem;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+@media (max-width: 768px) {
+  .track-container {
+    max-height: 400px;
+  }
+  
+  .track-visual {
+    height: 35px;
+  }
+  
+  .train-indicator {
+    font-size: 0.75rem;
+  }
+}
