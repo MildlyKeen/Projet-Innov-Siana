@@ -17,19 +17,19 @@ function App() {
   const [tracks, setTracks] = useState([]);
 
   useEffect(() => {
-    // Initial data load
-    setStatistics(getStatistics());
-    setTrafficData(getTrafficData());
-    setTrackUtilization(getTrackUtilization());
-    setTracks(getTracks());
-
-    // Simulate periodic updates
-    const interval = setInterval(() => {
+    // Function to load data
+    const loadData = () => {
       setStatistics(getStatistics());
       setTrafficData(getTrafficData());
       setTrackUtilization(getTrackUtilization());
       setTracks(getTracks());
-    }, 30000); // Update every 30 seconds
+    };
+
+    // Initial data load
+    loadData();
+
+    // Simulate periodic updates
+    const interval = setInterval(loadData, 30000); // Update every 30 seconds
 
     return () => clearInterval(interval);
   }, []);
