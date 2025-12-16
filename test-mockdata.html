@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Test MockData Service</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+      background-color: #f5f5f5;
+    }
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      background: white;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    h1 {
+      color: #333;
+      border-bottom: 2px solid #007bff;
+      padding-bottom: 10px;
+    }
+    .track {
+      display: flex;
+      align-items: center;
+      padding: 12px;
+      margin: 8px 0;
+      border-radius: 4px;
+      border: 2px solid #ddd;
+    }
+    .track.free {
+      background-color: #d4edda;
+      border-color: #28a745;
+    }
+    .track.occupied {
+      background-color: #f8d7da;
+      border-color: #dc3545;
+    }
+    .track.anomaly {
+      background-color: #fff3cd;
+      border-color: #ffc107;
+    }
+    .track-id {
+      font-weight: bold;
+      margin-right: 15px;
+      min-width: 60px;
+    }
+    .track-status {
+      padding: 4px 12px;
+      border-radius: 20px;
+      font-size: 12px;
+      font-weight: bold;
+      color: white;
+      margin-right: 15px;
+    }
+    .track-status.free {
+      background-color: #28a745;
+    }
+    .track-status.occupied {
+      background-color: #dc3545;
+    }
+    .track-status.anomaly {
+      background-color: #ffc107;
+      color: #333;
+    }
+    .track-train {
+      flex: 1;
+      font-weight: 500;
+    }
+    .track-time {
+      font-size: 12px;
+      color: #666;
+    }
+    .controls {
+      margin: 20px 0;
+      padding: 15px;
+      background: #e9ecef;
+      border-radius: 4px;
+    }
+    button {
+      padding: 8px 16px;
+      margin-right: 10px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 14px;
+    }
+    .btn-primary {
+      background-color: #007bff;
+      color: white;
+    }
+    .btn-danger {
+      background-color: #dc3545;
+      color: white;
+    }
+    .btn-secondary {
+      background-color: #6c757d;
+      color: white;
+    }
+    .status {
+      padding: 10px;
+      margin: 10px 0;
+      border-radius: 4px;
+      background: #d1ecf1;
+      color: #0c5460;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>🚂 MockData Service - Test de Simulation</h1>
+    
+    <div class="status" id="status">
+      État: Arrêté
+    </div>
+    
+    <div class="controls">
+      <button class="btn-primary" onclick="startSim()">▶️ Démarrer Simulation</button>
+      <button class="btn-danger" onclick="stopSim()">⏹️ Arrêter Simulation</button>
+      <button class="btn-secondary" onclick="resetSim()">🔄 Réinitialiser</button>
+    </div>
+    
+    <div id="tracks"></div>
+  </div>
+
+  <script type="module">
+    import { getTracksState, startSimulation, resetTracksState } from './src/services/mockData.js';
+    
+    let unsubscribe = null;
+    let updateCount = 0;
+    
+    function formatTime(timestamp) {
+      if (!timestamp) return '-';
+      const date = new Date(timestamp);
+      return date.toLocaleTimeString('fr-FR');
+    }
+    
+    function renderTracks() {
+      const tracks = getTracksState();
+      const container = document.getElementById('tracks');
+      
+      container.innerHTML = tracks.map(track => `
+        <div class="track ${track.status}">
+          <span class="track-id">Voie ${track.id}</span>
+          <span class="track-status ${track.status}">${
+            track.status === 'free' ? 'Libre' :
+            track.status === 'occupied' ? 'Occupée' : 'Anomalie'
+          }</span>
+          <span class="track-train">
+            ${track.trainId ? `🚂 ${track.trainId}` : '-'}
+          </span>
+          <span class="track-time">
+            ${track.timestamp ? `Arrivée: ${formatTime(track.timestamp)}` : ''}
+          </span>
+        </div>
+      `).join('');
+    }
+    
+    window.startSim = function() {
+      if (unsubscribe) {
+        alert('La simulation est déjà en cours');
+        return;
+      }
+      
+      updateCount = 0;
+      unsubscribe = startSimulation((tracks) => {
+        updateCount++;
+        renderTracks();
+        document.getElementById('status').textContent = 
+          `État: En cours (${updateCount} mises à jour) - Changement toutes les 3s`;
+      });
+      
+      document.getElementById('status').textContent = 'État: Simulation démarrée';
+      renderTracks();
+    };
+    
+    window.stopSim = function() {
+      if (!unsubscribe) {
+        alert('Aucune simulation en cours');
+        return;
+      }
+      
+      unsubscribe();
+      unsubscribe = null;
+      document.getElementById('status').textContent = 'État: Arrêté';
+    };
+    
+    window.resetSim = function() {
+      if (unsubscribe) {
+        unsubscribe();
+        unsubscribe = null;
+      }
+      
+      resetTracksState();
+      updateCount = 0;
+      renderTracks();
+      document.getElementById('status').textContent = 'État: Réinitialisé';
+    };
+    
+    // Initial render
+    renderTracks();
+  </script>
+</body>
+</html>

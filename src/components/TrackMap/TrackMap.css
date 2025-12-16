@@ -10,50 +10,172 @@
   font-weight: 600;
 }
 
-.track-container {
-  max-height: 500px;
-  overflow-y: auto;
+/* Grid layout for horizontal tracks */
+.tracks-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 20px;
+  padding: 10px 0;
 }
 
-.track-visual {
-  height: 40px;
-  background-color: #e9ecef;
-  border-radius: 8px;
-  overflow: hidden;
-  position: relative;
+/* Track wrapper */
+.track-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
 }
 
-.track-fill {
-  height: 100%;
-  background: linear-gradient(90deg, #28a745 0%, #20c997 100%);
-  transition: width 0.3s ease;
+/* Track label */
+.track-label {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  font-size: 0.875rem;
+}
+
+.track-label strong {
+  color: #333;
+  font-size: 0.95rem;
+}
+
+.track-status-text {
+  color: #666;
+  font-size: 0.75rem;
+  font-weight: 500;
+}
+
+/* Track rail - horizontal representation */
+.track-rail {
+  height: 80px;
+  border-radius: 12px;
   display: flex;
   align-items: center;
-  padding: 0 10px;
+  justify-content: center;
+  padding: 12px;
+  position: relative;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  border: 3px solid transparent;
 }
 
-.track-item .badge.bg-danger ~ .track-fill,
-.track-item:has(.badge.bg-danger) .track-fill {
-  background: linear-gradient(90deg, #dc3545 0%, #c82333 100%);
+/* Color states with smooth transitions */
+.track-free {
+  background: linear-gradient(135deg, #9e9e9e 0%, #757575 100%);
+  border-color: #616161;
 }
 
-.train-indicator {
+.track-occupied {
+  background: linear-gradient(135deg, #4caf50 0%, #2e7d32 100%);
+  border-color: #1b5e20;
+  animation: pulse-green 2s ease-in-out infinite;
+}
+
+.track-anomaly {
+  background: linear-gradient(135deg, #f44336 0%, #c62828 100%);
+  border-color: #b71c1c;
+  animation: pulse-red 1.5s ease-in-out infinite;
+}
+
+/* Content inside track */
+.track-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
   color: white;
-  font-size: 0.875rem;
   font-weight: 600;
-  white-space: nowrap;
+  text-align: center;
+}
+
+.alert-icon {
+  font-size: 1.8rem;
+  animation: shake 0.5s ease-in-out infinite;
+}
+
+.train-icon {
+  font-size: 1.5rem;
+}
+
+.train-id {
+  font-size: 0.85rem;
+  letter-spacing: 0.5px;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+.free-text {
+  font-size: 0.85rem;
+  opacity: 0.9;
+}
+
+/* Animations */
+@keyframes pulse-green {
+  0%, 100% {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  50% {
+    box-shadow: 0 4px 12px rgba(76, 175, 80, 0.4);
+  }
+}
+
+@keyframes pulse-red {
+  0%, 100% {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  50% {
+    box-shadow: 0 4px 12px rgba(244, 67, 54, 0.5);
+  }
+}
+
+@keyframes shake {
+  0%, 100% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(-3px);
+  }
+  75% {
+    transform: translateX(3px);
+  }
+}
+
+/* Responsive adjustments */
+@media (max-width: 1200px) {
+  .tracks-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
 
 @media (max-width: 768px) {
-  .track-container {
-    max-height: 400px;
+  .tracks-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
   }
   
-  .track-visual {
-    height: 35px;
+  .track-rail {
+    height: 70px;
   }
   
-  .train-indicator {
+  .alert-icon {
+    font-size: 1.5rem;
+  }
+  
+  .train-icon {
+    font-size: 1.2rem;
+  }
+  
+  .train-id {
     font-size: 0.75rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .tracks-grid {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+  
+  .track-rail {
+    height: 65px;
   }
 }

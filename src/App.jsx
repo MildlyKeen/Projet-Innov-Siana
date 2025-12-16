@@ -6,7 +6,6 @@ import {
   getStatistics,
   getTrafficData,
   getTrackUtilization,
-  getTracks,
 } from './services/smartYardApi';
 import './App.css';
 
@@ -14,7 +13,6 @@ function App() {
   const [statistics, setStatistics] = useState(null);
   const [trafficData, setTrafficData] = useState(null);
   const [trackUtilization, setTrackUtilization] = useState(null);
-  const [tracks, setTracks] = useState([]);
 
   useEffect(() => {
     // Function to load data
@@ -22,7 +20,6 @@ function App() {
       setStatistics(getStatistics());
       setTrafficData(getTrafficData());
       setTrackUtilization(getTrackUtilization());
-      setTracks(getTracks());
     };
 
     // Initial data load
@@ -55,7 +52,7 @@ function App() {
         />
         <div className="row mt-4">
           <div className="col-12">
-            <TrackMap tracks={tracks} />
+            <TrackMap />
           </div>
         </div>
       </main>
