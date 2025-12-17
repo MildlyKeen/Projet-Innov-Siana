@@ -1,0 +1,21 @@
+.smart-yard-header {
+  background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.smart-yard-header h1 {
+  font-weight: 600;
+}
+
+@media (max-width: 768px) {
+  .smart-yard-header h1 {
+    font-size: 1.5rem;
+  }
+  
+  .smart-yard-header .text-md-end {
+    text-align: left !important;
+  }
+}
