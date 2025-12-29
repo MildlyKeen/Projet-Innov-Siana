@@ -1,0 +1,16 @@
+# Core dependencies for Train OCR Pipeline
+opencv-python>=4.8.0
+paddleocr>=2.7.0
+paddlepaddle>=2.5.0
+numpy>=1.24.0
+pillow>=10.0.0
+
+# Optional alternatives
+# easyocr>=1.7.0  # Alternative to PaddleOCR
+
+# Utilities
+regex>=2023.0.0
+tqdm>=4.65.0
+
+# Video processing
+imutils>=0.5.4
