@@ -1,0 +1,33 @@
+{
+  "categories": [
+    {
+      "id": 0,
+      "name": "voie1"
+    },
+    {
+      "id": 1,
+      "name": "voie2"
+    },
+    {
+      "id": 2,
+      "name": "voie3"
+    },
+    {
+      "id": 3,
+      "name": "voie4"
+    },
+    {
+      "id": 4,
+      "name": "voie5"
+    },
+    {
+      "id": 5,
+      "name": "voie6"
+    }
+  ],
+  "info": {
+    "year": 2025,
+    "version": "1.0",
+    "contributor": "Label Studio"
+  }
+}
