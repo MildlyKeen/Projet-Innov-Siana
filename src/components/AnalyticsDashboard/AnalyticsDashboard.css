@@ -1,0 +1,24 @@
+.analytics-dashboard .chart-wrapper {
+  width: 100%;
+  height: 320px;
+}
+
+.analytics-dashboard .doughnut-wrapper {
+  max-height: 300px;
+}
+
+.analytics-dashboard .bar-wrapper {
+  max-height: 340px;
+}
+
+.analytics-dashboard .card {
+  box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+}
+
+.analytics-dashboard .card-title {
+  margin-bottom: 1rem;
+}
+
+.analytics-dashboard .sparkline {
+  display: block;
+}

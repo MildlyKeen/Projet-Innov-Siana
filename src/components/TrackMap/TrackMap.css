@@ -1,55 +1,115 @@
 .track-map-card {
-  height: 100%;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-  border: none;
-}
+  /* Fallback styles for TrackMap when Tailwind is not available */
+  .tm-container {
+    background: linear-gradient(180deg,#0b0b0d, #0f1113);
+    color: #e6eef8;
+  }
 
-.track-map-card .card-header {
-  background-color: #f8f9fa;
-  border-bottom: 2px solid #e9ecef;
-  font-weight: 600;
-}
+  .tm-title svg { color: #9aa4b2; }
 
-/* Grid layout for horizontal tracks */
-.tracks-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-  gap: 20px;
-  padding: 10px 0;
-}
+  .tm-track { align-items: center; }
 
-/* Track wrapper */
-.track-wrapper {
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
-}
+  .train-card {
+    min-width: 84px;
+    max-width: 240px;
+    transform-origin: left center;
+    /* entrance animation */
+    opacity: 1;
+    transition: transform 350ms ease, opacity 300ms ease;
+  }
 
-/* Track label */
-.track-label {
-  display: flex;
-  flex-direction: column;
-  gap: 4px;
-  font-size: 0.875rem;
-}
 
-.track-label strong {
-  color: #333;
-  font-size: 0.95rem;
-}
 
-.track-status-text {
-  color: #666;
-  font-size: 0.75rem;
-  font-weight: 500;
-}
+  .train-card.bg-transparent { background: transparent; box-shadow: none; border: 1px dashed rgba(255,255,255,0.04); }
 
-/* Track rail - horizontal representation */
-.track-rail {
-  height: 80px;
-  border-radius: 12px;
-  display: flex;
-  align-items: center;
+  .train-card .anomaly-icon {
+    animation: tm-blink 1s linear infinite;
+  }
+
+  @keyframes tm-blink {
+    0% { opacity: 1; }
+    50% { opacity: 0.15; }
+    100% { opacity: 1; }
+  }
+
+  .tm-tooltip { transform-origin: center bottom; }
+
+  .tm-tooltip .bg-gray-900 { background: rgba(10,10,12,0.9); }
+
+  /* small responsive tweaks */
+  @media (max-width: 768px) {
+    .tm-track-label { display: none; }
+  /* SmartYardMap styles (F1 telemetry aesthetic) */
+  .smartyard-container { background: linear-gradient(180deg,#020617,#071026); border: 1px solid rgba(255,255,255,0.03); }
+  .smartyard-container h5 { color: #e6eef8; }
+
+  .sy-tooltip { background: rgba(2,6,23,0.92); color: #e6eef8; padding: 6px 8px; border-radius: 6px; border: 1px solid rgba(255,255,255,0.04); box-shadow: 0 8px 20px rgba(2,6,23,0.6); }
+  .sy-tooltip div { line-height: 1.05; }
+
+  .train-group .sy-fo { pointer-events: none; }
+  .train-group:hover .sy-fo .sy-tooltip,
+  .train-group:focus .sy-fo .sy-tooltip { opacity: 1 !important; transform: translateY(0) !important; pointer-events: auto; }
+
+  /* glow effect for neon pucks */
+  .train-group circle { transition: r 220ms ease, transform 220ms ease; }
+  .train-group:hover circle { transform: scale(1.06); }
+
+  /* responsive */
+  @media (max-width: 640px) {
+    .smartyard-container { padding: 8px; }
+  }
+    .tm-title h4 { font-size: 1rem; }
+  }
+
+  /* Ant-colony specific styles */
+  .tm-antmap {
+    position: relative;
+    background: radial-gradient(1200px 400px at 50% 120%, rgba(2,6,23,0.7), transparent 30%), #071122;
+    border-radius: 8px;
+    padding: 12px;
+    color: #cbd5e1;
+    overflow: hidden;
+  }
+  .tm-antmap .tm-svg {
+    width: 100%;
+    height: 360px;
+    display: block;
+  }
+  .tm-antmap-bg {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(180deg, rgba(255,255,255,0.02), transparent 35%);
+    pointer-events: none;
+  }
+  .tm-line { opacity: 0.9; }
+  .tm-train-dot { filter: drop-shadow(0 4px 6px rgba(0,0,0,0.6)); cursor: pointer; }
+  .tm-train-group .tm-train-label { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial; }
+  .tm-tooltip-html {
+    background: rgba(2,6,23,0.92);
+    color: #e6eef8;
+    padding: 6px 8px;
+    border-radius: 6px;
+    font-size: 12px;
+    border: 1px solid rgba(255,255,255,0.04);
+    box-shadow: 0 6px 18px rgba(14,22,35,0.6);
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 180ms ease, transform 220ms ease;
+    transform: translateY(6px);
+  }
+
+  /* hover interactions: when the user hovers near the dot, show tooltip - rely on SVG hitbox + CSS sibling isn't straightforward; we'll use :hover on the group via pointer-events */
+  .tm-train-group:hover .tm-tooltip-html,
+  .tm-train-group:focus .tm-tooltip-html {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  /* small responsive tweak */
+  @media (max-width: 640px) {
+    .tm-antmap .tm-svg { height: 260px; }
+    .tm-tooltip-html { font-size: 11px; }
+  }
   justify-content: center;
   padding: 12px;
   position: relative;

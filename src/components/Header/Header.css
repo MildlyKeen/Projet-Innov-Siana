@@ -1,13 +1,42 @@
 .smart-yard-header {
-  background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+  position: relative;
+  overflow: hidden;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   position: sticky;
   top: 0;
   z-index: 1000;
+  min-height: 120px;
 }
 
 .smart-yard-header h1 {
   font-weight: 600;
+}
+
+.smart-yard-header .header-bg-overlay {
+  position: absolute;
+  inset: 0;
+  /* background-image is set inline from the imported asset to ensure Vite bundles it */
+  background-size: cover;
+  background-position: center center;
+  filter: blur(6px) brightness(0.6) saturate(1.05);
+  transform: scale(1.03);
+  z-index: 0;
+}
+
+.smart-yard-header > .container-fluid,
+.smart-yard-header .row,
+.smart-yard-header .col-12 {
+  position: relative;
+  z-index: 1;
+}
+
+.site-logo {
+  width: 48px;
+  height: 48px;
+  object-fit: contain;
+  border-radius: 6px;
+  background: rgba(255,255,255,0.06);
+  padding: 6px;
 }
 
 @media (max-width: 768px) {
