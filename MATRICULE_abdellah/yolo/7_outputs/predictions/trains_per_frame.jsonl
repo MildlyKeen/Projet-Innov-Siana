@@ -1,0 +1,643 @@
+{"frame": 0, "trains_detected": 0, "trains": []}
+{"frame": 1, "trains_detected": 0, "trains": []}
+{"frame": 2, "trains_detected": 0, "trains": []}
+{"frame": 3, "trains_detected": 0, "trains": []}
+{"frame": 4, "trains_detected": 1, "trains": [{"bbox": [0.0, 286.4716491699219, 393.3641357421875, 720.0], "conf": 0.2610829174518585, "class_id": 0, "track_id": null, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 5, "trains_detected": 0, "trains": []}
+{"frame": 6, "trains_detected": 0, "trains": []}
+{"frame": 7, "trains_detected": 1, "trains": [{"bbox": [0.0, 279.8758239746094, 391.0635681152344, 720.0], "conf": 0.2670488655567169, "class_id": 0, "track_id": null, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 8, "trains_detected": 0, "trains": []}
+{"frame": 9, "trains_detected": 0, "trains": []}
+{"frame": 10, "trains_detected": 0, "trains": []}
+{"frame": 11, "trains_detected": 0, "trains": []}
+{"frame": 12, "trains_detected": 0, "trains": []}
+{"frame": 13, "trains_detected": 0, "trains": []}
+{"frame": 14, "trains_detected": 0, "trains": []}
+{"frame": 15, "trains_detected": 0, "trains": []}
+{"frame": 16, "trains_detected": 0, "trains": []}
+{"frame": 17, "trains_detected": 0, "trains": []}
+{"frame": 18, "trains_detected": 0, "trains": []}
+{"frame": 19, "trains_detected": 0, "trains": []}
+{"frame": 20, "trains_detected": 1, "trains": [{"bbox": [108.78179931640625, 262.7663879394531, 165.9850616455078, 336.79425048828125], "conf": 0.27657368779182434, "class_id": 0, "track_id": null, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 21, "trains_detected": 0, "trains": []}
+{"frame": 22, "trains_detected": 0, "trains": []}
+{"frame": 23, "trains_detected": 0, "trains": []}
+{"frame": 24, "trains_detected": 0, "trains": []}
+{"frame": 25, "trains_detected": 0, "trains": []}
+{"frame": 26, "trains_detected": 0, "trains": []}
+{"frame": 27, "trains_detected": 0, "trains": []}
+{"frame": 28, "trains_detected": 0, "trains": []}
+{"frame": 29, "trains_detected": 0, "trains": []}
+{"frame": 30, "trains_detected": 1, "trains": [{"bbox": [101.74543762207031, 262.0404052734375, 166.03799438476562, 342.9474182128906], "conf": 0.2533169090747833, "class_id": 0, "track_id": null, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 31, "trains_detected": 1, "trains": [{"bbox": [102.10469055175781, 262.6356506347656, 165.69825744628906, 341.2930908203125], "conf": 0.5822747945785522, "class_id": 0, "track_id": 4, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 32, "trains_detected": 1, "trains": [{"bbox": [100.26338958740234, 262.0808410644531, 165.99969482421875, 343.3363037109375], "conf": 0.5571103692054749, "class_id": 0, "track_id": 4, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 33, "trains_detected": 1, "trains": [{"bbox": [100.6153335571289, 262.06103515625, 165.8494873046875, 344.1348571777344], "conf": 0.5692023038864136, "class_id": 0, "track_id": 4, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 34, "trains_detected": 1, "trains": [{"bbox": [100.53872680664062, 262.3629455566406, 165.9243927001953, 343.46405029296875], "conf": 0.5190756320953369, "class_id": 0, "track_id": 4, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 35, "trains_detected": 1, "trains": [{"bbox": [99.85001373291016, 262.34161376953125, 166.41090393066406, 343.5928955078125], "conf": 0.4328271746635437, "class_id": 0, "track_id": 4, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 36, "trains_detected": 0, "trains": []}
+{"frame": 37, "trains_detected": 0, "trains": []}
+{"frame": 38, "trains_detected": 0, "trains": []}
+{"frame": 39, "trains_detected": 0, "trains": []}
+{"frame": 40, "trains_detected": 1, "trains": [{"bbox": [97.32965850830078, 262.10223388671875, 168.03602600097656, 346.3043518066406], "conf": 0.3103858232498169, "class_id": 0, "track_id": 4, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 41, "trains_detected": 1, "trains": [{"bbox": [97.0372085571289, 262.2229919433594, 168.39064025878906, 347.49658203125], "conf": 0.29193249344825745, "class_id": 0, "track_id": 4, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 42, "trains_detected": 0, "trains": []}
+{"frame": 43, "trains_detected": 0, "trains": []}
+{"frame": 44, "trains_detected": 1, "trains": [{"bbox": [97.42508697509766, 262.7618408203125, 170.0599822998047, 349.8983459472656], "conf": 0.3431221544742584, "class_id": 0, "track_id": 4, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 45, "trains_detected": 1, "trains": [{"bbox": [97.4742660522461, 263.45037841796875, 168.97222900390625, 349.9159851074219], "conf": 0.3697385787963867, "class_id": 0, "track_id": 4, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 46, "trains_detected": 0, "trains": []}
+{"frame": 47, "trains_detected": 0, "trains": []}
+{"frame": 48, "trains_detected": 1, "trains": [{"bbox": [95.8016357421875, 262.5415344238281, 168.58497619628906, 349.40484619140625], "conf": 0.5219837427139282, "class_id": 0, "track_id": 4, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 49, "trains_detected": 1, "trains": [{"bbox": [95.24563598632812, 262.68426513671875, 168.97010803222656, 348.9208679199219], "conf": 0.716331422328949, "class_id": 0, "track_id": 4, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 50, "trains_detected": 1, "trains": [{"bbox": [95.5995864868164, 261.829345703125, 168.5229034423828, 349.1797180175781], "conf": 0.640275239944458, "class_id": 0, "track_id": 4, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 51, "trains_detected": 1, "trains": [{"bbox": [95.96575164794922, 262.8675231933594, 169.4001007080078, 351.3513488769531], "conf": 0.8542494177818298, "class_id": 0, "track_id": 4, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 52, "trains_detected": 1, "trains": [{"bbox": [95.51753997802734, 262.9603576660156, 169.73336791992188, 353.6391296386719], "conf": 0.8352809548377991, "class_id": 0, "track_id": 4, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 53, "trains_detected": 1, "trains": [{"bbox": [94.7164077758789, 260.9062194824219, 170.01724243164062, 355.4207763671875], "conf": 0.8943274617195129, "class_id": 0, "track_id": 4, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 54, "trains_detected": 1, "trains": [{"bbox": [93.93854522705078, 259.9924011230469, 170.40647888183594, 356.3325500488281], "conf": 0.9190443754196167, "class_id": 0, "track_id": 4, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 55, "trains_detected": 1, "trains": [{"bbox": [94.5169906616211, 260.02801513671875, 170.28656005859375, 358.91082763671875], "conf": 0.8849968314170837, "class_id": 0, "track_id": 4, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 56, "trains_detected": 1, "trains": [{"bbox": [94.28140258789062, 260.3432922363281, 170.65530395507812, 359.9476623535156], "conf": 0.9077614545822144, "class_id": 0, "track_id": 4, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 57, "trains_detected": 1, "trains": [{"bbox": [94.20487213134766, 260.4366760253906, 171.11203002929688, 361.14111328125], "conf": 0.8853338956832886, "class_id": 0, "track_id": 4, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 58, "trains_detected": 1, "trains": [{"bbox": [94.24007415771484, 260.8283996582031, 171.75465393066406, 362.52337646484375], "conf": 0.9013702869415283, "class_id": 0, "track_id": 4, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 59, "trains_detected": 1, "trains": [{"bbox": [93.98239135742188, 261.107666015625, 172.6542510986328, 363.3355407714844], "conf": 0.9023424983024597, "class_id": 0, "track_id": 4, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 60, "trains_detected": 1, "trains": [{"bbox": [94.30703735351562, 262.7953186035156, 172.90638732910156, 364.2099914550781], "conf": 0.9035166501998901, "class_id": 0, "track_id": 4, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 61, "trains_detected": 1, "trains": [{"bbox": [94.9075927734375, 263.20770263671875, 173.48460388183594, 364.5682373046875], "conf": 0.9010505676269531, "class_id": 0, "track_id": 4, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 62, "trains_detected": 1, "trains": [{"bbox": [95.4317626953125, 262.439453125, 174.18548583984375, 364.51458740234375], "conf": 0.8792402744293213, "class_id": 0, "track_id": 4, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 63, "trains_detected": 1, "trains": [{"bbox": [93.36753845214844, 259.4797058105469, 174.53541564941406, 364.96990966796875], "conf": 0.8589398264884949, "class_id": 0, "track_id": 4, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 64, "trains_detected": 1, "trains": [{"bbox": [94.77244567871094, 261.49346923828125, 174.56187438964844, 365.53076171875], "conf": 0.8353263735771179, "class_id": 0, "track_id": 4, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 65, "trains_detected": 1, "trains": [{"bbox": [95.1582260131836, 261.7619323730469, 174.5291748046875, 368.3811340332031], "conf": 0.8161601424217224, "class_id": 0, "track_id": 4, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 66, "trains_detected": 1, "trains": [{"bbox": [95.34455108642578, 262.02325439453125, 176.2661895751953, 370.2687683105469], "conf": 0.8233160376548767, "class_id": 0, "track_id": 4, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 67, "trains_detected": 1, "trains": [{"bbox": [95.7805404663086, 262.49371337890625, 177.60964965820312, 371.1256103515625], "conf": 0.766176164150238, "class_id": 0, "track_id": 4, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 68, "trains_detected": 1, "trains": [{"bbox": [96.12201690673828, 261.5390625, 177.78164672851562, 371.35699462890625], "conf": 0.6220259070396423, "class_id": 0, "track_id": 4, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 69, "trains_detected": 1, "trains": [{"bbox": [96.44148254394531, 266.3404541015625, 178.40309143066406, 371.8438415527344], "conf": 0.6156798005104065, "class_id": 0, "track_id": 4, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 70, "trains_detected": 1, "trains": [{"bbox": [97.06708526611328, 267.000244140625, 180.5620574951172, 372.97509765625], "conf": 0.7457056045532227, "class_id": 0, "track_id": 4, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 71, "trains_detected": 1, "trains": [{"bbox": [98.5823974609375, 264.53350830078125, 181.69384765625, 374.7577209472656], "conf": 0.7456265687942505, "class_id": 0, "track_id": 4, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 72, "trains_detected": 1, "trains": [{"bbox": [98.69156646728516, 263.3577575683594, 182.69290161132812, 378.0419616699219], "conf": 0.8283945322036743, "class_id": 0, "track_id": 4, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 73, "trains_detected": 1, "trains": [{"bbox": [100.20354461669922, 265.0750427246094, 184.79214477539062, 380.7044677734375], "conf": 0.8931460380554199, "class_id": 0, "track_id": 4, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 74, "trains_detected": 1, "trains": [{"bbox": [101.7162094116211, 267.38165283203125, 187.9673309326172, 382.1717224121094], "conf": 0.9170504212379456, "class_id": 0, "track_id": 4, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 75, "trains_detected": 1, "trains": [{"bbox": [103.33647155761719, 274.4190979003906, 189.98568725585938, 383.0818786621094], "conf": 0.9003704190254211, "class_id": 0, "track_id": 4, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 76, "trains_detected": 1, "trains": [{"bbox": [105.00617980957031, 268.1202392578125, 191.65411376953125, 384.65069580078125], "conf": 0.9103238582611084, "class_id": 0, "track_id": 4, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 77, "trains_detected": 1, "trains": [{"bbox": [107.38082885742188, 264.4768981933594, 193.21337890625, 384.6145324707031], "conf": 0.9180036187171936, "class_id": 0, "track_id": 4, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 78, "trains_detected": 1, "trains": [{"bbox": [108.74523162841797, 260.6078796386719, 194.83932495117188, 384.6510925292969], "conf": 0.8988094925880432, "class_id": 0, "track_id": 4, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 79, "trains_detected": 1, "trains": [{"bbox": [109.76464080810547, 263.66033935546875, 195.5675506591797, 383.94659423828125], "conf": 0.8387596607208252, "class_id": 0, "track_id": 4, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 80, "trains_detected": 1, "trains": [{"bbox": [111.30140686035156, 271.12432861328125, 196.58824157714844, 389.0591735839844], "conf": 0.7193672060966492, "class_id": 0, "track_id": 4, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 81, "trains_detected": 1, "trains": [{"bbox": [111.48339080810547, 268.1601867675781, 198.1753692626953, 386.73187255859375], "conf": 0.8977182507514954, "class_id": 0, "track_id": 4, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 82, "trains_detected": 1, "trains": [{"bbox": [111.9189224243164, 266.5068054199219, 199.39584350585938, 388.9145202636719], "conf": 0.8745530843734741, "class_id": 0, "track_id": 4, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 83, "trains_detected": 1, "trains": [{"bbox": [111.90421295166016, 265.74908447265625, 200.63185119628906, 391.3036804199219], "conf": 0.7895605564117432, "class_id": 0, "track_id": 4, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 84, "trains_detected": 1, "trains": [{"bbox": [113.00926971435547, 267.89483642578125, 203.87503051757812, 392.8868408203125], "conf": 0.8303548693656921, "class_id": 0, "track_id": 4, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 85, "trains_detected": 1, "trains": [{"bbox": [113.13845825195312, 269.0898132324219, 206.37210083007812, 394.8056335449219], "conf": 0.8865149021148682, "class_id": 0, "track_id": 4, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 86, "trains_detected": 1, "trains": [{"bbox": [113.76924896240234, 267.0851135253906, 208.2009735107422, 396.3742980957031], "conf": 0.8898493647575378, "class_id": 0, "track_id": 4, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 87, "trains_detected": 1, "trains": [{"bbox": [114.29534149169922, 259.93414306640625, 209.72999572753906, 398.9242248535156], "conf": 0.9023395776748657, "class_id": 0, "track_id": 4, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 88, "trains_detected": 1, "trains": [{"bbox": [115.83480834960938, 262.7698059082031, 211.41856384277344, 399.52105712890625], "conf": 0.8830597996711731, "class_id": 0, "track_id": 4, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 89, "trains_detected": 1, "trains": [{"bbox": [116.59358215332031, 266.2818908691406, 213.13755798339844, 400.7372741699219], "conf": 0.9026733040809631, "class_id": 0, "track_id": 4, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 90, "trains_detected": 1, "trains": [{"bbox": [117.64985656738281, 273.70849609375, 214.1793212890625, 401.72027587890625], "conf": 0.8986673951148987, "class_id": 0, "track_id": 4, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 91, "trains_detected": 1, "trains": [{"bbox": [118.96400451660156, 275.18212890625, 214.84347534179688, 402.5969543457031], "conf": 0.8830080032348633, "class_id": 0, "track_id": 4, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 92, "trains_detected": 1, "trains": [{"bbox": [119.94646453857422, 271.78289794921875, 215.99981689453125, 405.2983093261719], "conf": 0.8114920258522034, "class_id": 0, "track_id": 4, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 93, "trains_detected": 1, "trains": [{"bbox": [120.12621307373047, 270.7344055175781, 217.475830078125, 407.99212646484375], "conf": 0.858045756816864, "class_id": 0, "track_id": 4, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 94, "trains_detected": 1, "trains": [{"bbox": [120.15265655517578, 272.77001953125, 218.51414489746094, 409.8096618652344], "conf": 0.8455600142478943, "class_id": 0, "track_id": 4, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 95, "trains_detected": 1, "trains": [{"bbox": [120.95670318603516, 279.95361328125, 220.1058807373047, 411.0785217285156], "conf": 0.8345043659210205, "class_id": 0, "track_id": 4, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 96, "trains_detected": 1, "trains": [{"bbox": [121.21017456054688, 277.83416748046875, 221.8441619873047, 411.6990661621094], "conf": 0.768849790096283, "class_id": 0, "track_id": 4, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 97, "trains_detected": 2, "trains": [{"bbox": [0.2911317050457001, 257.7812194824219, 172.5213165283203, 713.1425170898438], "conf": 0.5720281600952148, "class_id": 0, "track_id": 5, "rank_lr": 1, "lr_label": "train1"}, {"bbox": [121.46676635742188, 272.4911804199219, 223.4397430419922, 411.64776611328125], "conf": 0.826292872428894, "class_id": 0, "track_id": 4, "rank_lr": 2, "lr_label": "train2"}]}
+{"frame": 98, "trains_detected": 2, "trains": [{"bbox": [0.36020538210868835, 258.4076232910156, 172.30813598632812, 714.559814453125], "conf": 0.5660939812660217, "class_id": 0, "track_id": 5, "rank_lr": 1, "lr_label": "train1"}, {"bbox": [121.16297912597656, 259.17059326171875, 224.5232696533203, 412.6578063964844], "conf": 0.8155881762504578, "class_id": 0, "track_id": 4, "rank_lr": 2, "lr_label": "train2"}]}
+{"frame": 99, "trains_detected": 2, "trains": [{"bbox": [0.8066655397415161, 255.5643310546875, 169.8858642578125, 713.6094970703125], "conf": 0.536686897277832, "class_id": 0, "track_id": 5, "rank_lr": 1, "lr_label": "train1"}, {"bbox": [121.21722412109375, 256.09661865234375, 226.15225219726562, 413.6258239746094], "conf": 0.6956523060798645, "class_id": 0, "track_id": 4, "rank_lr": 2, "lr_label": "train2"}]}
+{"frame": 100, "trains_detected": 2, "trains": [{"bbox": [0.626950740814209, 252.61900329589844, 170.37734985351562, 698.06640625], "conf": 0.4059877395629883, "class_id": 0, "track_id": 5, "rank_lr": 1, "lr_label": "train1"}, {"bbox": [121.12706756591797, 250.4569854736328, 229.76820373535156, 414.34130859375], "conf": 0.6915157437324524, "class_id": 0, "track_id": 4, "rank_lr": 2, "lr_label": "train2"}]}
+{"frame": 101, "trains_detected": 2, "trains": [{"bbox": [0.4791547358036041, 253.07745361328125, 168.21424865722656, 686.7579956054688], "conf": 0.43814414739608765, "class_id": 0, "track_id": 5, "rank_lr": 1, "lr_label": "train1"}, {"bbox": [120.57794952392578, 243.79721069335938, 232.32022094726562, 415.794921875], "conf": 0.5150235295295715, "class_id": 0, "track_id": 4, "rank_lr": 2, "lr_label": "train2"}]}
+{"frame": 102, "trains_detected": 2, "trains": [{"bbox": [1.1181923151016235, 254.1748046875, 168.57749938964844, 679.4235229492188], "conf": 0.3086220622062683, "class_id": 0, "track_id": 5, "rank_lr": 1, "lr_label": "train1"}, {"bbox": [120.35256958007812, 242.85414123535156, 233.4281463623047, 416.6961975097656], "conf": 0.6890058517456055, "class_id": 0, "track_id": 4, "rank_lr": 2, "lr_label": "train2"}]}
+{"frame": 103, "trains_detected": 2, "trains": [{"bbox": [1.421302080154419, 254.93370056152344, 167.39239501953125, 667.8923950195312], "conf": 0.628363847732544, "class_id": 0, "track_id": 5, "rank_lr": 1, "lr_label": "train1"}, {"bbox": [121.622314453125, 255.6631622314453, 234.092529296875, 423.9671936035156], "conf": 0.2659023404121399, "class_id": 0, "track_id": 4, "rank_lr": 2, "lr_label": "train2"}]}
+{"frame": 104, "trains_detected": 2, "trains": [{"bbox": [1.9590399265289307, 255.1504669189453, 166.8802490234375, 651.7880249023438], "conf": 0.2754938304424286, "class_id": 0, "track_id": 5, "rank_lr": 1, "lr_label": "train1"}, {"bbox": [120.5071029663086, 244.2067108154297, 234.9037322998047, 421.05706787109375], "conf": 0.3804846405982971, "class_id": 0, "track_id": 4, "rank_lr": 2, "lr_label": "train2"}]}
+{"frame": 105, "trains_detected": 2, "trains": [{"bbox": [1.922500729560852, 254.6816864013672, 166.80166625976562, 643.6770629882812], "conf": 0.5238481760025024, "class_id": 0, "track_id": 5, "rank_lr": 1, "lr_label": "train1"}, {"bbox": [121.21810150146484, 246.90274047851562, 237.5397491455078, 425.92633056640625], "conf": 0.39374011754989624, "class_id": 0, "track_id": 4, "rank_lr": 2, "lr_label": "train2"}]}
+{"frame": 106, "trains_detected": 2, "trains": [{"bbox": [1.8148545026779175, 249.95590209960938, 166.72337341308594, 639.8889770507812], "conf": 0.46910029649734497, "class_id": 0, "track_id": 5, "rank_lr": 1, "lr_label": "train1"}, {"bbox": [121.43355560302734, 247.0616455078125, 239.2187957763672, 429.220947265625], "conf": 0.44831496477127075, "class_id": 0, "track_id": 4, "rank_lr": 2, "lr_label": "train2"}]}
+{"frame": 107, "trains_detected": 2, "trains": [{"bbox": [1.8842198848724365, 249.18690490722656, 166.29103088378906, 637.5711669921875], "conf": 0.48601770401000977, "class_id": 0, "track_id": 5, "rank_lr": 1, "lr_label": "train1"}, {"bbox": [121.58434295654297, 249.65611267089844, 239.8712158203125, 430.57415771484375], "conf": 0.5322527885437012, "class_id": 0, "track_id": 4, "rank_lr": 2, "lr_label": "train2"}]}
+{"frame": 108, "trains_detected": 2, "trains": [{"bbox": [0.8725855350494385, 252.0073699951172, 165.40003967285156, 624.654296875], "conf": 0.6129834651947021, "class_id": 0, "track_id": 5, "rank_lr": 1, "lr_label": "train1"}, {"bbox": [121.63556671142578, 251.5645294189453, 240.38577270507812, 430.5419616699219], "conf": 0.5901062488555908, "class_id": 0, "track_id": 4, "rank_lr": 2, "lr_label": "train2"}]}
+{"frame": 109, "trains_detected": 2, "trains": [{"bbox": [0.36196601390838623, 252.7953643798828, 165.74717712402344, 612.887939453125], "conf": 0.5262354612350464, "class_id": 0, "track_id": 5, "rank_lr": 1, "lr_label": "train1"}, {"bbox": [121.33255767822266, 250.9829559326172, 241.4058837890625, 432.1484069824219], "conf": 0.5170811414718628, "class_id": 0, "track_id": 4, "rank_lr": 2, "lr_label": "train2"}]}
+{"frame": 110, "trains_detected": 2, "trains": [{"bbox": [0.13048908114433289, 252.05722045898438, 164.97389221191406, 607.2552490234375], "conf": 0.4271774888038635, "class_id": 0, "track_id": 5, "rank_lr": 1, "lr_label": "train1"}, {"bbox": [121.88973236083984, 247.852294921875, 245.01470947265625, 434.5829162597656], "conf": 0.5731504559516907, "class_id": 0, "track_id": 4, "rank_lr": 2, "lr_label": "train2"}]}
+{"frame": 111, "trains_detected": 2, "trains": [{"bbox": [0.0, 247.23716735839844, 163.99691772460938, 603.0167236328125], "conf": 0.45811134576797485, "class_id": 0, "track_id": 5, "rank_lr": 1, "lr_label": "train1"}, {"bbox": [123.59246826171875, 243.8959197998047, 248.1856689453125, 435.34075927734375], "conf": 0.6355692148208618, "class_id": 0, "track_id": 4, "rank_lr": 2, "lr_label": "train2"}]}
+{"frame": 112, "trains_detected": 2, "trains": [{"bbox": [0.0, 245.8520965576172, 162.6741180419922, 591.680419921875], "conf": 0.5687595009803772, "class_id": 0, "track_id": 5, "rank_lr": 1, "lr_label": "train1"}, {"bbox": [124.15965270996094, 242.9690399169922, 250.90023803710938, 436.8646240234375], "conf": 0.6671004295349121, "class_id": 0, "track_id": 4, "rank_lr": 2, "lr_label": "train2"}]}
+{"frame": 113, "trains_detected": 2, "trains": [{"bbox": [0.0, 244.73675537109375, 160.6455535888672, 584.0558471679688], "conf": 0.5843204259872437, "class_id": 0, "track_id": 5, "rank_lr": 1, "lr_label": "train1"}, {"bbox": [125.57462310791016, 242.45037841796875, 252.1199951171875, 440.53155517578125], "conf": 0.6969249248504639, "class_id": 0, "track_id": 4, "rank_lr": 2, "lr_label": "train2"}]}
+{"frame": 114, "trains_detected": 2, "trains": [{"bbox": [0.006478824187070131, 244.45529174804688, 161.12318420410156, 577.8433227539062], "conf": 0.5906555652618408, "class_id": 0, "track_id": 5, "rank_lr": 1, "lr_label": "train1"}, {"bbox": [126.58865356445312, 241.77392578125, 252.83029174804688, 442.2286071777344], "conf": 0.6851399540901184, "class_id": 0, "track_id": 4, "rank_lr": 2, "lr_label": "train2"}]}
+{"frame": 115, "trains_detected": 2, "trains": [{"bbox": [0.0, 244.3040771484375, 159.59332275390625, 574.3057861328125], "conf": 0.6859515905380249, "class_id": 0, "track_id": 5, "rank_lr": 1, "lr_label": "train1"}, {"bbox": [127.140625, 241.63604736328125, 253.47836303710938, 444.23004150390625], "conf": 0.7248628735542297, "class_id": 0, "track_id": 4, "rank_lr": 2, "lr_label": "train2"}]}
+{"frame": 116, "trains_detected": 2, "trains": [{"bbox": [0.0, 244.26292419433594, 158.91754150390625, 572.1915893554688], "conf": 0.5633943676948547, "class_id": 0, "track_id": 5, "rank_lr": 1, "lr_label": "train1"}, {"bbox": [127.92585754394531, 241.6630859375, 255.62962341308594, 449.97991943359375], "conf": 0.7033520340919495, "class_id": 0, "track_id": 4, "rank_lr": 2, "lr_label": "train2"}]}
+{"frame": 117, "trains_detected": 2, "trains": [{"bbox": [0.0, 243.158447265625, 158.9028778076172, 567.0460205078125], "conf": 0.573710560798645, "class_id": 0, "track_id": 5, "rank_lr": 1, "lr_label": "train1"}, {"bbox": [128.46990966796875, 241.57699584960938, 258.5827941894531, 452.7222595214844], "conf": 0.7216227650642395, "class_id": 0, "track_id": 4, "rank_lr": 2, "lr_label": "train2"}]}
+{"frame": 118, "trains_detected": 2, "trains": [{"bbox": [0.0, 242.1050567626953, 157.7786407470703, 562.52685546875], "conf": 0.7270401120185852, "class_id": 0, "track_id": 5, "rank_lr": 1, "lr_label": "train1"}, {"bbox": [128.14743041992188, 239.6419219970703, 261.3731689453125, 458.2649841308594], "conf": 0.6712272763252258, "class_id": 0, "track_id": 4, "rank_lr": 2, "lr_label": "train2"}]}
+{"frame": 119, "trains_detected": 2, "trains": [{"bbox": [0.0007930489373393357, 243.08033752441406, 157.59608459472656, 550.2683715820312], "conf": 0.6987497210502625, "class_id": 0, "track_id": 5, "rank_lr": 1, "lr_label": "train1"}, {"bbox": [126.74092864990234, 238.61309814453125, 264.373291015625, 464.885009765625], "conf": 0.6816928386688232, "class_id": 0, "track_id": 4, "rank_lr": 2, "lr_label": "train2"}]}
+{"frame": 120, "trains_detected": 2, "trains": [{"bbox": [0.08194851875305176, 243.15684509277344, 158.13975524902344, 541.7514038085938], "conf": 0.6571959257125854, "class_id": 0, "track_id": 5, "rank_lr": 1, "lr_label": "train1"}, {"bbox": [127.48434448242188, 237.3502655029297, 266.5702819824219, 469.686767578125], "conf": 0.5907840728759766, "class_id": 0, "track_id": 4, "rank_lr": 2, "lr_label": "train2"}]}
+{"frame": 121, "trains_detected": 2, "trains": [{"bbox": [1.2384471893310547, 243.23196411132812, 157.98190307617188, 538.2739868164062], "conf": 0.6634865403175354, "class_id": 0, "track_id": 5, "rank_lr": 1, "lr_label": "train1"}, {"bbox": [128.48541259765625, 235.55026245117188, 268.3642578125, 473.2096252441406], "conf": 0.6103805899620056, "class_id": 0, "track_id": 4, "rank_lr": 2, "lr_label": "train2"}]}
+{"frame": 122, "trains_detected": 2, "trains": [{"bbox": [2.334981679916382, 244.02542114257812, 157.56558227539062, 536.343994140625], "conf": 0.7099759578704834, "class_id": 0, "track_id": 5, "rank_lr": 1, "lr_label": "train1"}, {"bbox": [129.8765869140625, 234.04103088378906, 273.1003112792969, 478.7015686035156], "conf": 0.6152295470237732, "class_id": 0, "track_id": 4, "rank_lr": 2, "lr_label": "train2"}]}
+{"frame": 123, "trains_detected": 2, "trains": [{"bbox": [2.335808038711548, 244.0829620361328, 156.7086639404297, 534.5589599609375], "conf": 0.6254873275756836, "class_id": 0, "track_id": 5, "rank_lr": 1, "lr_label": "train1"}, {"bbox": [138.164306640625, 237.38121032714844, 275.2917785644531, 481.2950134277344], "conf": 0.6633169054985046, "class_id": 0, "track_id": 4, "rank_lr": 2, "lr_label": "train2"}]}
+{"frame": 124, "trains_detected": 2, "trains": [{"bbox": [5.214717388153076, 238.8607635498047, 155.74179077148438, 525.1263427734375], "conf": 0.5374228358268738, "class_id": 0, "track_id": 5, "rank_lr": 1, "lr_label": "train1"}, {"bbox": [135.45632934570312, 238.47801208496094, 277.05316162109375, 485.3482971191406], "conf": 0.7037945985794067, "class_id": 0, "track_id": 4, "rank_lr": 2, "lr_label": "train2"}]}
+{"frame": 125, "trains_detected": 2, "trains": [{"bbox": [10.191197395324707, 240.06100463867188, 155.78732299804688, 519.6859741210938], "conf": 0.7306654453277588, "class_id": 0, "track_id": 5, "rank_lr": 1, "lr_label": "train1"}, {"bbox": [137.18150329589844, 240.19009399414062, 281.6451416015625, 489.52801513671875], "conf": 0.6944078803062439, "class_id": 0, "track_id": 4, "rank_lr": 2, "lr_label": "train2"}]}
+{"frame": 126, "trains_detected": 2, "trains": [{"bbox": [13.087394714355469, 243.068359375, 155.6903839111328, 516.3002319335938], "conf": 0.7374669313430786, "class_id": 0, "track_id": 5, "rank_lr": 1, "lr_label": "train1"}, {"bbox": [142.01193237304688, 241.07664489746094, 285.62939453125, 496.4504699707031], "conf": 0.6092899441719055, "class_id": 0, "track_id": 4, "rank_lr": 2, "lr_label": "train2"}]}
+{"frame": 127, "trains_detected": 2, "trains": [{"bbox": [13.405172348022461, 243.69497680664062, 154.9033203125, 513.2348022460938], "conf": 0.699202299118042, "class_id": 0, "track_id": 5, "rank_lr": 1, "lr_label": "train1"}, {"bbox": [142.26943969726562, 239.6006622314453, 288.26202392578125, 501.87890625], "conf": 0.6675354242324829, "class_id": 0, "track_id": 4, "rank_lr": 2, "lr_label": "train2"}]}
+{"frame": 128, "trains_detected": 2, "trains": [{"bbox": [16.790498733520508, 243.62841796875, 154.30813598632812, 510.3460693359375], "conf": 0.7730986475944519, "class_id": 0, "track_id": 5, "rank_lr": 1, "lr_label": "train1"}, {"bbox": [146.25587463378906, 238.26589965820312, 292.44818115234375, 505.8875427246094], "conf": 0.6947362422943115, "class_id": 0, "track_id": 4, "rank_lr": 2, "lr_label": "train2"}]}
+{"frame": 129, "trains_detected": 2, "trains": [{"bbox": [17.759153366088867, 244.29457092285156, 153.7218780517578, 505.436767578125], "conf": 0.7053263187408447, "class_id": 0, "track_id": 5, "rank_lr": 1, "lr_label": "train1"}, {"bbox": [145.1412353515625, 237.9561004638672, 296.5584411621094, 510.7105407714844], "conf": 0.7373953461647034, "class_id": 0, "track_id": 4, "rank_lr": 2, "lr_label": "train2"}]}
+{"frame": 130, "trains_detected": 2, "trains": [{"bbox": [13.08879280090332, 242.95889282226562, 152.4441680908203, 503.21435546875], "conf": 0.6663047671318054, "class_id": 0, "track_id": 5, "rank_lr": 1, "lr_label": "train1"}, {"bbox": [154.43246459960938, 237.31204223632812, 300.5556335449219, 519.052001953125], "conf": 0.7061127424240112, "class_id": 0, "track_id": 4, "rank_lr": 2, "lr_label": "train2"}]}
+{"frame": 131, "trains_detected": 2, "trains": [{"bbox": [18.741987228393555, 242.38580322265625, 151.19920349121094, 501.2461853027344], "conf": 0.6614157557487488, "class_id": 0, "track_id": 5, "rank_lr": 1, "lr_label": "train1"}, {"bbox": [158.01776123046875, 237.6554412841797, 304.25323486328125, 524.113037109375], "conf": 0.6501615643501282, "class_id": 0, "track_id": 4, "rank_lr": 2, "lr_label": "train2"}]}
+{"frame": 132, "trains_detected": 2, "trains": [{"bbox": [22.671226501464844, 240.90736389160156, 150.01406860351562, 498.60394287109375], "conf": 0.7011209726333618, "class_id": 0, "track_id": 5, "rank_lr": 1, "lr_label": "train1"}, {"bbox": [160.1204071044922, 236.1021270751953, 308.13232421875, 532.2152099609375], "conf": 0.6544089317321777, "class_id": 0, "track_id": 4, "rank_lr": 2, "lr_label": "train2"}]}
+{"frame": 133, "trains_detected": 2, "trains": [{"bbox": [23.151308059692383, 238.94529724121094, 149.49700927734375, 494.92572021484375], "conf": 0.6212238669395447, "class_id": 0, "track_id": 5, "rank_lr": 1, "lr_label": "train1"}, {"bbox": [160.7806854248047, 235.56427001953125, 311.526611328125, 539.994140625], "conf": 0.6731426119804382, "class_id": 0, "track_id": 4, "rank_lr": 2, "lr_label": "train2"}]}
+{"frame": 134, "trains_detected": 2, "trains": [{"bbox": [25.94062042236328, 237.76113891601562, 150.12371826171875, 489.87347412109375], "conf": 0.6998822093009949, "class_id": 0, "track_id": 5, "rank_lr": 1, "lr_label": "train1"}, {"bbox": [161.20228576660156, 235.45750427246094, 315.7731018066406, 545.9219970703125], "conf": 0.6442340612411499, "class_id": 0, "track_id": 4, "rank_lr": 2, "lr_label": "train2"}]}
+{"frame": 135, "trains_detected": 2, "trains": [{"bbox": [27.172958374023438, 236.80084228515625, 150.12026977539062, 487.0789794921875], "conf": 0.6806690692901611, "class_id": 0, "track_id": 5, "rank_lr": 1, "lr_label": "train1"}, {"bbox": [161.59442138671875, 241.4766082763672, 322.0972900390625, 552.6235961914062], "conf": 0.6899072527885437, "class_id": 0, "track_id": 4, "rank_lr": 2, "lr_label": "train2"}]}
+{"frame": 136, "trains_detected": 2, "trains": [{"bbox": [28.82233238220215, 235.35479736328125, 149.98020935058594, 483.72882080078125], "conf": 0.6388708353042603, "class_id": 0, "track_id": 5, "rank_lr": 1, "lr_label": "train1"}, {"bbox": [162.95724487304688, 237.30604553222656, 327.22027587890625, 561.613037109375], "conf": 0.7334902286529541, "class_id": 0, "track_id": 4, "rank_lr": 2, "lr_label": "train2"}]}
+{"frame": 137, "trains_detected": 2, "trains": [{"bbox": [26.929487228393555, 230.8041229248047, 149.20477294921875, 479.8372802734375], "conf": 0.4954787492752075, "class_id": 0, "track_id": 5, "rank_lr": 1, "lr_label": "train1"}, {"bbox": [162.85621643066406, 240.42916870117188, 331.3722229003906, 567.9247436523438], "conf": 0.6522056460380554, "class_id": 0, "track_id": 4, "rank_lr": 2, "lr_label": "train2"}]}
+{"frame": 138, "trains_detected": 2, "trains": [{"bbox": [28.624845504760742, 233.06809997558594, 149.32501220703125, 478.5871276855469], "conf": 0.4361962676048279, "class_id": 0, "track_id": 5, "rank_lr": 1, "lr_label": "train1"}, {"bbox": [163.01373291015625, 239.3238067626953, 335.3306884765625, 573.2177734375], "conf": 0.6704080104827881, "class_id": 0, "track_id": 4, "rank_lr": 2, "lr_label": "train2"}]}
+{"frame": 139, "trains_detected": 2, "trains": [{"bbox": [30.633899688720703, 234.0037078857422, 149.4259490966797, 477.3625793457031], "conf": 0.48345646262168884, "class_id": 0, "track_id": 5, "rank_lr": 1, "lr_label": "train1"}, {"bbox": [160.27163696289062, 238.82403564453125, 339.688232421875, 581.3819580078125], "conf": 0.6353967785835266, "class_id": 0, "track_id": 4, "rank_lr": 2, "lr_label": "train2"}]}
+{"frame": 140, "trains_detected": 2, "trains": [{"bbox": [31.535432815551758, 233.6862030029297, 149.1400909423828, 474.11749267578125], "conf": 0.5266253352165222, "class_id": 0, "track_id": 5, "rank_lr": 1, "lr_label": "train1"}, {"bbox": [156.71548461914062, 234.8151092529297, 346.5658264160156, 593.986328125], "conf": 0.7009342312812805, "class_id": 0, "track_id": 4, "rank_lr": 2, "lr_label": "train2"}]}
+{"frame": 141, "trains_detected": 2, "trains": [{"bbox": [32.178932189941406, 233.848388671875, 148.5902099609375, 470.7423400878906], "conf": 0.3873872458934784, "class_id": 0, "track_id": 5, "rank_lr": 1, "lr_label": "train1"}, {"bbox": [155.37135314941406, 231.44200134277344, 352.9620361328125, 604.8762817382812], "conf": 0.719082772731781, "class_id": 0, "track_id": 4, "rank_lr": 2, "lr_label": "train2"}]}
+{"frame": 142, "trains_detected": 2, "trains": [{"bbox": [33.16105651855469, 233.5640106201172, 148.07504272460938, 468.5389404296875], "conf": 0.463008850812912, "class_id": 0, "track_id": 5, "rank_lr": 1, "lr_label": "train1"}, {"bbox": [155.52127075195312, 229.0251922607422, 363.38104248046875, 612.3091430664062], "conf": 0.614963948726654, "class_id": 0, "track_id": 4, "rank_lr": 2, "lr_label": "train2"}]}
+{"frame": 143, "trains_detected": 2, "trains": [{"bbox": [33.52933120727539, 233.2822723388672, 147.2233123779297, 467.0419006347656], "conf": 0.36805015802383423, "class_id": 0, "track_id": 5, "rank_lr": 1, "lr_label": "train1"}, {"bbox": [154.8944091796875, 230.3825225830078, 370.3717956542969, 620.8744506835938], "conf": 0.4327844977378845, "class_id": 0, "track_id": 4, "rank_lr": 2, "lr_label": "train2"}]}
+{"frame": 144, "trains_detected": 2, "trains": [{"bbox": [33.74580383300781, 230.43800354003906, 146.8027801513672, 465.86358642578125], "conf": 0.3094761371612549, "class_id": 0, "track_id": 5, "rank_lr": 1, "lr_label": "train1"}, {"bbox": [152.3888702392578, 230.45132446289062, 381.90838623046875, 637.0008544921875], "conf": 0.38396894931793213, "class_id": 0, "track_id": 4, "rank_lr": 2, "lr_label": "train2"}]}
+{"frame": 145, "trains_detected": 1, "trains": [{"bbox": [155.1738739013672, 230.37083435058594, 396.16424560546875, 646.5640869140625], "conf": 0.3804905414581299, "class_id": 0, "track_id": 4, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 146, "trains_detected": 1, "trains": [{"bbox": [155.7209014892578, 227.41229248046875, 404.8470458984375, 660.346923828125], "conf": 0.35952356457710266, "class_id": 0, "track_id": 4, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 147, "trains_detected": 1, "trains": [{"bbox": [163.0498046875, 222.95407104492188, 406.0, 678.6028442382812], "conf": 0.5396900177001953, "class_id": 0, "track_id": 4, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 148, "trains_detected": 2, "trains": [{"bbox": [43.476593017578125, 230.04136657714844, 145.4600830078125, 443.253662109375], "conf": 0.3153201937675476, "class_id": 0, "track_id": 5, "rank_lr": 1, "lr_label": "train1"}, {"bbox": [166.295166015625, 221.0473175048828, 406.0, 689.89453125], "conf": 0.39209458231925964, "class_id": 0, "track_id": 4, "rank_lr": 2, "lr_label": "train2"}]}
+{"frame": 149, "trains_detected": 2, "trains": [{"bbox": [47.518428802490234, 229.9103546142578, 145.1808624267578, 440.4226379394531], "conf": 0.2515038251876831, "class_id": 0, "track_id": 5, "rank_lr": 1, "lr_label": "train1"}, {"bbox": [162.0007781982422, 216.27684020996094, 406.0, 710.5338745117188], "conf": 0.5339831709861755, "class_id": 0, "track_id": 4, "rank_lr": 2, "lr_label": "train2"}]}
+{"frame": 150, "trains_detected": 2, "trains": [{"bbox": [49.778839111328125, 229.52764892578125, 143.775146484375, 435.38482666015625], "conf": 0.25159451365470886, "class_id": 0, "track_id": 5, "rank_lr": 1, "lr_label": "train1"}, {"bbox": [165.64035034179688, 240.65850830078125, 406.0, 718.9014892578125], "conf": 0.2516918182373047, "class_id": 0, "track_id": 4, "rank_lr": 2, "lr_label": "train2"}]}
+{"frame": 151, "trains_detected": 2, "trains": [{"bbox": [50.26669692993164, 229.33262634277344, 143.08184814453125, 433.6961669921875], "conf": 0.25159257650375366, "class_id": 0, "track_id": 5, "rank_lr": 1, "lr_label": "train1"}, {"bbox": [166.8280792236328, 250.59371948242188, 406.0, 720.0], "conf": 0.25171175599098206, "class_id": 0, "track_id": 4, "rank_lr": 2, "lr_label": "train2"}]}
+{"frame": 152, "trains_detected": 1, "trains": [{"bbox": [163.29359436035156, 216.96665954589844, 406.0, 720.0], "conf": 0.3516075015068054, "class_id": 0, "track_id": 4, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 153, "trains_detected": 0, "trains": []}
+{"frame": 154, "trains_detected": 1, "trains": [{"bbox": [168.4971160888672, 343.5585632324219, 406.0, 720.0], "conf": 0.7953993082046509, "class_id": 0, "track_id": 4, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 155, "trains_detected": 1, "trains": [{"bbox": [170.92242431640625, 381.32733154296875, 406.0, 717.3778076171875], "conf": 0.5925350785255432, "class_id": 0, "track_id": 4, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 156, "trains_detected": 1, "trains": [{"bbox": [176.01480102539062, 390.6968688964844, 406.0, 719.569091796875], "conf": 0.40937933325767517, "class_id": 0, "track_id": 4, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 157, "trains_detected": 0, "trains": []}
+{"frame": 158, "trains_detected": 0, "trains": []}
+{"frame": 159, "trains_detected": 0, "trains": []}
+{"frame": 160, "trains_detected": 0, "trains": []}
+{"frame": 161, "trains_detected": 0, "trains": []}
+{"frame": 162, "trains_detected": 0, "trains": []}
+{"frame": 163, "trains_detected": 0, "trains": []}
+{"frame": 164, "trains_detected": 0, "trains": []}
+{"frame": 165, "trains_detected": 0, "trains": []}
+{"frame": 166, "trains_detected": 0, "trains": []}
+{"frame": 167, "trains_detected": 0, "trains": []}
+{"frame": 168, "trains_detected": 0, "trains": []}
+{"frame": 169, "trains_detected": 0, "trains": []}
+{"frame": 170, "trains_detected": 0, "trains": []}
+{"frame": 171, "trains_detected": 0, "trains": []}
+{"frame": 172, "trains_detected": 0, "trains": []}
+{"frame": 173, "trains_detected": 0, "trains": []}
+{"frame": 174, "trains_detected": 0, "trains": []}
+{"frame": 175, "trains_detected": 0, "trains": []}
+{"frame": 176, "trains_detected": 0, "trains": []}
+{"frame": 177, "trains_detected": 0, "trains": []}
+{"frame": 178, "trains_detected": 0, "trains": []}
+{"frame": 179, "trains_detected": 0, "trains": []}
+{"frame": 180, "trains_detected": 0, "trains": []}
+{"frame": 181, "trains_detected": 0, "trains": []}
+{"frame": 182, "trains_detected": 0, "trains": []}
+{"frame": 183, "trains_detected": 0, "trains": []}
+{"frame": 184, "trains_detected": 0, "trains": []}
+{"frame": 185, "trains_detected": 0, "trains": []}
+{"frame": 186, "trains_detected": 0, "trains": []}
+{"frame": 187, "trains_detected": 0, "trains": []}
+{"frame": 188, "trains_detected": 0, "trains": []}
+{"frame": 189, "trains_detected": 0, "trains": []}
+{"frame": 190, "trains_detected": 0, "trains": []}
+{"frame": 191, "trains_detected": 0, "trains": []}
+{"frame": 192, "trains_detected": 0, "trains": []}
+{"frame": 193, "trains_detected": 0, "trains": []}
+{"frame": 194, "trains_detected": 0, "trains": []}
+{"frame": 195, "trains_detected": 0, "trains": []}
+{"frame": 196, "trains_detected": 0, "trains": []}
+{"frame": 197, "trains_detected": 0, "trains": []}
+{"frame": 198, "trains_detected": 0, "trains": []}
+{"frame": 199, "trains_detected": 0, "trains": []}
+{"frame": 200, "trains_detected": 0, "trains": []}
+{"frame": 201, "trains_detected": 0, "trains": []}
+{"frame": 202, "trains_detected": 0, "trains": []}
+{"frame": 203, "trains_detected": 0, "trains": []}
+{"frame": 204, "trains_detected": 0, "trains": []}
+{"frame": 205, "trains_detected": 0, "trains": []}
+{"frame": 206, "trains_detected": 0, "trains": []}
+{"frame": 207, "trains_detected": 0, "trains": []}
+{"frame": 208, "trains_detected": 0, "trains": []}
+{"frame": 209, "trains_detected": 0, "trains": []}
+{"frame": 210, "trains_detected": 0, "trains": []}
+{"frame": 211, "trains_detected": 0, "trains": []}
+{"frame": 212, "trains_detected": 0, "trains": []}
+{"frame": 213, "trains_detected": 0, "trains": []}
+{"frame": 214, "trains_detected": 0, "trains": []}
+{"frame": 215, "trains_detected": 0, "trains": []}
+{"frame": 216, "trains_detected": 0, "trains": []}
+{"frame": 217, "trains_detected": 0, "trains": []}
+{"frame": 218, "trains_detected": 0, "trains": []}
+{"frame": 219, "trains_detected": 0, "trains": []}
+{"frame": 220, "trains_detected": 0, "trains": []}
+{"frame": 221, "trains_detected": 0, "trains": []}
+{"frame": 222, "trains_detected": 0, "trains": []}
+{"frame": 223, "trains_detected": 0, "trains": []}
+{"frame": 224, "trains_detected": 0, "trains": []}
+{"frame": 225, "trains_detected": 0, "trains": []}
+{"frame": 226, "trains_detected": 0, "trains": []}
+{"frame": 227, "trains_detected": 0, "trains": []}
+{"frame": 228, "trains_detected": 0, "trains": []}
+{"frame": 229, "trains_detected": 0, "trains": []}
+{"frame": 230, "trains_detected": 0, "trains": []}
+{"frame": 231, "trains_detected": 0, "trains": []}
+{"frame": 232, "trains_detected": 0, "trains": []}
+{"frame": 233, "trains_detected": 0, "trains": []}
+{"frame": 234, "trains_detected": 0, "trains": []}
+{"frame": 235, "trains_detected": 0, "trains": []}
+{"frame": 236, "trains_detected": 0, "trains": []}
+{"frame": 237, "trains_detected": 0, "trains": []}
+{"frame": 238, "trains_detected": 0, "trains": []}
+{"frame": 239, "trains_detected": 0, "trains": []}
+{"frame": 240, "trains_detected": 0, "trains": []}
+{"frame": 241, "trains_detected": 0, "trains": []}
+{"frame": 242, "trains_detected": 0, "trains": []}
+{"frame": 243, "trains_detected": 0, "trains": []}
+{"frame": 244, "trains_detected": 0, "trains": []}
+{"frame": 245, "trains_detected": 0, "trains": []}
+{"frame": 246, "trains_detected": 0, "trains": []}
+{"frame": 247, "trains_detected": 0, "trains": []}
+{"frame": 248, "trains_detected": 1, "trains": [{"bbox": [0.0, 180.9684600830078, 406.0, 720.0], "conf": 0.36819028854370117, "class_id": 0, "track_id": null, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 249, "trains_detected": 1, "trains": [{"bbox": [0.09646206349134445, 181.6029052734375, 406.0, 720.0], "conf": 0.36257970333099365, "class_id": 0, "track_id": 6, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 250, "trains_detected": 1, "trains": [{"bbox": [0.11448178440332413, 181.39291381835938, 406.0, 720.0], "conf": 0.45135217905044556, "class_id": 0, "track_id": 6, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 251, "trains_detected": 1, "trains": [{"bbox": [0.09675411880016327, 180.07672119140625, 406.0, 720.0], "conf": 0.46709656715393066, "class_id": 0, "track_id": 6, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 252, "trains_detected": 1, "trains": [{"bbox": [0.03569702059030533, 180.10487365722656, 406.0, 720.0], "conf": 0.42628028988838196, "class_id": 0, "track_id": 6, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 253, "trains_detected": 0, "trains": []}
+{"frame": 254, "trains_detected": 0, "trains": []}
+{"frame": 255, "trains_detected": 0, "trains": []}
+{"frame": 256, "trains_detected": 0, "trains": []}
+{"frame": 257, "trains_detected": 0, "trains": []}
+{"frame": 258, "trains_detected": 0, "trains": []}
+{"frame": 259, "trains_detected": 0, "trains": []}
+{"frame": 260, "trains_detected": 0, "trains": []}
+{"frame": 261, "trains_detected": 0, "trains": []}
+{"frame": 262, "trains_detected": 0, "trains": []}
+{"frame": 263, "trains_detected": 0, "trains": []}
+{"frame": 264, "trains_detected": 0, "trains": []}
+{"frame": 265, "trains_detected": 0, "trains": []}
+{"frame": 266, "trains_detected": 0, "trains": []}
+{"frame": 267, "trains_detected": 0, "trains": []}
+{"frame": 268, "trains_detected": 0, "trains": []}
+{"frame": 269, "trains_detected": 1, "trains": [{"bbox": [179.7161407470703, 381.2627868652344, 406.0, 720.0], "conf": 0.4604533910751343, "class_id": 0, "track_id": null, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 270, "trains_detected": 0, "trains": []}
+{"frame": 271, "trains_detected": 1, "trains": [{"bbox": [179.38279724121094, 384.5370788574219, 404.8481750488281, 717.1221313476562], "conf": 0.2648372948169708, "class_id": 0, "track_id": null, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 272, "trains_detected": 1, "trains": [{"bbox": [175.72515869140625, 386.4661865234375, 405.3255920410156, 718.897705078125], "conf": 0.47939932346343994, "class_id": 0, "track_id": 8, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 273, "trains_detected": 0, "trains": []}
+{"frame": 274, "trains_detected": 1, "trains": [{"bbox": [179.83949279785156, 397.03387451171875, 405.58807373046875, 719.5037231445312], "conf": 0.34377968311309814, "class_id": 0, "track_id": 8, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 275, "trains_detected": 0, "trains": []}
+{"frame": 276, "trains_detected": 0, "trains": []}
+{"frame": 277, "trains_detected": 0, "trains": []}
+{"frame": 278, "trains_detected": 0, "trains": []}
+{"frame": 279, "trains_detected": 0, "trains": []}
+{"frame": 280, "trains_detected": 0, "trains": []}
+{"frame": 281, "trains_detected": 0, "trains": []}
+{"frame": 282, "trains_detected": 0, "trains": []}
+{"frame": 283, "trains_detected": 0, "trains": []}
+{"frame": 284, "trains_detected": 0, "trains": []}
+{"frame": 285, "trains_detected": 0, "trains": []}
+{"frame": 286, "trains_detected": 0, "trains": []}
+{"frame": 287, "trains_detected": 0, "trains": []}
+{"frame": 288, "trains_detected": 0, "trains": []}
+{"frame": 289, "trains_detected": 0, "trains": []}
+{"frame": 290, "trains_detected": 0, "trains": []}
+{"frame": 291, "trains_detected": 0, "trains": []}
+{"frame": 292, "trains_detected": 0, "trains": []}
+{"frame": 293, "trains_detected": 0, "trains": []}
+{"frame": 294, "trains_detected": 0, "trains": []}
+{"frame": 295, "trains_detected": 0, "trains": []}
+{"frame": 296, "trains_detected": 0, "trains": []}
+{"frame": 297, "trains_detected": 0, "trains": []}
+{"frame": 298, "trains_detected": 0, "trains": []}
+{"frame": 299, "trains_detected": 0, "trains": []}
+{"frame": 300, "trains_detected": 0, "trains": []}
+{"frame": 301, "trains_detected": 0, "trains": []}
+{"frame": 302, "trains_detected": 0, "trains": []}
+{"frame": 303, "trains_detected": 0, "trains": []}
+{"frame": 304, "trains_detected": 0, "trains": []}
+{"frame": 305, "trains_detected": 0, "trains": []}
+{"frame": 306, "trains_detected": 0, "trains": []}
+{"frame": 307, "trains_detected": 0, "trains": []}
+{"frame": 308, "trains_detected": 0, "trains": []}
+{"frame": 309, "trains_detected": 0, "trains": []}
+{"frame": 310, "trains_detected": 0, "trains": []}
+{"frame": 311, "trains_detected": 0, "trains": []}
+{"frame": 312, "trains_detected": 0, "trains": []}
+{"frame": 313, "trains_detected": 0, "trains": []}
+{"frame": 314, "trains_detected": 0, "trains": []}
+{"frame": 315, "trains_detected": 0, "trains": []}
+{"frame": 316, "trains_detected": 0, "trains": []}
+{"frame": 317, "trains_detected": 0, "trains": []}
+{"frame": 318, "trains_detected": 0, "trains": []}
+{"frame": 319, "trains_detected": 0, "trains": []}
+{"frame": 320, "trains_detected": 0, "trains": []}
+{"frame": 321, "trains_detected": 0, "trains": []}
+{"frame": 322, "trains_detected": 0, "trains": []}
+{"frame": 323, "trains_detected": 0, "trains": []}
+{"frame": 324, "trains_detected": 0, "trains": []}
+{"frame": 325, "trains_detected": 0, "trains": []}
+{"frame": 326, "trains_detected": 0, "trains": []}
+{"frame": 327, "trains_detected": 1, "trains": [{"bbox": [0.0, 245.92352294921875, 406.0, 720.0], "conf": 0.29335227608680725, "class_id": 0, "track_id": null, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 328, "trains_detected": 0, "trains": []}
+{"frame": 329, "trains_detected": 1, "trains": [{"bbox": [0.0, 249.9674530029297, 406.0, 720.0], "conf": 0.3559110164642334, "class_id": 0, "track_id": null, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 330, "trains_detected": 0, "trains": []}
+{"frame": 331, "trains_detected": 0, "trains": []}
+{"frame": 332, "trains_detected": 0, "trains": []}
+{"frame": 333, "trains_detected": 0, "trains": []}
+{"frame": 334, "trains_detected": 1, "trains": [{"bbox": [0.0, 250.93438720703125, 406.0, 720.0], "conf": 0.2740132212638855, "class_id": 0, "track_id": null, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 335, "trains_detected": 0, "trains": []}
+{"frame": 336, "trains_detected": 0, "trains": []}
+{"frame": 337, "trains_detected": 0, "trains": []}
+{"frame": 338, "trains_detected": 0, "trains": []}
+{"frame": 339, "trains_detected": 0, "trains": []}
+{"frame": 340, "trains_detected": 0, "trains": []}
+{"frame": 341, "trains_detected": 0, "trains": []}
+{"frame": 342, "trains_detected": 0, "trains": []}
+{"frame": 343, "trains_detected": 0, "trains": []}
+{"frame": 344, "trains_detected": 0, "trains": []}
+{"frame": 345, "trains_detected": 0, "trains": []}
+{"frame": 346, "trains_detected": 1, "trains": [{"bbox": [0.0, 255.58644104003906, 406.0, 720.0], "conf": 0.3109530210494995, "class_id": 0, "track_id": null, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 347, "trains_detected": 0, "trains": []}
+{"frame": 348, "trains_detected": 1, "trains": [{"bbox": [0.0, 255.37554931640625, 405.4783935546875, 720.0], "conf": 0.2739417254924774, "class_id": 0, "track_id": null, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 349, "trains_detected": 0, "trains": []}
+{"frame": 350, "trains_detected": 0, "trains": []}
+{"frame": 351, "trains_detected": 1, "trains": [{"bbox": [3.1295928955078125, 266.6263732910156, 402.89019775390625, 720.0], "conf": 0.29275861382484436, "class_id": 0, "track_id": null, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 352, "trains_detected": 1, "trains": [{"bbox": [0.0, 264.1959228515625, 404.87091064453125, 720.0], "conf": 0.3001539707183838, "class_id": 0, "track_id": null, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 353, "trains_detected": 1, "trains": [{"bbox": [0.0, 267.62744140625, 406.0, 720.0], "conf": 0.26874157786369324, "class_id": 0, "track_id": null, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 354, "trains_detected": 1, "trains": [{"bbox": [7.643845558166504, 271.794921875, 405.6001281738281, 720.0], "conf": 0.3345690369606018, "class_id": 0, "track_id": 16, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 355, "trains_detected": 1, "trains": [{"bbox": [1.835254430770874, 273.1287536621094, 405.20550537109375, 720.0], "conf": 0.2684125602245331, "class_id": 0, "track_id": 16, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 356, "trains_detected": 1, "trains": [{"bbox": [0.0, 262.3807373046875, 405.8348693847656, 720.0], "conf": 0.27002838253974915, "class_id": 0, "track_id": 16, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 357, "trains_detected": 0, "trains": []}
+{"frame": 358, "trains_detected": 1, "trains": [{"bbox": [0.0, 254.77896118164062, 406.0, 720.0], "conf": 0.32024505734443665, "class_id": 0, "track_id": 16, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 359, "trains_detected": 1, "trains": [{"bbox": [0.0, 254.19102478027344, 405.76153564453125, 719.6900634765625], "conf": 0.47440576553344727, "class_id": 0, "track_id": 16, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 360, "trains_detected": 1, "trains": [{"bbox": [0.0, 238.3666229248047, 405.7019348144531, 719.5565795898438], "conf": 0.4257008135318756, "class_id": 0, "track_id": 16, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 361, "trains_detected": 1, "trains": [{"bbox": [0.011024443432688713, 231.07717895507812, 405.64654541015625, 719.3114013671875], "conf": 0.3865616023540497, "class_id": 0, "track_id": 16, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 362, "trains_detected": 1, "trains": [{"bbox": [0.0499158576130867, 240.7572021484375, 405.60736083984375, 719.3938598632812], "conf": 0.47119462490081787, "class_id": 0, "track_id": 16, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 363, "trains_detected": 1, "trains": [{"bbox": [0.12085165083408356, 251.58282470703125, 405.7698974609375, 719.7725219726562], "conf": 0.5680874586105347, "class_id": 0, "track_id": 16, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 364, "trains_detected": 1, "trains": [{"bbox": [0.058015163987874985, 255.89064025878906, 405.78558349609375, 719.6988525390625], "conf": 0.5657379031181335, "class_id": 0, "track_id": 16, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 365, "trains_detected": 1, "trains": [{"bbox": [0.0, 258.0027770996094, 405.7920837402344, 719.6181640625], "conf": 0.5591098666191101, "class_id": 0, "track_id": 16, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 366, "trains_detected": 1, "trains": [{"bbox": [0.05835869535803795, 254.5126495361328, 405.8325500488281, 719.7039184570312], "conf": 0.6070205569267273, "class_id": 0, "track_id": 16, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 367, "trains_detected": 1, "trains": [{"bbox": [0.049722570925951004, 253.8541259765625, 405.7869873046875, 719.575927734375], "conf": 0.5819153189659119, "class_id": 0, "track_id": 16, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 368, "trains_detected": 1, "trains": [{"bbox": [0.070900559425354, 253.35923767089844, 405.9788513183594, 719.9761962890625], "conf": 0.6034196019172668, "class_id": 0, "track_id": 16, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 369, "trains_detected": 1, "trains": [{"bbox": [0.037619106471538544, 253.62632751464844, 405.97125244140625, 719.9429931640625], "conf": 0.5949610471725464, "class_id": 0, "track_id": 16, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 370, "trains_detected": 1, "trains": [{"bbox": [0.06210434064269066, 253.74256896972656, 405.8616638183594, 719.6958618164062], "conf": 0.6088076829910278, "class_id": 0, "track_id": 16, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 371, "trains_detected": 1, "trains": [{"bbox": [0.011833573691546917, 256.0163269042969, 405.9345397949219, 719.7733154296875], "conf": 0.6179333925247192, "class_id": 0, "track_id": 16, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 372, "trains_detected": 1, "trains": [{"bbox": [0.058184895664453506, 257.5336608886719, 405.9111633300781, 719.796142578125], "conf": 0.603428840637207, "class_id": 0, "track_id": 16, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 373, "trains_detected": 1, "trains": [{"bbox": [0.0772118791937828, 259.56744384765625, 405.86865234375, 719.7711181640625], "conf": 0.6468523740768433, "class_id": 0, "track_id": 16, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 374, "trains_detected": 1, "trains": [{"bbox": [0.0728868842124939, 261.3136901855469, 405.8726806640625, 719.7750244140625], "conf": 0.6417754888534546, "class_id": 0, "track_id": 16, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 375, "trains_detected": 1, "trains": [{"bbox": [0.03015933185815811, 260.0727844238281, 405.89569091796875, 719.7078247070312], "conf": 0.6106646060943604, "class_id": 0, "track_id": 16, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 376, "trains_detected": 1, "trains": [{"bbox": [0.0, 260.01007080078125, 405.9078369140625, 719.7919921875], "conf": 0.604360818862915, "class_id": 0, "track_id": 16, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 377, "trains_detected": 1, "trains": [{"bbox": [0.0028501227498054504, 255.4821014404297, 406.0, 719.8494873046875], "conf": 0.6787473559379578, "class_id": 0, "track_id": 16, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 378, "trains_detected": 1, "trains": [{"bbox": [0.0, 254.00294494628906, 405.95220947265625, 719.9895629882812], "conf": 0.5978208184242249, "class_id": 0, "track_id": 16, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 379, "trains_detected": 1, "trains": [{"bbox": [0.06581088900566101, 254.9818115234375, 405.9188232421875, 719.8328247070312], "conf": 0.5340668559074402, "class_id": 0, "track_id": 16, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 380, "trains_detected": 1, "trains": [{"bbox": [0.0, 254.18238830566406, 405.9344177246094, 719.924560546875], "conf": 0.5690035223960876, "class_id": 0, "track_id": 16, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 381, "trains_detected": 1, "trains": [{"bbox": [0.0, 256.10601806640625, 405.9310607910156, 719.8792114257812], "conf": 0.5937060117721558, "class_id": 0, "track_id": 16, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 382, "trains_detected": 1, "trains": [{"bbox": [0.0, 253.98995971679688, 405.98699951171875, 720.0], "conf": 0.5855864882469177, "class_id": 0, "track_id": 16, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 383, "trains_detected": 1, "trains": [{"bbox": [0.0, 254.19100952148438, 405.88275146484375, 719.8109130859375], "conf": 0.5917608141899109, "class_id": 0, "track_id": 16, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 384, "trains_detected": 1, "trains": [{"bbox": [0.0, 252.99330139160156, 406.0, 720.0], "conf": 0.5975843667984009, "class_id": 0, "track_id": 16, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 385, "trains_detected": 1, "trains": [{"bbox": [0.0, 253.5555419921875, 406.0, 720.0], "conf": 0.5391820073127747, "class_id": 0, "track_id": 16, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 386, "trains_detected": 1, "trains": [{"bbox": [0.0, 253.5741424560547, 405.9060363769531, 719.84912109375], "conf": 0.5887616872787476, "class_id": 0, "track_id": 16, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 387, "trains_detected": 1, "trains": [{"bbox": [0.0, 253.3955535888672, 405.787841796875, 719.6735229492188], "conf": 0.5069402456283569, "class_id": 0, "track_id": 16, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 388, "trains_detected": 1, "trains": [{"bbox": [0.0, 253.52487182617188, 405.7970886230469, 719.5596923828125], "conf": 0.5602185130119324, "class_id": 0, "track_id": 16, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 389, "trains_detected": 1, "trains": [{"bbox": [0.0, 252.80979919433594, 405.778564453125, 719.582763671875], "conf": 0.516945481300354, "class_id": 0, "track_id": 16, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 390, "trains_detected": 1, "trains": [{"bbox": [0.0, 253.89610290527344, 405.7712097167969, 719.5651245117188], "conf": 0.5083487033843994, "class_id": 0, "track_id": 16, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 391, "trains_detected": 1, "trains": [{"bbox": [0.0, 254.86338806152344, 405.8486633300781, 719.9366455078125], "conf": 0.5355772972106934, "class_id": 0, "track_id": 16, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 392, "trains_detected": 1, "trains": [{"bbox": [0.0, 252.41749572753906, 405.76055908203125, 719.6184692382812], "conf": 0.47053608298301697, "class_id": 0, "track_id": 16, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 393, "trains_detected": 1, "trains": [{"bbox": [0.0, 248.3896484375, 405.7820129394531, 719.5679321289062], "conf": 0.5073628425598145, "class_id": 0, "track_id": 16, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 394, "trains_detected": 1, "trains": [{"bbox": [0.0, 247.9105682373047, 405.76611328125, 719.5199584960938], "conf": 0.39150598645210266, "class_id": 0, "track_id": 16, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 395, "trains_detected": 1, "trains": [{"bbox": [0.0, 247.70689392089844, 405.7564392089844, 719.5629272460938], "conf": 0.4825327396392822, "class_id": 0, "track_id": 16, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 396, "trains_detected": 1, "trains": [{"bbox": [0.0, 247.978515625, 405.8373107910156, 719.631591796875], "conf": 0.48612454533576965, "class_id": 0, "track_id": 16, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 397, "trains_detected": 1, "trains": [{"bbox": [0.0, 248.96124267578125, 405.9561462402344, 719.9545288085938], "conf": 0.4344533681869507, "class_id": 0, "track_id": 16, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 398, "trains_detected": 1, "trains": [{"bbox": [0.0, 249.11817932128906, 405.90545654296875, 719.8308715820312], "conf": 0.5093331336975098, "class_id": 0, "track_id": 16, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 399, "trains_detected": 1, "trains": [{"bbox": [0.0, 248.7283477783203, 405.8869934082031, 719.8181762695312], "conf": 0.4054768979549408, "class_id": 0, "track_id": 16, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 400, "trains_detected": 0, "trains": []}
+{"frame": 401, "trains_detected": 0, "trains": []}
+{"frame": 402, "trains_detected": 1, "trains": [{"bbox": [184.80296325683594, 375.2933044433594, 406.0, 719.027099609375], "conf": 0.38196441531181335, "class_id": 0, "track_id": null, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 403, "trains_detected": 0, "trains": []}
+{"frame": 404, "trains_detected": 0, "trains": []}
+{"frame": 405, "trains_detected": 0, "trains": []}
+{"frame": 406, "trains_detected": 0, "trains": []}
+{"frame": 407, "trains_detected": 1, "trains": [{"bbox": [0.00788483489304781, 251.04588317871094, 405.9614562988281, 719.9458618164062], "conf": 0.2729375660419464, "class_id": 0, "track_id": 16, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 408, "trains_detected": 1, "trains": [{"bbox": [0.0632663443684578, 249.1235809326172, 405.9635314941406, 719.964599609375], "conf": 0.2583466172218323, "class_id": 0, "track_id": 16, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 409, "trains_detected": 0, "trains": []}
+{"frame": 410, "trains_detected": 0, "trains": []}
+{"frame": 411, "trains_detected": 0, "trains": []}
+{"frame": 412, "trains_detected": 0, "trains": []}
+{"frame": 413, "trains_detected": 0, "trains": []}
+{"frame": 414, "trains_detected": 0, "trains": []}
+{"frame": 415, "trains_detected": 0, "trains": []}
+{"frame": 416, "trains_detected": 0, "trains": []}
+{"frame": 417, "trains_detected": 0, "trains": []}
+{"frame": 418, "trains_detected": 0, "trains": []}
+{"frame": 419, "trains_detected": 1, "trains": [{"bbox": [0.05878402292728424, 220.0882568359375, 406.0, 720.0], "conf": 0.33615842461586, "class_id": 0, "track_id": 16, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 420, "trains_detected": 1, "trains": [{"bbox": [0.053286243230104446, 230.16998291015625, 405.90679931640625, 719.97705078125], "conf": 0.2535608410835266, "class_id": 0, "track_id": 16, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 421, "trains_detected": 0, "trains": []}
+{"frame": 422, "trains_detected": 1, "trains": [{"bbox": [0.044899195432662964, 244.71917724609375, 405.8895568847656, 719.9367065429688], "conf": 0.27673014998435974, "class_id": 0, "track_id": 16, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 423, "trains_detected": 1, "trains": [{"bbox": [0.03276091441512108, 249.7045135498047, 405.92047119140625, 719.9754638671875], "conf": 0.27293410897254944, "class_id": 0, "track_id": 16, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 424, "trains_detected": 1, "trains": [{"bbox": [0.032937996089458466, 252.55743408203125, 403.3636169433594, 720.0], "conf": 0.37974870204925537, "class_id": 0, "track_id": 16, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 425, "trains_detected": 1, "trains": [{"bbox": [0.03557044267654419, 253.2362823486328, 402.24072265625, 720.0], "conf": 0.4666402041912079, "class_id": 0, "track_id": 16, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 426, "trains_detected": 1, "trains": [{"bbox": [0.013668366707861423, 252.41159057617188, 401.7182922363281, 720.0], "conf": 0.3890678286552429, "class_id": 0, "track_id": 16, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 427, "trains_detected": 1, "trains": [{"bbox": [0.0, 252.48565673828125, 404.431640625, 720.0], "conf": 0.3150761127471924, "class_id": 0, "track_id": 16, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 428, "trains_detected": 1, "trains": [{"bbox": [0.0, 251.4935302734375, 405.4642028808594, 720.0], "conf": 0.4856843054294586, "class_id": 0, "track_id": 16, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 429, "trains_detected": 1, "trains": [{"bbox": [0.0, 249.92721557617188, 405.6369934082031, 719.9226684570312], "conf": 0.39496493339538574, "class_id": 0, "track_id": 16, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 430, "trains_detected": 1, "trains": [{"bbox": [0.0, 247.10194396972656, 405.9122314453125, 719.9334106445312], "conf": 0.4342445731163025, "class_id": 0, "track_id": 16, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 431, "trains_detected": 1, "trains": [{"bbox": [0.0, 245.04592895507812, 406.0, 720.0], "conf": 0.3945445120334625, "class_id": 0, "track_id": 16, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 432, "trains_detected": 0, "trains": []}
+{"frame": 433, "trains_detected": 1, "trains": [{"bbox": [0.0, 243.89035034179688, 406.0, 720.0], "conf": 0.6032154560089111, "class_id": 0, "track_id": 16, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 434, "trains_detected": 1, "trains": [{"bbox": [0.0, 246.3163604736328, 406.0, 720.0], "conf": 0.3555300533771515, "class_id": 0, "track_id": 16, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 435, "trains_detected": 0, "trains": []}
+{"frame": 436, "trains_detected": 1, "trains": [{"bbox": [0.0, 234.6107940673828, 406.0, 720.0], "conf": 0.5334621071815491, "class_id": 0, "track_id": 16, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 437, "trains_detected": 1, "trains": [{"bbox": [0.0, 225.59609985351562, 406.0, 720.0], "conf": 0.4135233163833618, "class_id": 0, "track_id": 16, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 438, "trains_detected": 0, "trains": []}
+{"frame": 439, "trains_detected": 1, "trains": [{"bbox": [0.0, 234.07115173339844, 406.0, 719.8508911132812], "conf": 0.5029345154762268, "class_id": 0, "track_id": 16, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 440, "trains_detected": 0, "trains": []}
+{"frame": 441, "trains_detected": 1, "trains": [{"bbox": [0.0, 214.06573486328125, 406.0, 720.0], "conf": 0.565726637840271, "class_id": 0, "track_id": 16, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 442, "trains_detected": 1, "trains": [{"bbox": [0.20499840378761292, 210.71983337402344, 406.0, 719.96240234375], "conf": 0.42333605885505676, "class_id": 0, "track_id": 16, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 443, "trains_detected": 1, "trains": [{"bbox": [0.21657653152942657, 216.84164428710938, 406.0, 719.9384155273438], "conf": 0.5334348678588867, "class_id": 0, "track_id": 16, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 444, "trains_detected": 1, "trains": [{"bbox": [0.2424440234899521, 223.19447326660156, 406.0, 719.973876953125], "conf": 0.5710054636001587, "class_id": 0, "track_id": 16, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 445, "trains_detected": 1, "trains": [{"bbox": [0.23112279176712036, 230.61746215820312, 406.0, 720.0], "conf": 0.5490429997444153, "class_id": 0, "track_id": 16, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 446, "trains_detected": 1, "trains": [{"bbox": [3.334542751312256, 238.59713745117188, 406.0, 719.9146118164062], "conf": 0.5529829263687134, "class_id": 0, "track_id": 16, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 447, "trains_detected": 1, "trains": [{"bbox": [1.3420889377593994, 244.5526885986328, 406.0, 719.9032592773438], "conf": 0.6688033938407898, "class_id": 0, "track_id": 16, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 448, "trains_detected": 1, "trains": [{"bbox": [24.792037963867188, 244.33700561523438, 406.0, 719.7389526367188], "conf": 0.3176461160182953, "class_id": 0, "track_id": 16, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 449, "trains_detected": 1, "trains": [{"bbox": [9.00110149383545, 242.9133758544922, 406.0, 719.7000122070312], "conf": 0.5607834458351135, "class_id": 0, "track_id": 16, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 450, "trains_detected": 1, "trains": [{"bbox": [3.4899404048919678, 246.7705078125, 406.0, 720.0], "conf": 0.5888752341270447, "class_id": 0, "track_id": 16, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 451, "trains_detected": 1, "trains": [{"bbox": [1.5410913228988647, 248.7864227294922, 406.0, 720.0], "conf": 0.5799316167831421, "class_id": 0, "track_id": 16, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 452, "trains_detected": 1, "trains": [{"bbox": [0.5178132653236389, 249.40847778320312, 406.0, 719.9115600585938], "conf": 0.46174609661102295, "class_id": 0, "track_id": 16, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 453, "trains_detected": 1, "trains": [{"bbox": [0.11300051212310791, 249.2678680419922, 406.0, 719.697509765625], "conf": 0.5181137919425964, "class_id": 0, "track_id": 16, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 454, "trains_detected": 1, "trains": [{"bbox": [0.0, 249.32553100585938, 405.9400634765625, 719.6549682617188], "conf": 0.6023199558258057, "class_id": 0, "track_id": 16, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 455, "trains_detected": 1, "trains": [{"bbox": [0.0, 247.20460510253906, 405.9573974609375, 719.6914672851562], "conf": 0.7049558758735657, "class_id": 0, "track_id": 16, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 456, "trains_detected": 1, "trains": [{"bbox": [0.0, 247.89617919921875, 405.9207763671875, 719.7627563476562], "conf": 0.7176045179367065, "class_id": 0, "track_id": 16, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 457, "trains_detected": 1, "trains": [{"bbox": [0.0, 247.7349853515625, 405.8899230957031, 719.8974609375], "conf": 0.6244856119155884, "class_id": 0, "track_id": 16, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 458, "trains_detected": 1, "trains": [{"bbox": [0.0, 247.03945922851562, 405.244384765625, 719.7291259765625], "conf": 0.6352907419204712, "class_id": 0, "track_id": 16, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 459, "trains_detected": 1, "trains": [{"bbox": [0.0, 240.6317901611328, 405.4208068847656, 719.6260986328125], "conf": 0.5776408314704895, "class_id": 0, "track_id": 16, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 460, "trains_detected": 1, "trains": [{"bbox": [0.0, 243.2559814453125, 405.76055908203125, 720.0], "conf": 0.6332480907440186, "class_id": 0, "track_id": 16, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 461, "trains_detected": 1, "trains": [{"bbox": [0.0, 242.18478393554688, 405.71923828125, 719.84521484375], "conf": 0.7006845474243164, "class_id": 0, "track_id": 16, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 462, "trains_detected": 1, "trains": [{"bbox": [0.0, 238.55262756347656, 405.6007385253906, 719.6981201171875], "conf": 0.6728633046150208, "class_id": 0, "track_id": 16, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 463, "trains_detected": 1, "trains": [{"bbox": [0.0, 237.21337890625, 405.5311584472656, 719.6956176757812], "conf": 0.7094267010688782, "class_id": 0, "track_id": 16, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 464, "trains_detected": 1, "trains": [{"bbox": [0.0, 238.8644561767578, 405.5212707519531, 719.7167358398438], "conf": 0.5862463116645813, "class_id": 0, "track_id": 16, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 465, "trains_detected": 1, "trains": [{"bbox": [0.0, 238.8942108154297, 405.5472717285156, 719.8225708007812], "conf": 0.6568524837493896, "class_id": 0, "track_id": 16, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 466, "trains_detected": 1, "trains": [{"bbox": [0.0, 238.12081909179688, 405.6051940917969, 719.8934326171875], "conf": 0.6232377886772156, "class_id": 0, "track_id": 16, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 467, "trains_detected": 1, "trains": [{"bbox": [0.0, 227.8384552001953, 405.5678405761719, 719.9196166992188], "conf": 0.5860991477966309, "class_id": 0, "track_id": 16, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 468, "trains_detected": 1, "trains": [{"bbox": [0.0, 212.66204833984375, 405.6492004394531, 719.9717407226562], "conf": 0.500151515007019, "class_id": 0, "track_id": 16, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 469, "trains_detected": 1, "trains": [{"bbox": [0.0, 202.72491455078125, 405.56402587890625, 719.9556274414062], "conf": 0.59519362449646, "class_id": 0, "track_id": 16, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 470, "trains_detected": 1, "trains": [{"bbox": [0.0, 198.54257202148438, 405.4936218261719, 719.8650512695312], "conf": 0.42272257804870605, "class_id": 0, "track_id": 16, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 471, "trains_detected": 0, "trains": []}
+{"frame": 472, "trains_detected": 0, "trains": []}
+{"frame": 473, "trains_detected": 0, "trains": []}
+{"frame": 474, "trains_detected": 0, "trains": []}
+{"frame": 475, "trains_detected": 0, "trains": []}
+{"frame": 476, "trains_detected": 0, "trains": []}
+{"frame": 477, "trains_detected": 0, "trains": []}
+{"frame": 478, "trains_detected": 0, "trains": []}
+{"frame": 479, "trains_detected": 0, "trains": []}
+{"frame": 480, "trains_detected": 0, "trains": []}
+{"frame": 481, "trains_detected": 0, "trains": []}
+{"frame": 482, "trains_detected": 0, "trains": []}
+{"frame": 483, "trains_detected": 0, "trains": []}
+{"frame": 484, "trains_detected": 0, "trains": []}
+{"frame": 485, "trains_detected": 0, "trains": []}
+{"frame": 486, "trains_detected": 0, "trains": []}
+{"frame": 487, "trains_detected": 0, "trains": []}
+{"frame": 488, "trains_detected": 0, "trains": []}
+{"frame": 489, "trains_detected": 0, "trains": []}
+{"frame": 490, "trains_detected": 0, "trains": []}
+{"frame": 491, "trains_detected": 0, "trains": []}
+{"frame": 492, "trains_detected": 0, "trains": []}
+{"frame": 493, "trains_detected": 0, "trains": []}
+{"frame": 494, "trains_detected": 0, "trains": []}
+{"frame": 495, "trains_detected": 0, "trains": []}
+{"frame": 496, "trains_detected": 0, "trains": []}
+{"frame": 497, "trains_detected": 0, "trains": []}
+{"frame": 498, "trains_detected": 0, "trains": []}
+{"frame": 499, "trains_detected": 0, "trains": []}
+{"frame": 500, "trains_detected": 0, "trains": []}
+{"frame": 501, "trains_detected": 0, "trains": []}
+{"frame": 502, "trains_detected": 0, "trains": []}
+{"frame": 503, "trains_detected": 0, "trains": []}
+{"frame": 504, "trains_detected": 0, "trains": []}
+{"frame": 505, "trains_detected": 1, "trains": [{"bbox": [0.0, 265.55224609375, 406.0, 720.0], "conf": 0.2653525173664093, "class_id": 0, "track_id": null, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 506, "trains_detected": 0, "trains": []}
+{"frame": 507, "trains_detected": 1, "trains": [{"bbox": [0.0, 252.50042724609375, 406.0, 720.0], "conf": 0.2536640763282776, "class_id": 0, "track_id": null, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 508, "trains_detected": 0, "trains": []}
+{"frame": 509, "trains_detected": 0, "trains": []}
+{"frame": 510, "trains_detected": 0, "trains": []}
+{"frame": 511, "trains_detected": 0, "trains": []}
+{"frame": 512, "trains_detected": 0, "trains": []}
+{"frame": 513, "trains_detected": 0, "trains": []}
+{"frame": 514, "trains_detected": 0, "trains": []}
+{"frame": 515, "trains_detected": 0, "trains": []}
+{"frame": 516, "trains_detected": 1, "trains": [{"bbox": [0.0, 250.8332977294922, 406.0, 720.0], "conf": 0.2927834689617157, "class_id": 0, "track_id": null, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 517, "trains_detected": 0, "trains": []}
+{"frame": 518, "trains_detected": 0, "trains": []}
+{"frame": 519, "trains_detected": 0, "trains": []}
+{"frame": 520, "trains_detected": 0, "trains": []}
+{"frame": 521, "trains_detected": 0, "trains": []}
+{"frame": 522, "trains_detected": 0, "trains": []}
+{"frame": 523, "trains_detected": 1, "trains": [{"bbox": [41.72054672241211, 275.04058837890625, 406.0, 720.0], "conf": 0.2547643482685089, "class_id": 0, "track_id": null, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 524, "trains_detected": 0, "trains": []}
+{"frame": 525, "trains_detected": 0, "trains": []}
+{"frame": 526, "trains_detected": 1, "trains": [{"bbox": [0.8896522521972656, 259.98822021484375, 406.0, 720.0], "conf": 0.41179409623146057, "class_id": 0, "track_id": null, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 527, "trains_detected": 1, "trains": [{"bbox": [0.21833471953868866, 266.18389892578125, 405.9132385253906, 720.0], "conf": 0.4208335876464844, "class_id": 0, "track_id": 22, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 528, "trains_detected": 1, "trains": [{"bbox": [11.447543144226074, 270.3743591308594, 405.9555358886719, 720.0], "conf": 0.4100233316421509, "class_id": 0, "track_id": 22, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 529, "trains_detected": 1, "trains": [{"bbox": [3.573826551437378, 268.744873046875, 406.0, 720.0], "conf": 0.525222659111023, "class_id": 0, "track_id": 22, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 530, "trains_detected": 1, "trains": [{"bbox": [6.683889389038086, 271.1671447753906, 406.0, 720.0], "conf": 0.39583316445350647, "class_id": 0, "track_id": 22, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 531, "trains_detected": 1, "trains": [{"bbox": [2.0841727256774902, 269.7852783203125, 405.9402770996094, 720.0], "conf": 0.39158666133880615, "class_id": 0, "track_id": 22, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 532, "trains_detected": 0, "trains": []}
+{"frame": 533, "trains_detected": 1, "trains": [{"bbox": [0.30730152130126953, 266.46484375, 406.0, 720.0], "conf": 0.48807191848754883, "class_id": 0, "track_id": 22, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 534, "trains_detected": 1, "trains": [{"bbox": [0.0, 261.96014404296875, 405.90869140625, 720.0], "conf": 0.5094273686408997, "class_id": 0, "track_id": 22, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 535, "trains_detected": 1, "trains": [{"bbox": [0.0, 260.3983459472656, 405.8828125, 720.0], "conf": 0.4512583613395691, "class_id": 0, "track_id": 22, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 536, "trains_detected": 1, "trains": [{"bbox": [0.0, 262.19189453125, 405.87652587890625, 720.0], "conf": 0.5467851161956787, "class_id": 0, "track_id": 22, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 537, "trains_detected": 1, "trains": [{"bbox": [0.0, 263.060302734375, 406.0, 720.0], "conf": 0.2853134572505951, "class_id": 0, "track_id": 22, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 538, "trains_detected": 1, "trains": [{"bbox": [0.0, 264.2054138183594, 406.0, 720.0], "conf": 0.507803738117218, "class_id": 0, "track_id": 22, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 539, "trains_detected": 1, "trains": [{"bbox": [0.0, 264.8229064941406, 406.0, 720.0], "conf": 0.3364286720752716, "class_id": 0, "track_id": 22, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 540, "trains_detected": 0, "trains": []}
+{"frame": 541, "trains_detected": 1, "trains": [{"bbox": [0.0, 266.26348876953125, 405.90252685546875, 720.0], "conf": 0.3947913944721222, "class_id": 0, "track_id": 22, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 542, "trains_detected": 1, "trains": [{"bbox": [0.0, 266.5752258300781, 406.0, 720.0], "conf": 0.5130981206893921, "class_id": 0, "track_id": 22, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 543, "trains_detected": 0, "trains": []}
+{"frame": 544, "trains_detected": 1, "trains": [{"bbox": [0.0, 262.27154541015625, 406.0, 720.0], "conf": 0.3123459815979004, "class_id": 0, "track_id": 22, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 545, "trains_detected": 1, "trains": [{"bbox": [0.0, 261.7769775390625, 406.0, 720.0], "conf": 0.27780333161354065, "class_id": 0, "track_id": 22, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 546, "trains_detected": 1, "trains": [{"bbox": [0.0, 260.55804443359375, 405.67620849609375, 719.570556640625], "conf": 0.3594646751880646, "class_id": 0, "track_id": 22, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 547, "trains_detected": 1, "trains": [{"bbox": [0.21586692333221436, 258.3195495605469, 405.46246337890625, 719.268798828125], "conf": 0.38566142320632935, "class_id": 0, "track_id": 22, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 548, "trains_detected": 1, "trains": [{"bbox": [0.23169974982738495, 258.0539245605469, 405.4920349121094, 719.2943725585938], "conf": 0.3960318863391876, "class_id": 0, "track_id": 22, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 549, "trains_detected": 0, "trains": []}
+{"frame": 550, "trains_detected": 1, "trains": [{"bbox": [0.07366923987865448, 251.4390869140625, 405.4110107421875, 719.1984252929688], "conf": 0.41260087490081787, "class_id": 0, "track_id": 22, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 551, "trains_detected": 0, "trains": []}
+{"frame": 552, "trains_detected": 1, "trains": [{"bbox": [0.0, 248.18182373046875, 405.70355224609375, 719.2587890625], "conf": 0.4989062547683716, "class_id": 0, "track_id": 22, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 553, "trains_detected": 0, "trains": []}
+{"frame": 554, "trains_detected": 1, "trains": [{"bbox": [0.0, 248.684814453125, 335.3598327636719, 720.0], "conf": 0.3183444142341614, "class_id": 0, "track_id": 22, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 555, "trains_detected": 1, "trains": [{"bbox": [0.0, 249.18017578125, 385.2232971191406, 720.0], "conf": 0.5432146191596985, "class_id": 0, "track_id": 22, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 556, "trains_detected": 1, "trains": [{"bbox": [0.0, 249.13455200195312, 398.4022216796875, 719.6297607421875], "conf": 0.510566234588623, "class_id": 0, "track_id": 22, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 557, "trains_detected": 1, "trains": [{"bbox": [0.0, 250.22991943359375, 403.7331237792969, 719.7052612304688], "conf": 0.6396796703338623, "class_id": 0, "track_id": 22, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 558, "trains_detected": 1, "trains": [{"bbox": [0.0005131139769218862, 251.95240783691406, 405.6324768066406, 719.4496459960938], "conf": 0.4924774169921875, "class_id": 0, "track_id": 22, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 559, "trains_detected": 1, "trains": [{"bbox": [0.0, 251.95811462402344, 406.0, 719.6122436523438], "conf": 0.5827718377113342, "class_id": 0, "track_id": 22, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 560, "trains_detected": 1, "trains": [{"bbox": [0.0, 251.4942626953125, 406.0, 719.5773315429688], "conf": 0.6069255471229553, "class_id": 0, "track_id": 22, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 561, "trains_detected": 1, "trains": [{"bbox": [0.0, 251.0784454345703, 406.0, 719.7019653320312], "conf": 0.6698300838470459, "class_id": 0, "track_id": 22, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 562, "trains_detected": 1, "trains": [{"bbox": [0.0, 248.94166564941406, 406.0, 719.6845092773438], "conf": 0.7031184434890747, "class_id": 0, "track_id": 22, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 563, "trains_detected": 1, "trains": [{"bbox": [0.0, 248.424072265625, 406.0, 719.71240234375], "conf": 0.6910567879676819, "class_id": 0, "track_id": 22, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 564, "trains_detected": 1, "trains": [{"bbox": [0.0, 248.62644958496094, 406.0, 719.8821411132812], "conf": 0.6624836921691895, "class_id": 0, "track_id": 22, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 565, "trains_detected": 1, "trains": [{"bbox": [0.0, 247.69659423828125, 406.0, 719.7504272460938], "conf": 0.6974524855613708, "class_id": 0, "track_id": 22, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 566, "trains_detected": 1, "trains": [{"bbox": [0.0, 247.74520874023438, 406.0, 720.0], "conf": 0.6217726469039917, "class_id": 0, "track_id": 22, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 567, "trains_detected": 1, "trains": [{"bbox": [0.0, 248.666748046875, 406.0, 720.0], "conf": 0.6695796847343445, "class_id": 0, "track_id": 22, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 568, "trains_detected": 1, "trains": [{"bbox": [0.0, 248.985595703125, 406.0, 719.78125], "conf": 0.6778188943862915, "class_id": 0, "track_id": 22, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 569, "trains_detected": 1, "trains": [{"bbox": [0.0, 248.29383850097656, 406.0, 719.8033447265625], "conf": 0.6972905993461609, "class_id": 0, "track_id": 22, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 570, "trains_detected": 1, "trains": [{"bbox": [0.0, 247.80587768554688, 406.0, 719.7075805664062], "conf": 0.6841874718666077, "class_id": 0, "track_id": 22, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 571, "trains_detected": 1, "trains": [{"bbox": [0.0, 247.6725616455078, 406.0, 719.7371826171875], "conf": 0.5160996913909912, "class_id": 0, "track_id": 22, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 572, "trains_detected": 1, "trains": [{"bbox": [0.0, 247.2811279296875, 406.0, 719.8297119140625], "conf": 0.6193993091583252, "class_id": 0, "track_id": 22, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 573, "trains_detected": 1, "trains": [{"bbox": [0.0, 247.53981018066406, 406.0, 719.7454223632812], "conf": 0.6016644835472107, "class_id": 0, "track_id": 22, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 574, "trains_detected": 0, "trains": []}
+{"frame": 575, "trains_detected": 1, "trains": [{"bbox": [0.0, 248.71566772460938, 406.0, 720.0], "conf": 0.5014107823371887, "class_id": 0, "track_id": 22, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 576, "trains_detected": 1, "trains": [{"bbox": [0.0, 250.02757263183594, 406.0, 720.0], "conf": 0.45350122451782227, "class_id": 0, "track_id": 22, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 577, "trains_detected": 1, "trains": [{"bbox": [0.1194724291563034, 252.9921875, 405.9104919433594, 719.8569946289062], "conf": 0.2853218913078308, "class_id": 0, "track_id": 22, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 578, "trains_detected": 1, "trains": [{"bbox": [0.15119218826293945, 255.6487579345703, 405.8183898925781, 719.7386474609375], "conf": 0.38777363300323486, "class_id": 0, "track_id": 22, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 579, "trains_detected": 1, "trains": [{"bbox": [0.18589510023593903, 254.6663818359375, 405.9464111328125, 719.9689331054688], "conf": 0.5115585327148438, "class_id": 0, "track_id": 22, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 580, "trains_detected": 1, "trains": [{"bbox": [0.16843856871128082, 252.6151580810547, 405.8868713378906, 719.8609008789062], "conf": 0.608757495880127, "class_id": 0, "track_id": 22, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 581, "trains_detected": 1, "trains": [{"bbox": [0.14826251566410065, 253.0001220703125, 404.3288879394531, 719.7779541015625], "conf": 0.4763791561126709, "class_id": 0, "track_id": 22, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 582, "trains_detected": 1, "trains": [{"bbox": [0.13254162669181824, 252.7429962158203, 403.9228210449219, 719.7308349609375], "conf": 0.475737988948822, "class_id": 0, "track_id": 22, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 583, "trains_detected": 1, "trains": [{"bbox": [0.08812473714351654, 252.0567626953125, 405.23101806640625, 719.8312377929688], "conf": 0.6207676529884338, "class_id": 0, "track_id": 22, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 584, "trains_detected": 1, "trains": [{"bbox": [0.09796669334173203, 252.60398864746094, 405.70123291015625, 719.7788696289062], "conf": 0.5346218347549438, "class_id": 0, "track_id": 22, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 585, "trains_detected": 1, "trains": [{"bbox": [0.09436427056789398, 252.68252563476562, 405.85400390625, 719.7876586914062], "conf": 0.5603756904602051, "class_id": 0, "track_id": 22, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 586, "trains_detected": 1, "trains": [{"bbox": [0.05093580484390259, 253.8076934814453, 405.9408874511719, 719.8098754882812], "conf": 0.5892377495765686, "class_id": 0, "track_id": 22, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 587, "trains_detected": 1, "trains": [{"bbox": [0.09829989075660706, 254.78225708007812, 405.94451904296875, 719.7955932617188], "conf": 0.5717900395393372, "class_id": 0, "track_id": 22, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 588, "trains_detected": 1, "trains": [{"bbox": [0.09093796461820602, 256.5038757324219, 406.0, 719.9072265625], "conf": 0.5447346568107605, "class_id": 0, "track_id": 22, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 589, "trains_detected": 1, "trains": [{"bbox": [0.11397925019264221, 255.8590545654297, 405.9781799316406, 719.8582153320312], "conf": 0.6024875044822693, "class_id": 0, "track_id": 22, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 590, "trains_detected": 1, "trains": [{"bbox": [0.083806611597538, 255.4606475830078, 406.0, 719.8744506835938], "conf": 0.5778040289878845, "class_id": 0, "track_id": 22, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 591, "trains_detected": 1, "trains": [{"bbox": [0.09089498966932297, 256.3262939453125, 405.9831848144531, 719.838623046875], "conf": 0.5997004508972168, "class_id": 0, "track_id": 22, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 592, "trains_detected": 1, "trains": [{"bbox": [0.07584856450557709, 256.0289001464844, 406.0, 719.8939819335938], "conf": 0.5747577548027039, "class_id": 0, "track_id": 22, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 593, "trains_detected": 1, "trains": [{"bbox": [0.05517861619591713, 255.88641357421875, 406.0, 719.9575805664062], "conf": 0.5335421562194824, "class_id": 0, "track_id": 22, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 594, "trains_detected": 1, "trains": [{"bbox": [0.05636531487107277, 257.676513671875, 406.0, 719.9376220703125], "conf": 0.5618952512741089, "class_id": 0, "track_id": 22, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 595, "trains_detected": 1, "trains": [{"bbox": [0.05622730031609535, 258.83758544921875, 406.0, 719.9614868164062], "conf": 0.47733163833618164, "class_id": 0, "track_id": 22, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 596, "trains_detected": 1, "trains": [{"bbox": [0.057922303676605225, 258.0049133300781, 406.0, 719.9531860351562], "conf": 0.5093108415603638, "class_id": 0, "track_id": 22, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 597, "trains_detected": 1, "trains": [{"bbox": [0.03490490838885307, 257.2544860839844, 406.0, 719.9755859375], "conf": 0.5583377480506897, "class_id": 0, "track_id": 22, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 598, "trains_detected": 1, "trains": [{"bbox": [0.1269608736038208, 255.6936492919922, 406.0, 719.887939453125], "conf": 0.5302959084510803, "class_id": 0, "track_id": 22, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 599, "trains_detected": 1, "trains": [{"bbox": [0.014097354374825954, 254.90919494628906, 406.0, 719.97314453125], "conf": 0.5039354562759399, "class_id": 0, "track_id": 22, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 600, "trains_detected": 1, "trains": [{"bbox": [0.14202001690864563, 254.27383422851562, 406.0, 719.9476928710938], "conf": 0.4575982093811035, "class_id": 0, "track_id": 22, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 601, "trains_detected": 1, "trains": [{"bbox": [0.08431573957204819, 253.92982482910156, 405.9841003417969, 719.8964233398438], "conf": 0.45591211318969727, "class_id": 0, "track_id": 22, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 602, "trains_detected": 1, "trains": [{"bbox": [0.04870748892426491, 250.68353271484375, 406.0, 719.9255981445312], "conf": 0.4632411003112793, "class_id": 0, "track_id": 22, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 603, "trains_detected": 1, "trains": [{"bbox": [0.06122273579239845, 247.92173767089844, 406.0, 719.866455078125], "conf": 0.3977211117744446, "class_id": 0, "track_id": 22, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 604, "trains_detected": 1, "trains": [{"bbox": [0.028848929330706596, 248.07650756835938, 406.0, 719.875244140625], "conf": 0.472922682762146, "class_id": 0, "track_id": 22, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 605, "trains_detected": 1, "trains": [{"bbox": [0.03821419179439545, 247.3309783935547, 406.0, 719.8365478515625], "conf": 0.4070378839969635, "class_id": 0, "track_id": 22, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 606, "trains_detected": 1, "trains": [{"bbox": [0.01406450942158699, 247.96112060546875, 405.98480224609375, 719.8787841796875], "conf": 0.4712940454483032, "class_id": 0, "track_id": 22, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 607, "trains_detected": 1, "trains": [{"bbox": [0.059106241911649704, 248.34425354003906, 405.97418212890625, 719.7770385742188], "conf": 0.4221755266189575, "class_id": 0, "track_id": 22, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 608, "trains_detected": 1, "trains": [{"bbox": [0.0, 247.60537719726562, 405.97491455078125, 719.8304443359375], "conf": 0.3288423418998718, "class_id": 0, "track_id": 22, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 609, "trains_detected": 1, "trains": [{"bbox": [0.028452768921852112, 246.9766082763672, 406.0, 719.788330078125], "conf": 0.38628527522087097, "class_id": 0, "track_id": 22, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 610, "trains_detected": 1, "trains": [{"bbox": [0.0, 248.1669464111328, 405.97894287109375, 719.806640625], "conf": 0.4192264974117279, "class_id": 0, "track_id": 22, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 611, "trains_detected": 1, "trains": [{"bbox": [0.0, 248.6161346435547, 405.8244934082031, 719.8884887695312], "conf": 0.37401723861694336, "class_id": 0, "track_id": 22, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 612, "trains_detected": 1, "trains": [{"bbox": [0.0, 250.66029357910156, 405.7762451171875, 719.7684326171875], "conf": 0.524344265460968, "class_id": 0, "track_id": 22, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 613, "trains_detected": 1, "trains": [{"bbox": [0.0, 250.52989196777344, 405.90130615234375, 719.7814331054688], "conf": 0.553945779800415, "class_id": 0, "track_id": 22, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 614, "trains_detected": 1, "trains": [{"bbox": [0.0, 251.9063262939453, 405.9041748046875, 719.7102661132812], "conf": 0.54392009973526, "class_id": 0, "track_id": 22, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 615, "trains_detected": 1, "trains": [{"bbox": [0.0, 252.0787353515625, 405.8713684082031, 719.7007446289062], "conf": 0.49231022596359253, "class_id": 0, "track_id": 22, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 616, "trains_detected": 1, "trains": [{"bbox": [0.0, 252.85018920898438, 405.88037109375, 719.8137817382812], "conf": 0.4798518121242523, "class_id": 0, "track_id": 22, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 617, "trains_detected": 1, "trains": [{"bbox": [0.0, 253.4553680419922, 405.9123229980469, 719.885009765625], "conf": 0.42953723669052124, "class_id": 0, "track_id": 22, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 618, "trains_detected": 1, "trains": [{"bbox": [0.0, 253.52133178710938, 405.9268493652344, 719.8732299804688], "conf": 0.5076502561569214, "class_id": 0, "track_id": 22, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 619, "trains_detected": 1, "trains": [{"bbox": [0.0, 253.42120361328125, 405.8604431152344, 719.814697265625], "conf": 0.4315110743045807, "class_id": 0, "track_id": 22, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 620, "trains_detected": 1, "trains": [{"bbox": [0.0, 253.62844848632812, 405.9103698730469, 719.8726196289062], "conf": 0.549601674079895, "class_id": 0, "track_id": 22, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 621, "trains_detected": 1, "trains": [{"bbox": [0.0, 254.1356964111328, 405.87091064453125, 719.827392578125], "conf": 0.46818116307258606, "class_id": 0, "track_id": 22, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 622, "trains_detected": 1, "trains": [{"bbox": [0.0, 255.59274291992188, 405.9186706542969, 719.9498291015625], "conf": 0.5528924465179443, "class_id": 0, "track_id": 22, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 623, "trains_detected": 1, "trains": [{"bbox": [0.0, 255.8517608642578, 405.873291015625, 719.913330078125], "conf": 0.32160621881484985, "class_id": 0, "track_id": 22, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 624, "trains_detected": 1, "trains": [{"bbox": [0.0, 256.40899658203125, 405.92132568359375, 719.9351806640625], "conf": 0.28975117206573486, "class_id": 0, "track_id": 22, "rank_lr": 1, "lr_label": "train1"}]}
+{"frame": 625, "trains_detected": 0, "trains": []}
+{"frame": 626, "trains_detected": 0, "trains": []}
+{"frame": 627, "trains_detected": 0, "trains": []}
+{"frame": 628, "trains_detected": 0, "trains": []}
+{"frame": 629, "trains_detected": 0, "trains": []}
+{"frame": 630, "trains_detected": 0, "trains": []}
+{"frame": 631, "trains_detected": 0, "trains": []}
+{"frame": 632, "trains_detected": 0, "trains": []}
+{"frame": 633, "trains_detected": 0, "trains": []}
+{"frame": 634, "trains_detected": 0, "trains": []}
+{"frame": 635, "trains_detected": 0, "trains": []}
+{"frame": 636, "trains_detected": 0, "trains": []}
+{"frame": 637, "trains_detected": 0, "trains": []}
+{"frame": 638, "trains_detected": 0, "trains": []}
+{"frame": 639, "trains_detected": 0, "trains": []}
+{"frame": 640, "trains_detected": 0, "trains": []}
+{"frame": 641, "trains_detected": 0, "trains": []}
+{"frame": 642, "trains_detected": 0, "trains": []}

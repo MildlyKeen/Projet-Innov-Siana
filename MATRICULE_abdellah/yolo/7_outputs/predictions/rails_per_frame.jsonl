@@ -1,0 +1,617 @@
+{"frame": 0, "rails_detected": 2, "rails": [{"rank": 1, "label": "voie1", "cx": 426.85865130789534, "bbox": [238, 668, 561, 810], "area": 8334}, {"rank": 2, "label": "voie2", "cx": 427.6286605959557, "bbox": [220, 696, 565, 1156], "area": 46782}]}
+{"frame": 1, "rails_detected": 2, "rails": [{"rank": 1, "label": "voie1", "cx": 403.4584269662921, "bbox": [201, 660, 561, 812], "area": 8010}, {"rank": 2, "label": "voie2", "cx": 429.5284010770612, "bbox": [228, 696, 565, 1154], "area": 46794}]}
+{"frame": 2, "rails_detected": 2, "rails": [{"rank": 1, "label": "voie1", "cx": 415.49893162393164, "bbox": [230, 660, 561, 806], "area": 7488}, {"rank": 2, "label": "voie2", "cx": 426.58704504963094, "bbox": [204, 660, 561, 1152], "area": 47148}]}
+{"frame": 3, "rails_detected": 2, "rails": [{"rank": 1, "label": "voie1", "cx": 413.6188850967008, "bbox": [239, 660, 561, 802], "area": 7032}, {"rank": 2, "label": "voie2", "cx": 424.2349369650462, "bbox": [196, 660, 560, 1150], "area": 47434}]}
+{"frame": 4, "rails_detected": 2, "rails": [{"rank": 1, "label": "voie1", "cx": 418.36418685121106, "bbox": [242, 660, 561, 802], "area": 6936}, {"rank": 2, "label": "voie2", "cx": 426.87287607494494, "bbox": [192, 652, 565, 1150], "area": 48142}]}
+{"frame": 5, "rails_detected": 2, "rails": [{"rank": 1, "label": "voie1", "cx": 417.97080900750626, "bbox": [243, 660, 561, 802], "area": 7194}, {"rank": 2, "label": "voie2", "cx": 425.4474489374018, "bbox": [192, 652, 561, 1150], "area": 48372}]}
+{"frame": 6, "rails_detected": 2, "rails": [{"rank": 1, "label": "voie1", "cx": 412.5470223659391, "bbox": [230, 652, 561, 798], "area": 7422}, {"rank": 2, "label": "voie2", "cx": 425.61896221416055, "bbox": [200, 652, 565, 1158], "area": 49066}]}
+{"frame": 7, "rails_detected": 2, "rails": [{"rank": 1, "label": "voie1", "cx": 419.34264747389216, "bbox": [241, 652, 561, 804], "area": 7086}, {"rank": 2, "label": "voie2", "cx": 424.270551076386, "bbox": [205, 664, 560, 1142], "area": 48124}]}
+{"frame": 8, "rails_detected": 2, "rails": [{"rank": 1, "label": "voie1", "cx": 415.7022318998367, "bbox": [234, 644, 561, 788], "area": 7348}, {"rank": 2, "label": "voie2", "cx": 425.30093427306997, "bbox": [204, 644, 561, 1138], "area": 48808}]}
+{"frame": 9, "rails_detected": 2, "rails": [{"rank": 1, "label": "voie1", "cx": 406.8843165467626, "bbox": [223, 628, 565, 764], "area": 6950}, {"rank": 2, "label": "voie2", "cx": 427.79100573042103, "bbox": [196, 628, 561, 1124], "area": 48164}]}
+{"frame": 10, "rails_detected": 2, "rails": [{"rank": 1, "label": "voie1", "cx": 413.1085337915235, "bbox": [228, 628, 565, 764], "area": 6984}, {"rank": 2, "label": "voie2", "cx": 427.3363582892194, "bbox": [203, 636, 560, 1124], "area": 47604}]}
+{"frame": 11, "rails_detected": 2, "rails": [{"rank": 1, "label": "voie1", "cx": 416.84524103831893, "bbox": [232, 628, 565, 764], "area": 8090}, {"rank": 2, "label": "voie2", "cx": 426.83357904047847, "bbox": [204, 636, 560, 1124], "area": 47482}]}
+{"frame": 12, "rails_detected": 2, "rails": [{"rank": 1, "label": "voie1", "cx": 412.39813465461964, "bbox": [231, 628, 565, 764], "area": 6862}, {"rank": 2, "label": "voie2", "cx": 425.9334511933325, "bbox": [204, 636, 561, 1124], "area": 47514}]}
+{"frame": 13, "rails_detected": 2, "rails": [{"rank": 1, "label": "voie1", "cx": 410.45113390928725, "bbox": [214, 620, 565, 764], "area": 7408}, {"rank": 2, "label": "voie2", "cx": 427.47632886867154, "bbox": [212, 636, 561, 1124], "area": 47484}]}
+{"frame": 14, "rails_detected": 2, "rails": [{"rank": 1, "label": "voie1", "cx": 412.2155245948251, "bbox": [233, 628, 565, 764], "area": 7034}, {"rank": 2, "label": "voie2", "cx": 427.3008280442184, "bbox": [211, 644, 565, 1124], "area": 47582}]}
+{"frame": 15, "rails_detected": 2, "rails": [{"rank": 1, "label": "voie1", "cx": 411.5651675737611, "bbox": [233, 628, 565, 764], "area": 6982}, {"rank": 2, "label": "voie2", "cx": 426.28815690218755, "bbox": [205, 636, 561, 1124], "area": 47724}]}
+{"frame": 16, "rails_detected": 2, "rails": [{"rank": 1, "label": "voie1", "cx": 412.66076447442384, "bbox": [231, 628, 565, 764], "area": 7116}, {"rank": 2, "label": "voie2", "cx": 426.55663646611833, "bbox": [204, 636, 565, 1124], "area": 47902}]}
+{"frame": 17, "rails_detected": 2, "rails": [{"rank": 1, "label": "voie1", "cx": 402.4220743205768, "bbox": [214, 628, 565, 764], "area": 7212}, {"rank": 2, "label": "voie2", "cx": 426.1045942499897, "bbox": [204, 636, 561, 1122], "area": 48626}]}
+{"frame": 18, "rails_detected": 2, "rails": [{"rank": 1, "label": "voie1", "cx": 400.7303597122302, "bbox": [214, 628, 565, 764], "area": 6950}, {"rank": 2, "label": "voie2", "cx": 423.97129011239616, "bbox": [196, 636, 561, 1132], "area": 49112}]}
+{"frame": 19, "rails_detected": 2, "rails": [{"rank": 1, "label": "voie1", "cx": 410.4685936631462, "bbox": [230, 636, 561, 772], "area": 7196}, {"rank": 2, "label": "voie2", "cx": 425.8215791180285, "bbox": [201, 650, 561, 1140], "area": 49344}]}
+{"frame": 20, "rails_detected": 2, "rails": [{"rank": 1, "label": "voie1", "cx": 431.6513821279555, "bbox": [240, 688, 560, 1134], "area": 46016}, {"rank": 2, "label": "voie2", "cx": 438.56533499791925, "bbox": [259, 652, 565, 796], "area": 9612}]}
+{"frame": 21, "rails_detected": 2, "rails": [{"rank": 1, "label": "voie1", "cx": 427.04824073281395, "bbox": [219, 660, 561, 1136], "area": 46724}, {"rank": 2, "label": "voie2", "cx": 440.2000866175834, "bbox": [274, 660, 561, 796], "area": 9236}]}
+{"frame": 22, "rails_detected": 2, "rails": [{"rank": 1, "label": "voie1", "cx": 427.8544584899214, "bbox": [219, 668, 561, 1140], "area": 46832}, {"rank": 2, "label": "voie2", "cx": 445.0219337511191, "bbox": [283, 668, 561, 796], "area": 8936}]}
+{"frame": 23, "rails_detected": 2, "rails": [{"rank": 1, "label": "voie1", "cx": 415.63416093329346, "bbox": [248, 652, 561, 780], "area": 6686}, {"rank": 2, "label": "voie2", "cx": 423.06676721151103, "bbox": [206, 662, 565, 1136], "area": 49066}]}
+{"frame": 24, "rails_detected": 2, "rails": [{"rank": 1, "label": "voie1", "cx": 427.4720073024428, "bbox": [204, 652, 565, 1136], "area": 46012}, {"rank": 2, "label": "voie2", "cx": 432.9308943089431, "bbox": [251, 652, 561, 788], "area": 9348}]}
+{"frame": 25, "rails_detected": 2, "rails": [{"rank": 1, "label": "voie1", "cx": 408.7849550286181, "bbox": [236, 644, 561, 780], "area": 7338}, {"rank": 2, "label": "voie2", "cx": 422.7212643678161, "bbox": [204, 660, 561, 1138], "area": 49416}]}
+{"frame": 26, "rails_detected": 2, "rails": [{"rank": 1, "label": "voie1", "cx": 421.71547657774886, "bbox": [196, 658, 561, 1142], "area": 49184}, {"rank": 2, "label": "voie2", "cx": 423.6587343096234, "bbox": [243, 652, 565, 788], "area": 7648}]}
+{"frame": 27, "rails_detected": 2, "rails": [{"rank": 1, "label": "voie1", "cx": 418.8948325110361, "bbox": [237, 652, 561, 804], "area": 7702}, {"rank": 2, "label": "voie2", "cx": 424.1116944533504, "bbox": [198, 652, 565, 1158], "area": 49904}]}
+{"frame": 28, "rails_detected": 2, "rails": [{"rank": 1, "label": "voie1", "cx": 421.45314685314685, "bbox": [233, 652, 561, 804], "area": 8580}, {"rank": 2, "label": "voie2", "cx": 424.65138490926455, "bbox": [196, 664, 565, 1160], "area": 50256}]}
+{"frame": 29, "rails_detected": 2, "rails": [{"rank": 1, "label": "voie1", "cx": 414.03791841004187, "bbox": [228, 652, 561, 800], "area": 7648}, {"rank": 2, "label": "voie2", "cx": 423.9904238059436, "bbox": [204, 670, 565, 1160], "area": 50542}]}
+{"frame": 30, "rails_detected": 2, "rails": [{"rank": 1, "label": "voie1", "cx": 409.63299663299665, "bbox": [219, 652, 561, 802], "area": 7722}, {"rank": 2, "label": "voie2", "cx": 424.41409778904824, "bbox": [205, 674, 565, 1158], "area": 50476}]}
+{"frame": 31, "rails_detected": 2, "rails": [{"rank": 1, "label": "voie1", "cx": 411.6223650385604, "bbox": [219, 652, 561, 802], "area": 7780}, {"rank": 2, "label": "voie2", "cx": 424.7910834629342, "bbox": [207, 674, 565, 1160], "area": 50154}]}
+{"frame": 32, "rails_detected": 2, "rails": [{"rank": 1, "label": "voie1", "cx": 418.09077040427155, "bbox": [234, 660, 561, 804], "area": 7866}, {"rank": 2, "label": "voie2", "cx": 426.0270357517553, "bbox": [213, 692, 565, 1164], "area": 49564}]}
+{"frame": 33, "rails_detected": 2, "rails": [{"rank": 1, "label": "voie1", "cx": 419.3367213969247, "bbox": [234, 660, 561, 802], "area": 7674}, {"rank": 2, "label": "voie2", "cx": 420.624008138352, "bbox": [210, 682, 565, 1158], "area": 49150}]}
+{"frame": 34, "rails_detected": 2, "rails": [{"rank": 1, "label": "voie1", "cx": 419.09765524349393, "bbox": [237, 660, 561, 802], "area": 7762}, {"rank": 2, "label": "voie2", "cx": 424.69042777977114, "bbox": [205, 674, 565, 1166], "area": 50166}]}
+{"frame": 35, "rails_detected": 2, "rails": [{"rank": 1, "label": "voie1", "cx": 417.7256015139227, "bbox": [239, 660, 561, 802], "area": 7398}, {"rank": 2, "label": "voie2", "cx": 420.11832765765394, "bbox": [210, 682, 565, 1156], "area": 48746}]}
+{"frame": 36, "rails_detected": 2, "rails": [{"rank": 1, "label": "voie1", "cx": 418.07394646170155, "bbox": [239, 660, 561, 802], "area": 7546}, {"rank": 2, "label": "voie2", "cx": 421.81337928238395, "bbox": [214, 680, 565, 1152], "area": 49330}]}
+{"frame": 37, "rails_detected": 2, "rails": [{"rank": 1, "label": "voie1", "cx": 410.89083086851304, "bbox": [232, 660, 561, 804], "area": 7438}, {"rank": 2, "label": "voie2", "cx": 420.2071516646116, "bbox": [210, 686, 561, 1158], "area": 48660}]}
+{"frame": 38, "rails_detected": 2, "rails": [{"rank": 1, "label": "voie1", "cx": 409.8199076449461, "bbox": [219, 660, 561, 810], "area": 7796}, {"rank": 2, "label": "voie2", "cx": 423.89542692676685, "bbox": [212, 692, 565, 1166], "area": 50032}]}
+{"frame": 39, "rails_detected": 2, "rails": [{"rank": 1, "label": "voie1", "cx": 415.06943314347706, "bbox": [232, 668, 561, 812], "area": 7374}, {"rank": 2, "label": "voie2", "cx": 422.5583792289536, "bbox": [210, 692, 565, 1170], "area": 50840}]}
+{"frame": 40, "rails_detected": 2, "rails": [{"rank": 1, "label": "voie1", "cx": 416.4445041655469, "bbox": [229, 668, 561, 820], "area": 7442}, {"rank": 2, "label": "voie2", "cx": 423.1206923744184, "bbox": [210, 692, 565, 1180], "area": 50724}]}
+{"frame": 41, "rails_detected": 2, "rails": [{"rank": 1, "label": "voie1", "cx": 415.28945960406634, "bbox": [231, 668, 561, 812], "area": 7476}, {"rank": 2, "label": "voie2", "cx": 422.6933688665935, "bbox": [209, 696, 565, 1172], "area": 51032}]}
+{"frame": 42, "rails_detected": 2, "rails": [{"rank": 1, "label": "voie1", "cx": 413.056702449766, "bbox": [232, 668, 561, 808], "area": 7266}, {"rank": 2, "label": "voie2", "cx": 424.65241893876254, "bbox": [216, 698, 565, 1168], "area": 50394}]}
+{"frame": 43, "rails_detected": 2, "rails": [{"rank": 1, "label": "voie1", "cx": 412.77964676198485, "bbox": [234, 668, 561, 808], "area": 7134}, {"rank": 2, "label": "voie2", "cx": 425.3211579870803, "bbox": [220, 698, 565, 1168], "area": 50156}]}
+{"frame": 44, "rails_detected": 2, "rails": [{"rank": 1, "label": "voie1", "cx": 410.97895622895624, "bbox": [233, 668, 561, 808], "area": 7128}, {"rank": 2, "label": "voie2", "cx": 425.1921393905641, "bbox": [220, 698, 565, 1168], "area": 50276}]}
+{"frame": 45, "rails_detected": 2, "rails": [{"rank": 1, "label": "voie1", "cx": 417.02580820429233, "bbox": [239, 668, 561, 812], "area": 7362}, {"rank": 2, "label": "voie2", "cx": 424.047182433496, "bbox": [212, 696, 565, 1180], "area": 50824}]}
+{"frame": 46, "rails_detected": 2, "rails": [{"rank": 1, "label": "voie1", "cx": 411.8465622511282, "bbox": [228, 660, 561, 802], "area": 7534}, {"rank": 2, "label": "voie2", "cx": 422.92540143161153, "bbox": [205, 690, 565, 1166], "area": 51690}]}
+{"frame": 47, "rails_detected": 2, "rails": [{"rank": 1, "label": "voie1", "cx": 417.6866801210898, "bbox": [228, 652, 561, 804], "area": 7928}, {"rank": 2, "label": "voie2", "cx": 420.18792561029034, "bbox": [214, 692, 565, 1126], "area": 50222}]}
+{"frame": 48, "rails_detected": 2, "rails": [{"rank": 1, "label": "voie1", "cx": 422.1005190379968, "bbox": [214, 690, 565, 1156], "area": 50478}, {"rank": 2, "label": "voie2", "cx": 423.7927883428007, "bbox": [239, 660, 561, 798], "area": 8098}]}
+{"frame": 49, "rails_detected": 2, "rails": [{"rank": 1, "label": "voie1", "cx": 418.9657458563536, "bbox": [245, 668, 561, 812], "area": 7240}, {"rank": 2, "label": "voie2", "cx": 428.60721595697714, "bbox": [231, 706, 565, 1166], "area": 49834}]}
+{"frame": 50, "rails_detected": 2, "rails": [{"rank": 1, "label": "voie1", "cx": 419.7822111388196, "bbox": [241, 676, 565, 810], "area": 7218}, {"rank": 2, "label": "voie2", "cx": 427.57050609411573, "bbox": [229, 708, 565, 1168], "area": 49556}]}
+{"frame": 51, "rails_detected": 2, "rails": [{"rank": 1, "label": "voie1", "cx": 426.3137081541615, "bbox": [227, 708, 565, 1174], "area": 49766}, {"rank": 2, "label": "voie2", "cx": 428.7032716927454, "bbox": [256, 684, 565, 820], "area": 7030}]}
+{"frame": 52, "rails_detected": 2, "rails": [{"rank": 1, "label": "voie1", "cx": 420.175347695664, "bbox": [246, 676, 565, 814], "area": 7334}, {"rank": 2, "label": "voie2", "cx": 431.82517773250737, "bbox": [242, 728, 565, 1170], "area": 48106}]}
+{"frame": 53, "rails_detected": 2, "rails": [{"rank": 1, "label": "voie1", "cx": 419.912254610351, "bbox": [250, 676, 561, 810], "area": 6724}, {"rank": 2, "label": "voie2", "cx": 434.91853343401294, "bbox": [245, 744, 565, 1168], "area": 47676}]}
+{"frame": 54, "rails_detected": 2, "rails": [{"rank": 1, "label": "voie1", "cx": 422.6242644998599, "bbox": [255, 676, 565, 810], "area": 7138}, {"rank": 2, "label": "voie2", "cx": 431.3626868728241, "bbox": [234, 728, 565, 1180], "area": 48830}]}
+{"frame": 55, "rails_detected": 2, "rails": [{"rank": 1, "label": "voie1", "cx": 427.99140995260666, "bbox": [263, 684, 561, 820], "area": 6752}, {"rank": 2, "label": "voie2", "cx": 428.75432229652586, "bbox": [229, 724, 561, 1180], "area": 49048}]}
+{"frame": 56, "rails_detected": 2, "rails": [{"rank": 1, "label": "voie1", "cx": 429.1132021786847, "bbox": [229, 726, 561, 1174], "area": 49204}, {"rank": 2, "label": "voie2", "cx": 429.145318782309, "bbox": [260, 684, 561, 820], "area": 6964}]}
+{"frame": 57, "rails_detected": 2, "rails": [{"rank": 1, "label": "voie1", "cx": 431.7733579638752, "bbox": [246, 730, 560, 1174], "area": 48720}, {"rank": 2, "label": "voie2", "cx": 432.1863389539869, "bbox": [267, 684, 561, 820], "area": 6998}]}
+{"frame": 58, "rails_detected": 2, "rails": [{"rank": 1, "label": "voie1", "cx": 425.5778735632184, "bbox": [264, 676, 561, 808], "area": 6960}, {"rank": 2, "label": "voie2", "cx": 431.3658915998035, "bbox": [237, 728, 561, 1180], "area": 48856}]}
+{"frame": 59, "rails_detected": 2, "rails": [{"rank": 1, "label": "voie1", "cx": 429.4053651266766, "bbox": [268, 676, 561, 806], "area": 6710}, {"rank": 2, "label": "voie2", "cx": 433.2106002976683, "bbox": [239, 738, 565, 1180], "area": 48376}]}
+{"frame": 60, "rails_detected": 2, "rails": [{"rank": 1, "label": "voie1", "cx": 427.2101047443007, "bbox": [273, 676, 561, 806], "area": 6492}, {"rank": 2, "label": "voie2", "cx": 436.67086384855884, "bbox": [258, 744, 561, 1166], "area": 46698}]}
+{"frame": 61, "rails_detected": 2, "rails": [{"rank": 1, "label": "voie1", "cx": 429.84044233807265, "bbox": [277, 684, 561, 808], "area": 6330}, {"rank": 2, "label": "voie2", "cx": 439.4575246440307, "bbox": [263, 760, 561, 1166], "area": 45650}]}
+{"frame": 62, "rails_detected": 2, "rails": [{"rank": 1, "label": "voie1", "cx": 432.3939487496141, "bbox": [282, 684, 561, 810], "area": 6478}, {"rank": 2, "label": "voie2", "cx": 440.08553442507485, "bbox": [263, 762, 565, 1168], "area": 45432}]}
+{"frame": 63, "rails_detected": 2, "rails": [{"rank": 1, "label": "voie1", "cx": 433.13850837138506, "bbox": [286, 684, 561, 810], "area": 6570}, {"rank": 2, "label": "voie2", "cx": 441.9465271338367, "bbox": [267, 770, 565, 1168], "area": 45294}]}
+{"frame": 64, "rails_detected": 2, "rails": [{"rank": 1, "label": "voie1", "cx": 436.664481897628, "bbox": [291, 684, 561, 812], "area": 6408}, {"rank": 2, "label": "voie2", "cx": 439.76582527669626, "bbox": [257, 764, 560, 1168], "area": 45718}]}
+{"frame": 65, "rails_detected": 2, "rails": [{"rank": 1, "label": "voie1", "cx": 443.84259008398806, "bbox": [291, 684, 561, 812], "area": 7382}, {"rank": 2, "label": "voie2", "cx": 443.98322722283206, "bbox": [270, 764, 565, 1168], "area": 45550}]}
+{"frame": 66, "rails_detected": 2, "rails": [{"rank": 1, "label": "voie1", "cx": 442.3147904033746, "bbox": [291, 676, 561, 802], "area": 7586}, {"rank": 2, "label": "voie2", "cx": 444.89272584033614, "bbox": [277, 766, 565, 1166], "area": 45696}]}
+{"frame": 67, "rails_detected": 2, "rails": [{"rank": 1, "label": "voie1", "cx": 442.1109234234234, "bbox": [295, 676, 561, 804], "area": 7104}, {"rank": 2, "label": "voie2", "cx": 445.27172756296557, "bbox": [283, 764, 565, 1166], "area": 45104}]}
+{"frame": 68, "rails_detected": 2, "rails": [{"rank": 1, "label": "voie1", "cx": 445.25069098949695, "bbox": [304, 684, 561, 812], "area": 7236}, {"rank": 2, "label": "voie2", "cx": 445.9156425085849, "bbox": [282, 772, 565, 1180], "area": 44264}]}
+{"frame": 69, "rails_detected": 2, "rails": [{"rank": 1, "label": "voie1", "cx": 446.68680820177826, "bbox": [282, 780, 561, 1180], "area": 44088}, {"rank": 2, "label": "voie2", "cx": 446.79810373675406, "bbox": [304, 692, 561, 812], "area": 7172}]}
+{"frame": 70, "rails_detected": 2, "rails": [{"rank": 1, "label": "voie1", "cx": 444.4850063476776, "bbox": [279, 778, 558, 1188], "area": 45686}, {"rank": 2, "label": "voie2", "cx": 456.3270353830299, "bbox": [322, 700, 561, 820], "area": 5822}]}
+{"frame": 71, "rails_detected": 2, "rails": [{"rank": 1, "label": "voie1", "cx": 447.8372731297034, "bbox": [283, 788, 561, 1188], "area": 45180}, {"rank": 2, "label": "voie2", "cx": 458.0394056847545, "bbox": [313, 700, 561, 820], "area": 6192}]}
+{"frame": 72, "rails_detected": 2, "rails": [{"rank": 1, "label": "voie1", "cx": 447.7785997357992, "bbox": [291, 786, 560, 1188], "area": 45420}, {"rank": 2, "label": "voie2", "cx": 456.014309484193, "bbox": [322, 700, 561, 812], "area": 6010}]}
+{"frame": 73, "rails_detected": 2, "rails": [{"rank": 1, "label": "voie1", "cx": 449.76795726457993, "bbox": [292, 788, 561, 1188], "area": 45302}, {"rank": 2, "label": "voie2", "cx": 457.5543323863636, "bbox": [327, 700, 561, 812], "area": 5632}]}
+{"frame": 74, "rails_detected": 2, "rails": [{"rank": 1, "label": "voie1", "cx": 449.7490216540569, "bbox": [286, 790, 565, 1188], "area": 45996}, {"rank": 2, "label": "voie2", "cx": 468.3067442656624, "bbox": [336, 708, 565, 820], "area": 5842}]}
+{"frame": 75, "rails_detected": 2, "rails": [{"rank": 1, "label": "voie1", "cx": 451.50333348248245, "bbox": [292, 798, 560, 1196], "area": 44698}, {"rank": 2, "label": "voie2", "cx": 473.80086736537766, "bbox": [345, 716, 565, 820], "area": 5534}]}
+{"frame": 76, "rails_detected": 2, "rails": [{"rank": 1, "label": "voie1", "cx": 450.50752314814815, "bbox": [286, 798, 560, 1196], "area": 44928}, {"rank": 2, "label": "voie2", "cx": 472.0978739002933, "bbox": [358, 716, 565, 820], "area": 5456}]}
+{"frame": 77, "rails_detected": 2, "rails": [{"rank": 1, "label": "voie1", "cx": 453.908992464919, "bbox": [291, 812, 565, 1204], "area": 44326}, {"rank": 2, "label": "voie2", "cx": 485.92633848365074, "bbox": [367, 740, 565, 828], "area": 5566}]}
+{"frame": 78, "rails_detected": 2, "rails": [{"rank": 1, "label": "voie1", "cx": 460.85444402775175, "bbox": [317, 828, 565, 1212], "area": 42664}, {"rank": 2, "label": "voie2", "cx": 484.8827671913836, "bbox": [376, 748, 565, 828], "area": 4828}]}
+{"frame": 79, "rails_detected": 2, "rails": [{"rank": 1, "label": "voie1", "cx": 461.7590378327884, "bbox": [311, 834, 565, 1216], "area": 42820}, {"rank": 2, "label": "voie2", "cx": 492.724870017331, "bbox": [394, 756, 565, 828], "area": 4616}]}
+{"frame": 80, "rails_detected": 2, "rails": [{"rank": 1, "label": "voie1", "cx": 466.3803319822428, "bbox": [314, 830, 565, 1212], "area": 41448}, {"rank": 2, "label": "voie2", "cx": 501.00725952813065, "bbox": [412, 748, 565, 820], "area": 4408}]}
+{"frame": 81, "rails_detected": 2, "rails": [{"rank": 1, "label": "voie1", "cx": 473.3655715893972, "bbox": [326, 824, 565, 1188], "area": 39084}, {"rank": 2, "label": "voie2", "cx": 506.40270648623425, "bbox": [430, 732, 565, 812], "area": 4286}]}
+{"frame": 82, "rails_detected": 2, "rails": [{"rank": 1, "label": "voie1", "cx": 474.48162120825896, "bbox": [329, 822, 565, 1180], "area": 39230}, {"rank": 2, "label": "voie2", "cx": 516.0558092338914, "bbox": [448, 732, 565, 804], "area": 3942}]}
+{"frame": 83, "rails_detected": 2, "rails": [{"rank": 1, "label": "voie1", "cx": 485.91337045754636, "bbox": [349, 852, 565, 1196], "area": 34838}, {"rank": 2, "label": "voie2", "cx": 521.7310104529616, "bbox": [471, 756, 565, 812], "area": 2870}]}
+{"frame": 84, "rails_detected": 1, "rails": [{"rank": 1, "label": "voie1", "cx": 494.84080891884884, "bbox": [372, 882, 561, 1212], "area": 30856}]}
+{"frame": 85, "rails_detected": 0, "rails": []}
+{"frame": 86, "rails_detected": 0, "rails": []}
+{"frame": 87, "rails_detected": 0, "rails": []}
+{"frame": 88, "rails_detected": 0, "rails": []}
+{"frame": 89, "rails_detected": 0, "rails": []}
+{"frame": 90, "rails_detected": 0, "rails": []}
+{"frame": 91, "rails_detected": 0, "rails": []}
+{"frame": 92, "rails_detected": 0, "rails": []}
+{"frame": 93, "rails_detected": 0, "rails": []}
+{"frame": 94, "rails_detected": 0, "rails": []}
+{"frame": 95, "rails_detected": 0, "rails": []}
+{"frame": 96, "rails_detected": 0, "rails": []}
+{"frame": 97, "rails_detected": 0, "rails": []}
+{"frame": 98, "rails_detected": 0, "rails": []}
+{"frame": 99, "rails_detected": 0, "rails": []}
+{"frame": 100, "rails_detected": 0, "rails": []}
+{"frame": 101, "rails_detected": 0, "rails": []}
+{"frame": 102, "rails_detected": 0, "rails": []}
+{"frame": 103, "rails_detected": 0, "rails": []}
+{"frame": 104, "rails_detected": 0, "rails": []}
+{"frame": 105, "rails_detected": 0, "rails": []}
+{"frame": 106, "rails_detected": 0, "rails": []}
+{"frame": 107, "rails_detected": 0, "rails": []}
+{"frame": 108, "rails_detected": 0, "rails": []}
+{"frame": 109, "rails_detected": 0, "rails": []}
+{"frame": 110, "rails_detected": 0, "rails": []}
+{"frame": 111, "rails_detected": 0, "rails": []}
+{"frame": 112, "rails_detected": 0, "rails": []}
+{"frame": 113, "rails_detected": 0, "rails": []}
+{"frame": 114, "rails_detected": 0, "rails": []}
+{"frame": 115, "rails_detected": 0, "rails": []}
+{"frame": 116, "rails_detected": 0, "rails": []}
+{"frame": 117, "rails_detected": 0, "rails": []}
+{"frame": 118, "rails_detected": 0, "rails": []}
+{"frame": 119, "rails_detected": 0, "rails": []}
+{"frame": 120, "rails_detected": 0, "rails": []}
+{"frame": 121, "rails_detected": 1, "rails": [{"rank": 1, "label": "voie1", "cx": 324.12526146980895, "bbox": [223, 916, 450, 1280], "area": 57368}]}
+{"frame": 122, "rails_detected": 1, "rails": [{"rank": 1, "label": "voie1", "cx": 341.07227771658626, "bbox": [240, 956, 473, 1280], "area": 52658}]}
+{"frame": 123, "rails_detected": 0, "rails": []}
+{"frame": 124, "rails_detected": 0, "rails": []}
+{"frame": 125, "rails_detected": 0, "rails": []}
+{"frame": 126, "rails_detected": 0, "rails": []}
+{"frame": 127, "rails_detected": 0, "rails": []}
+{"frame": 128, "rails_detected": 0, "rails": []}
+{"frame": 129, "rails_detected": 0, "rails": []}
+{"frame": 130, "rails_detected": 0, "rails": []}
+{"frame": 131, "rails_detected": 0, "rails": []}
+{"frame": 132, "rails_detected": 0, "rails": []}
+{"frame": 133, "rails_detected": 0, "rails": []}
+{"frame": 134, "rails_detected": 0, "rails": []}
+{"frame": 135, "rails_detected": 0, "rails": []}
+{"frame": 136, "rails_detected": 0, "rails": []}
+{"frame": 137, "rails_detected": 0, "rails": []}
+{"frame": 138, "rails_detected": 0, "rails": []}
+{"frame": 139, "rails_detected": 0, "rails": []}
+{"frame": 140, "rails_detected": 0, "rails": []}
+{"frame": 141, "rails_detected": 0, "rails": []}
+{"frame": 142, "rails_detected": 0, "rails": []}
+{"frame": 143, "rails_detected": 0, "rails": []}
+{"frame": 144, "rails_detected": 0, "rails": []}
+{"frame": 145, "rails_detected": 0, "rails": []}
+{"frame": 146, "rails_detected": 0, "rails": []}
+{"frame": 147, "rails_detected": 0, "rails": []}
+{"frame": 148, "rails_detected": 0, "rails": []}
+{"frame": 149, "rails_detected": 1, "rails": [{"rank": 1, "label": "voie1", "cx": 324.9397695296798, "bbox": [220, 908, 454, 1280], "area": 59704}]}
+{"frame": 150, "rails_detected": 1, "rails": [{"rank": 1, "label": "voie1", "cx": 349.2724126984127, "bbox": [231, 924, 516, 1280], "area": 63000}]}
+{"frame": 151, "rails_detected": 1, "rails": [{"rank": 1, "label": "voie1", "cx": 355.46216174424, "bbox": [231, 948, 556, 1280], "area": 64670}]}
+{"frame": 152, "rails_detected": 1, "rails": [{"rank": 1, "label": "voie1", "cx": 340.47221000642736, "bbox": [231, 940, 473, 1280], "area": 59122}]}
+{"frame": 153, "rails_detected": 1, "rails": [{"rank": 1, "label": "voie1", "cx": 347.6778449502134, "bbox": [241, 964, 479, 1280], "area": 56240}]}
+{"frame": 154, "rails_detected": 0, "rails": []}
+{"frame": 155, "rails_detected": 0, "rails": []}
+{"frame": 156, "rails_detected": 0, "rails": []}
+{"frame": 157, "rails_detected": 0, "rails": []}
+{"frame": 158, "rails_detected": 0, "rails": []}
+{"frame": 159, "rails_detected": 0, "rails": []}
+{"frame": 160, "rails_detected": 0, "rails": []}
+{"frame": 161, "rails_detected": 0, "rails": []}
+{"frame": 162, "rails_detected": 0, "rails": []}
+{"frame": 163, "rails_detected": 0, "rails": []}
+{"frame": 164, "rails_detected": 0, "rails": []}
+{"frame": 165, "rails_detected": 0, "rails": []}
+{"frame": 166, "rails_detected": 0, "rails": []}
+{"frame": 167, "rails_detected": 0, "rails": []}
+{"frame": 168, "rails_detected": 0, "rails": []}
+{"frame": 169, "rails_detected": 0, "rails": []}
+{"frame": 170, "rails_detected": 0, "rails": []}
+{"frame": 171, "rails_detected": 0, "rails": []}
+{"frame": 172, "rails_detected": 0, "rails": []}
+{"frame": 173, "rails_detected": 0, "rails": []}
+{"frame": 174, "rails_detected": 0, "rails": []}
+{"frame": 175, "rails_detected": 0, "rails": []}
+{"frame": 176, "rails_detected": 0, "rails": []}
+{"frame": 177, "rails_detected": 1, "rails": [{"rank": 1, "label": "voie1", "cx": 337.4047229441396, "bbox": [227, 884, 474, 1276], "area": 62334}]}
+{"frame": 178, "rails_detected": 1, "rails": [{"rank": 1, "label": "voie1", "cx": 342.71555650009105, "bbox": [231, 884, 482, 1280], "area": 65876}]}
+{"frame": 179, "rails_detected": 1, "rails": [{"rank": 1, "label": "voie1", "cx": 352.73548633914623, "bbox": [247, 900, 491, 1280], "area": 62734}]}
+{"frame": 180, "rails_detected": 0, "rails": []}
+{"frame": 181, "rails_detected": 0, "rails": []}
+{"frame": 182, "rails_detected": 0, "rails": []}
+{"frame": 183, "rails_detected": 0, "rails": []}
+{"frame": 184, "rails_detected": 0, "rails": []}
+{"frame": 185, "rails_detected": 0, "rails": []}
+{"frame": 186, "rails_detected": 0, "rails": []}
+{"frame": 187, "rails_detected": 0, "rails": []}
+{"frame": 188, "rails_detected": 0, "rails": []}
+{"frame": 189, "rails_detected": 0, "rails": []}
+{"frame": 190, "rails_detected": 0, "rails": []}
+{"frame": 191, "rails_detected": 0, "rails": []}
+{"frame": 192, "rails_detected": 0, "rails": []}
+{"frame": 193, "rails_detected": 0, "rails": []}
+{"frame": 194, "rails_detected": 0, "rails": []}
+{"frame": 195, "rails_detected": 0, "rails": []}
+{"frame": 196, "rails_detected": 0, "rails": []}
+{"frame": 197, "rails_detected": 0, "rails": []}
+{"frame": 198, "rails_detected": 0, "rails": []}
+{"frame": 199, "rails_detected": 0, "rails": []}
+{"frame": 200, "rails_detected": 0, "rails": []}
+{"frame": 201, "rails_detected": 0, "rails": []}
+{"frame": 202, "rails_detected": 0, "rails": []}
+{"frame": 203, "rails_detected": 0, "rails": []}
+{"frame": 204, "rails_detected": 0, "rails": []}
+{"frame": 205, "rails_detected": 0, "rails": []}
+{"frame": 206, "rails_detected": 0, "rails": []}
+{"frame": 207, "rails_detected": 0, "rails": []}
+{"frame": 208, "rails_detected": 0, "rails": []}
+{"frame": 209, "rails_detected": 0, "rails": []}
+{"frame": 210, "rails_detected": 0, "rails": []}
+{"frame": 211, "rails_detected": 0, "rails": []}
+{"frame": 212, "rails_detected": 0, "rails": []}
+{"frame": 213, "rails_detected": 0, "rails": []}
+{"frame": 214, "rails_detected": 0, "rails": []}
+{"frame": 215, "rails_detected": 0, "rails": []}
+{"frame": 216, "rails_detected": 0, "rails": []}
+{"frame": 217, "rails_detected": 0, "rails": []}
+{"frame": 218, "rails_detected": 0, "rails": []}
+{"frame": 219, "rails_detected": 0, "rails": []}
+{"frame": 220, "rails_detected": 0, "rails": []}
+{"frame": 221, "rails_detected": 0, "rails": []}
+{"frame": 222, "rails_detected": 0, "rails": []}
+{"frame": 223, "rails_detected": 0, "rails": []}
+{"frame": 224, "rails_detected": 0, "rails": []}
+{"frame": 225, "rails_detected": 0, "rails": []}
+{"frame": 226, "rails_detected": 0, "rails": []}
+{"frame": 227, "rails_detected": 0, "rails": []}
+{"frame": 228, "rails_detected": 0, "rails": []}
+{"frame": 229, "rails_detected": 0, "rails": []}
+{"frame": 230, "rails_detected": 0, "rails": []}
+{"frame": 231, "rails_detected": 0, "rails": []}
+{"frame": 232, "rails_detected": 0, "rails": []}
+{"frame": 233, "rails_detected": 1, "rails": [{"rank": 1, "label": "voie1", "cx": 381.75241696059277, "bbox": [256, 848, 547, 1280], "area": 78818}]}
+{"frame": 234, "rails_detected": 0, "rails": []}
+{"frame": 235, "rails_detected": 0, "rails": []}
+{"frame": 236, "rails_detected": 0, "rails": []}
+{"frame": 237, "rails_detected": 0, "rails": []}
+{"frame": 238, "rails_detected": 1, "rails": [{"rank": 1, "label": "voie1", "cx": 389.4134070722306, "bbox": [277, 900, 517, 1280], "area": 59670}]}
+{"frame": 239, "rails_detected": 0, "rails": []}
+{"frame": 240, "rails_detected": 1, "rails": [{"rank": 1, "label": "voie1", "cx": 392.17497328281354, "bbox": [274, 884, 528, 1280], "area": 61758}]}
+{"frame": 241, "rails_detected": 1, "rails": [{"rank": 1, "label": "voie1", "cx": 408.8451539254677, "bbox": [302, 908, 553, 1280], "area": 54312}]}
+{"frame": 242, "rails_detected": 0, "rails": []}
+{"frame": 243, "rails_detected": 0, "rails": []}
+{"frame": 244, "rails_detected": 0, "rails": []}
+{"frame": 245, "rails_detected": 0, "rails": []}
+{"frame": 246, "rails_detected": 0, "rails": []}
+{"frame": 247, "rails_detected": 0, "rails": []}
+{"frame": 248, "rails_detected": 0, "rails": []}
+{"frame": 249, "rails_detected": 0, "rails": []}
+{"frame": 250, "rails_detected": 0, "rails": []}
+{"frame": 251, "rails_detected": 0, "rails": []}
+{"frame": 252, "rails_detected": 0, "rails": []}
+{"frame": 253, "rails_detected": 0, "rails": []}
+{"frame": 254, "rails_detected": 0, "rails": []}
+{"frame": 255, "rails_detected": 0, "rails": []}
+{"frame": 256, "rails_detected": 0, "rails": []}
+{"frame": 257, "rails_detected": 0, "rails": []}
+{"frame": 258, "rails_detected": 0, "rails": []}
+{"frame": 259, "rails_detected": 0, "rails": []}
+{"frame": 260, "rails_detected": 0, "rails": []}
+{"frame": 261, "rails_detected": 0, "rails": []}
+{"frame": 262, "rails_detected": 0, "rails": []}
+{"frame": 263, "rails_detected": 0, "rails": []}
+{"frame": 264, "rails_detected": 0, "rails": []}
+{"frame": 265, "rails_detected": 0, "rails": []}
+{"frame": 266, "rails_detected": 0, "rails": []}
+{"frame": 267, "rails_detected": 0, "rails": []}
+{"frame": 268, "rails_detected": 0, "rails": []}
+{"frame": 269, "rails_detected": 0, "rails": []}
+{"frame": 270, "rails_detected": 0, "rails": []}
+{"frame": 271, "rails_detected": 0, "rails": []}
+{"frame": 272, "rails_detected": 0, "rails": []}
+{"frame": 273, "rails_detected": 0, "rails": []}
+{"frame": 274, "rails_detected": 0, "rails": []}
+{"frame": 275, "rails_detected": 0, "rails": []}
+{"frame": 276, "rails_detected": 0, "rails": []}
+{"frame": 277, "rails_detected": 0, "rails": []}
+{"frame": 278, "rails_detected": 0, "rails": []}
+{"frame": 279, "rails_detected": 0, "rails": []}
+{"frame": 280, "rails_detected": 0, "rails": []}
+{"frame": 281, "rails_detected": 0, "rails": []}
+{"frame": 282, "rails_detected": 0, "rails": []}
+{"frame": 283, "rails_detected": 0, "rails": []}
+{"frame": 284, "rails_detected": 0, "rails": []}
+{"frame": 285, "rails_detected": 0, "rails": []}
+{"frame": 286, "rails_detected": 0, "rails": []}
+{"frame": 287, "rails_detected": 0, "rails": []}
+{"frame": 288, "rails_detected": 0, "rails": []}
+{"frame": 289, "rails_detected": 0, "rails": []}
+{"frame": 290, "rails_detected": 0, "rails": []}
+{"frame": 291, "rails_detected": 0, "rails": []}
+{"frame": 292, "rails_detected": 0, "rails": []}
+{"frame": 293, "rails_detected": 0, "rails": []}
+{"frame": 294, "rails_detected": 0, "rails": []}
+{"frame": 295, "rails_detected": 0, "rails": []}
+{"frame": 296, "rails_detected": 0, "rails": []}
+{"frame": 297, "rails_detected": 0, "rails": []}
+{"frame": 298, "rails_detected": 0, "rails": []}
+{"frame": 299, "rails_detected": 0, "rails": []}
+{"frame": 300, "rails_detected": 0, "rails": []}
+{"frame": 301, "rails_detected": 0, "rails": []}
+{"frame": 302, "rails_detected": 0, "rails": []}
+{"frame": 303, "rails_detected": 0, "rails": []}
+{"frame": 304, "rails_detected": 0, "rails": []}
+{"frame": 305, "rails_detected": 0, "rails": []}
+{"frame": 306, "rails_detected": 0, "rails": []}
+{"frame": 307, "rails_detected": 0, "rails": []}
+{"frame": 308, "rails_detected": 0, "rails": []}
+{"frame": 309, "rails_detected": 0, "rails": []}
+{"frame": 310, "rails_detected": 0, "rails": []}
+{"frame": 311, "rails_detected": 0, "rails": []}
+{"frame": 312, "rails_detected": 0, "rails": []}
+{"frame": 313, "rails_detected": 0, "rails": []}
+{"frame": 314, "rails_detected": 0, "rails": []}
+{"frame": 315, "rails_detected": 0, "rails": []}
+{"frame": 316, "rails_detected": 0, "rails": []}
+{"frame": 317, "rails_detected": 0, "rails": []}
+{"frame": 318, "rails_detected": 0, "rails": []}
+{"frame": 319, "rails_detected": 0, "rails": []}
+{"frame": 320, "rails_detected": 0, "rails": []}
+{"frame": 321, "rails_detected": 0, "rails": []}
+{"frame": 322, "rails_detected": 0, "rails": []}
+{"frame": 323, "rails_detected": 0, "rails": []}
+{"frame": 324, "rails_detected": 0, "rails": []}
+{"frame": 325, "rails_detected": 0, "rails": []}
+{"frame": 326, "rails_detected": 0, "rails": []}
+{"frame": 327, "rails_detected": 0, "rails": []}
+{"frame": 328, "rails_detected": 0, "rails": []}
+{"frame": 329, "rails_detected": 0, "rails": []}
+{"frame": 330, "rails_detected": 0, "rails": []}
+{"frame": 331, "rails_detected": 0, "rails": []}
+{"frame": 332, "rails_detected": 0, "rails": []}
+{"frame": 333, "rails_detected": 0, "rails": []}
+{"frame": 334, "rails_detected": 0, "rails": []}
+{"frame": 335, "rails_detected": 0, "rails": []}
+{"frame": 336, "rails_detected": 0, "rails": []}
+{"frame": 337, "rails_detected": 0, "rails": []}
+{"frame": 338, "rails_detected": 0, "rails": []}
+{"frame": 339, "rails_detected": 0, "rails": []}
+{"frame": 340, "rails_detected": 0, "rails": []}
+{"frame": 341, "rails_detected": 0, "rails": []}
+{"frame": 342, "rails_detected": 0, "rails": []}
+{"frame": 343, "rails_detected": 0, "rails": []}
+{"frame": 344, "rails_detected": 0, "rails": []}
+{"frame": 345, "rails_detected": 0, "rails": []}
+{"frame": 346, "rails_detected": 0, "rails": []}
+{"frame": 347, "rails_detected": 0, "rails": []}
+{"frame": 348, "rails_detected": 0, "rails": []}
+{"frame": 349, "rails_detected": 0, "rails": []}
+{"frame": 350, "rails_detected": 0, "rails": []}
+{"frame": 351, "rails_detected": 0, "rails": []}
+{"frame": 352, "rails_detected": 0, "rails": []}
+{"frame": 353, "rails_detected": 0, "rails": []}
+{"frame": 354, "rails_detected": 0, "rails": []}
+{"frame": 355, "rails_detected": 0, "rails": []}
+{"frame": 356, "rails_detected": 0, "rails": []}
+{"frame": 357, "rails_detected": 0, "rails": []}
+{"frame": 358, "rails_detected": 0, "rails": []}
+{"frame": 359, "rails_detected": 0, "rails": []}
+{"frame": 360, "rails_detected": 0, "rails": []}
+{"frame": 361, "rails_detected": 0, "rails": []}
+{"frame": 362, "rails_detected": 0, "rails": []}
+{"frame": 363, "rails_detected": 0, "rails": []}
+{"frame": 364, "rails_detected": 0, "rails": []}
+{"frame": 365, "rails_detected": 0, "rails": []}
+{"frame": 366, "rails_detected": 0, "rails": []}
+{"frame": 367, "rails_detected": 0, "rails": []}
+{"frame": 368, "rails_detected": 0, "rails": []}
+{"frame": 369, "rails_detected": 0, "rails": []}
+{"frame": 370, "rails_detected": 0, "rails": []}
+{"frame": 371, "rails_detected": 0, "rails": []}
+{"frame": 372, "rails_detected": 0, "rails": []}
+{"frame": 373, "rails_detected": 0, "rails": []}
+{"frame": 374, "rails_detected": 0, "rails": []}
+{"frame": 375, "rails_detected": 0, "rails": []}
+{"frame": 376, "rails_detected": 0, "rails": []}
+{"frame": 377, "rails_detected": 0, "rails": []}
+{"frame": 378, "rails_detected": 0, "rails": []}
+{"frame": 379, "rails_detected": 0, "rails": []}
+{"frame": 380, "rails_detected": 0, "rails": []}
+{"frame": 381, "rails_detected": 0, "rails": []}
+{"frame": 382, "rails_detected": 0, "rails": []}
+{"frame": 383, "rails_detected": 0, "rails": []}
+{"frame": 384, "rails_detected": 0, "rails": []}
+{"frame": 385, "rails_detected": 0, "rails": []}
+{"frame": 386, "rails_detected": 0, "rails": []}
+{"frame": 387, "rails_detected": 0, "rails": []}
+{"frame": 388, "rails_detected": 0, "rails": []}
+{"frame": 389, "rails_detected": 0, "rails": []}
+{"frame": 390, "rails_detected": 0, "rails": []}
+{"frame": 391, "rails_detected": 0, "rails": []}
+{"frame": 392, "rails_detected": 0, "rails": []}
+{"frame": 393, "rails_detected": 0, "rails": []}
+{"frame": 394, "rails_detected": 0, "rails": []}
+{"frame": 395, "rails_detected": 0, "rails": []}
+{"frame": 396, "rails_detected": 0, "rails": []}
+{"frame": 397, "rails_detected": 0, "rails": []}
+{"frame": 398, "rails_detected": 0, "rails": []}
+{"frame": 399, "rails_detected": 0, "rails": []}
+{"frame": 400, "rails_detected": 0, "rails": []}
+{"frame": 401, "rails_detected": 0, "rails": []}
+{"frame": 402, "rails_detected": 0, "rails": []}
+{"frame": 403, "rails_detected": 0, "rails": []}
+{"frame": 404, "rails_detected": 0, "rails": []}
+{"frame": 405, "rails_detected": 0, "rails": []}
+{"frame": 406, "rails_detected": 0, "rails": []}
+{"frame": 407, "rails_detected": 0, "rails": []}
+{"frame": 408, "rails_detected": 0, "rails": []}
+{"frame": 409, "rails_detected": 0, "rails": []}
+{"frame": 410, "rails_detected": 0, "rails": []}
+{"frame": 411, "rails_detected": 0, "rails": []}
+{"frame": 412, "rails_detected": 0, "rails": []}
+{"frame": 413, "rails_detected": 0, "rails": []}
+{"frame": 414, "rails_detected": 0, "rails": []}
+{"frame": 415, "rails_detected": 0, "rails": []}
+{"frame": 416, "rails_detected": 1, "rails": [{"rank": 1, "label": "voie1", "cx": 423.64203154079735, "bbox": [291, 274, 549, 616], "area": 40836}]}
+{"frame": 417, "rails_detected": 0, "rails": []}
+{"frame": 418, "rails_detected": 0, "rails": []}
+{"frame": 419, "rails_detected": 0, "rails": []}
+{"frame": 420, "rails_detected": 0, "rails": []}
+{"frame": 421, "rails_detected": 0, "rails": []}
+{"frame": 422, "rails_detected": 0, "rails": []}
+{"frame": 423, "rails_detected": 0, "rails": []}
+{"frame": 424, "rails_detected": 0, "rails": []}
+{"frame": 425, "rails_detected": 0, "rails": []}
+{"frame": 426, "rails_detected": 0, "rails": []}
+{"frame": 427, "rails_detected": 0, "rails": []}
+{"frame": 428, "rails_detected": 0, "rails": []}
+{"frame": 429, "rails_detected": 0, "rails": []}
+{"frame": 430, "rails_detected": 0, "rails": []}
+{"frame": 431, "rails_detected": 0, "rails": []}
+{"frame": 432, "rails_detected": 0, "rails": []}
+{"frame": 433, "rails_detected": 0, "rails": []}
+{"frame": 434, "rails_detected": 0, "rails": []}
+{"frame": 435, "rails_detected": 0, "rails": []}
+{"frame": 436, "rails_detected": 0, "rails": []}
+{"frame": 437, "rails_detected": 0, "rails": []}
+{"frame": 438, "rails_detected": 0, "rails": []}
+{"frame": 439, "rails_detected": 0, "rails": []}
+{"frame": 440, "rails_detected": 0, "rails": []}
+{"frame": 441, "rails_detected": 0, "rails": []}
+{"frame": 442, "rails_detected": 0, "rails": []}
+{"frame": 443, "rails_detected": 0, "rails": []}
+{"frame": 444, "rails_detected": 0, "rails": []}
+{"frame": 445, "rails_detected": 0, "rails": []}
+{"frame": 446, "rails_detected": 0, "rails": []}
+{"frame": 447, "rails_detected": 0, "rails": []}
+{"frame": 448, "rails_detected": 0, "rails": []}
+{"frame": 449, "rails_detected": 0, "rails": []}
+{"frame": 450, "rails_detected": 0, "rails": []}
+{"frame": 451, "rails_detected": 0, "rails": []}
+{"frame": 452, "rails_detected": 0, "rails": []}
+{"frame": 453, "rails_detected": 0, "rails": []}
+{"frame": 454, "rails_detected": 0, "rails": []}
+{"frame": 455, "rails_detected": 0, "rails": []}
+{"frame": 456, "rails_detected": 0, "rails": []}
+{"frame": 457, "rails_detected": 0, "rails": []}
+{"frame": 458, "rails_detected": 0, "rails": []}
+{"frame": 459, "rails_detected": 0, "rails": []}
+{"frame": 460, "rails_detected": 0, "rails": []}
+{"frame": 461, "rails_detected": 0, "rails": []}
+{"frame": 462, "rails_detected": 0, "rails": []}
+{"frame": 463, "rails_detected": 0, "rails": []}
+{"frame": 464, "rails_detected": 0, "rails": []}
+{"frame": 465, "rails_detected": 0, "rails": []}
+{"frame": 466, "rails_detected": 0, "rails": []}
+{"frame": 467, "rails_detected": 0, "rails": []}
+{"frame": 468, "rails_detected": 0, "rails": []}
+{"frame": 469, "rails_detected": 0, "rails": []}
+{"frame": 470, "rails_detected": 0, "rails": []}
+{"frame": 471, "rails_detected": 0, "rails": []}
+{"frame": 472, "rails_detected": 0, "rails": []}
+{"frame": 473, "rails_detected": 0, "rails": []}
+{"frame": 474, "rails_detected": 0, "rails": []}
+{"frame": 475, "rails_detected": 0, "rails": []}
+{"frame": 476, "rails_detected": 0, "rails": []}
+{"frame": 477, "rails_detected": 0, "rails": []}
+{"frame": 478, "rails_detected": 0, "rails": []}
+{"frame": 479, "rails_detected": 0, "rails": []}
+{"frame": 480, "rails_detected": 0, "rails": []}
+{"frame": 481, "rails_detected": 0, "rails": []}
+{"frame": 482, "rails_detected": 0, "rails": []}
+{"frame": 483, "rails_detected": 0, "rails": []}
+{"frame": 484, "rails_detected": 0, "rails": []}
+{"frame": 485, "rails_detected": 0, "rails": []}
+{"frame": 486, "rails_detected": 0, "rails": []}
+{"frame": 487, "rails_detected": 0, "rails": []}
+{"frame": 488, "rails_detected": 0, "rails": []}
+{"frame": 489, "rails_detected": 0, "rails": []}
+{"frame": 490, "rails_detected": 0, "rails": []}
+{"frame": 491, "rails_detected": 0, "rails": []}
+{"frame": 492, "rails_detected": 0, "rails": []}
+{"frame": 493, "rails_detected": 0, "rails": []}
+{"frame": 494, "rails_detected": 0, "rails": []}
+{"frame": 495, "rails_detected": 0, "rails": []}
+{"frame": 496, "rails_detected": 0, "rails": []}
+{"frame": 497, "rails_detected": 0, "rails": []}
+{"frame": 498, "rails_detected": 0, "rails": []}
+{"frame": 499, "rails_detected": 0, "rails": []}
+{"frame": 500, "rails_detected": 0, "rails": []}
+{"frame": 501, "rails_detected": 0, "rails": []}
+{"frame": 502, "rails_detected": 0, "rails": []}
+{"frame": 503, "rails_detected": 0, "rails": []}
+{"frame": 504, "rails_detected": 0, "rails": []}
+{"frame": 505, "rails_detected": 0, "rails": []}
+{"frame": 506, "rails_detected": 0, "rails": []}
+{"frame": 507, "rails_detected": 0, "rails": []}
+{"frame": 508, "rails_detected": 0, "rails": []}
+{"frame": 509, "rails_detected": 0, "rails": []}
+{"frame": 510, "rails_detected": 0, "rails": []}
+{"frame": 511, "rails_detected": 0, "rails": []}
+{"frame": 512, "rails_detected": 0, "rails": []}
+{"frame": 513, "rails_detected": 0, "rails": []}
+{"frame": 514, "rails_detected": 0, "rails": []}
+{"frame": 515, "rails_detected": 0, "rails": []}
+{"frame": 516, "rails_detected": 0, "rails": []}
+{"frame": 517, "rails_detected": 0, "rails": []}
+{"frame": 518, "rails_detected": 0, "rails": []}
+{"frame": 519, "rails_detected": 0, "rails": []}
+{"frame": 520, "rails_detected": 0, "rails": []}
+{"frame": 521, "rails_detected": 0, "rails": []}
+{"frame": 522, "rails_detected": 0, "rails": []}
+{"frame": 523, "rails_detected": 0, "rails": []}
+{"frame": 524, "rails_detected": 0, "rails": []}
+{"frame": 525, "rails_detected": 0, "rails": []}
+{"frame": 526, "rails_detected": 0, "rails": []}
+{"frame": 527, "rails_detected": 0, "rails": []}
+{"frame": 528, "rails_detected": 0, "rails": []}
+{"frame": 529, "rails_detected": 0, "rails": []}
+{"frame": 530, "rails_detected": 0, "rails": []}
+{"frame": 531, "rails_detected": 0, "rails": []}
+{"frame": 532, "rails_detected": 0, "rails": []}
+{"frame": 533, "rails_detected": 0, "rails": []}
+{"frame": 534, "rails_detected": 0, "rails": []}
+{"frame": 535, "rails_detected": 0, "rails": []}
+{"frame": 536, "rails_detected": 0, "rails": []}
+{"frame": 537, "rails_detected": 0, "rails": []}
+{"frame": 538, "rails_detected": 0, "rails": []}
+{"frame": 539, "rails_detected": 0, "rails": []}
+{"frame": 540, "rails_detected": 0, "rails": []}
+{"frame": 541, "rails_detected": 0, "rails": []}
+{"frame": 542, "rails_detected": 0, "rails": []}
+{"frame": 543, "rails_detected": 0, "rails": []}
+{"frame": 544, "rails_detected": 0, "rails": []}
+{"frame": 545, "rails_detected": 0, "rails": []}
+{"frame": 546, "rails_detected": 0, "rails": []}
+{"frame": 547, "rails_detected": 0, "rails": []}
+{"frame": 548, "rails_detected": 0, "rails": []}
+{"frame": 549, "rails_detected": 0, "rails": []}
+{"frame": 550, "rails_detected": 0, "rails": []}
+{"frame": 551, "rails_detected": 0, "rails": []}
+{"frame": 552, "rails_detected": 0, "rails": []}
+{"frame": 553, "rails_detected": 0, "rails": []}
+{"frame": 554, "rails_detected": 0, "rails": []}
+{"frame": 555, "rails_detected": 0, "rails": []}
+{"frame": 556, "rails_detected": 0, "rails": []}
+{"frame": 557, "rails_detected": 0, "rails": []}
+{"frame": 558, "rails_detected": 1, "rails": [{"rank": 1, "label": "voie1", "cx": 235.37337035248672, "bbox": [160, 684, 320, 972], "area": 16568}]}
+{"frame": 559, "rails_detected": 1, "rails": [{"rank": 1, "label": "voie1", "cx": 271.93891112285735, "bbox": [156, 684, 376, 1044], "area": 26486}]}
+{"frame": 560, "rails_detected": 2, "rails": [{"rank": 1, "label": "voie1", "cx": 242.1648177496038, "bbox": [160, 628, 313, 716], "area": 3786}, {"rank": 2, "label": "voie2", "cx": 307.2356969977857, "bbox": [156, 682, 443, 1108], "area": 38838}]}
+{"frame": 561, "rails_detected": 2, "rails": [{"rank": 1, "label": "voie1", "cx": 279.98953537044787, "bbox": [179, 644, 363, 740], "area": 4778}, {"rank": 2, "label": "voie2", "cx": 322.7063994534275, "bbox": [156, 686, 508, 1236], "area": 43910}]}
+{"frame": 562, "rails_detected": 3, "rails": [{"rank": 1, "label": "voie1", "cx": 327.52455284552843, "bbox": [195, 652, 430, 772], "area": 6150}, {"rank": 2, "label": "voie2", "cx": 354.709362335908, "bbox": [164, 690, 549, 1280], "area": 57742}, {"rank": 3, "label": "voie3", "cx": 463.8980582524272, "bbox": [452, 1194, 475, 1244], "area": 824}]}
+{"frame": 563, "rails_detected": 2, "rails": [{"rank": 1, "label": "voie1", "cx": 385.2788245219348, "bbox": [169, 696, 551, 1280], "area": 71120}, {"rank": 2, "label": "voie2", "cx": 391.7589975504051, "bbox": [193, 652, 529, 816], "area": 10614}]}
+{"frame": 564, "rails_detected": 2, "rails": [{"rank": 1, "label": "voie1", "cx": 389.01093894920615, "bbox": [168, 694, 552, 1276], "area": 73316}, {"rank": 2, "label": "voie2", "cx": 416.6482984701842, "bbox": [192, 652, 565, 836], "area": 12812}]}
+{"frame": 565, "rails_detected": 2, "rails": [{"rank": 1, "label": "voie1", "cx": 389.2582686698586, "bbox": [169, 694, 553, 1276], "area": 72684}, {"rank": 2, "label": "voie2", "cx": 418.63106495117034, "bbox": [196, 652, 565, 836], "area": 12902}]}
+{"frame": 566, "rails_detected": 2, "rails": [{"rank": 1, "label": "voie1", "cx": 388.0515626731686, "bbox": [169, 692, 551, 1276], "area": 72184}, {"rank": 2, "label": "voie2", "cx": 419.4583266932271, "bbox": [200, 652, 565, 836], "area": 12550}]}
+{"frame": 567, "rails_detected": 2, "rails": [{"rank": 1, "label": "voie1", "cx": 386.6539846915804, "bbox": [170, 692, 552, 1276], "area": 71072}, {"rank": 2, "label": "voie2", "cx": 426.2746808854419, "bbox": [214, 660, 565, 836], "area": 12378}]}
+{"frame": 568, "rails_detected": 2, "rails": [{"rank": 1, "label": "voie1", "cx": 384.822354831306, "bbox": [173, 696, 551, 1230], "area": 69712}, {"rank": 2, "label": "voie2", "cx": 427.3756011542161, "bbox": [220, 660, 565, 836], "area": 12476}]}
+{"frame": 569, "rails_detected": 2, "rails": [{"rank": 1, "label": "voie1", "cx": 385.8618503354941, "bbox": [171, 694, 552, 1230], "area": 70344}, {"rank": 2, "label": "voie2", "cx": 427.0172193877551, "bbox": [219, 660, 565, 836], "area": 12544}]}
+{"frame": 570, "rails_detected": 2, "rails": [{"rank": 1, "label": "voie1", "cx": 384.42268070985426, "bbox": [173, 696, 553, 1230], "area": 69310}, {"rank": 2, "label": "voie2", "cx": 420.3632982021079, "bbox": [210, 652, 565, 836], "area": 12904}]}
+{"frame": 571, "rails_detected": 2, "rails": [{"rank": 1, "label": "voie1", "cx": 386.1989361401126, "bbox": [169, 692, 552, 1276], "area": 70686}, {"rank": 2, "label": "voie2", "cx": 426.23592755751343, "bbox": [218, 660, 565, 836], "area": 12258}]}
+{"frame": 572, "rails_detected": 2, "rails": [{"rank": 1, "label": "voie1", "cx": 386.39297762284946, "bbox": [167, 692, 553, 1276], "area": 71144}, {"rank": 2, "label": "voie2", "cx": 425.4391869918699, "bbox": [215, 660, 565, 836], "area": 12300}]}
+{"frame": 573, "rails_detected": 2, "rails": [{"rank": 1, "label": "voie1", "cx": 385.57859228392437, "bbox": [168, 694, 553, 1276], "area": 70554}, {"rank": 2, "label": "voie2", "cx": 426.19448499594483, "bbox": [210, 660, 565, 836], "area": 12330}]}
+{"frame": 574, "rails_detected": 2, "rails": [{"rank": 1, "label": "voie1", "cx": 383.8569788138026, "bbox": [169, 692, 554, 1230], "area": 69668}, {"rank": 2, "label": "voie2", "cx": 425.368722186904, "bbox": [214, 660, 565, 836], "area": 12584}]}
+{"frame": 575, "rails_detected": 2, "rails": [{"rank": 1, "label": "voie1", "cx": 383.66092268679944, "bbox": [169, 692, 554, 1230], "area": 69406}, {"rank": 2, "label": "voie2", "cx": 423.88415592580947, "bbox": [216, 660, 565, 834], "area": 12724}]}
+{"frame": 576, "rails_detected": 2, "rails": [{"rank": 1, "label": "voie1", "cx": 386.5010503605292, "bbox": [171, 696, 553, 1276], "area": 70452}, {"rank": 2, "label": "voie2", "cx": 422.9466287699353, "bbox": [214, 660, 565, 834], "area": 12666}]}
+{"frame": 577, "rails_detected": 2, "rails": [{"rank": 1, "label": "voie1", "cx": 385.13855215004577, "bbox": [170, 694, 552, 1276], "area": 69952}, {"rank": 2, "label": "voie2", "cx": 422.7559892114866, "bbox": [214, 660, 565, 834], "area": 12606}]}
+{"frame": 578, "rails_detected": 2, "rails": [{"rank": 1, "label": "voie1", "cx": 384.7293983461648, "bbox": [169, 694, 551, 1276], "area": 70140}, {"rank": 2, "label": "voie2", "cx": 416.5074238481555, "bbox": [201, 652, 565, 834], "area": 13066}]}
+{"frame": 579, "rails_detected": 2, "rails": [{"rank": 1, "label": "voie1", "cx": 381.97231944002544, "bbox": [167, 692, 552, 1276], "area": 69146}, {"rank": 2, "label": "voie2", "cx": 416.2609984399376, "bbox": [196, 652, 565, 834], "area": 12820}]}
+{"frame": 580, "rails_detected": 2, "rails": [{"rank": 1, "label": "voie1", "cx": 384.81649460951127, "bbox": [169, 696, 551, 1276], "area": 69938}, {"rank": 2, "label": "voie2", "cx": 414.47014246741435, "bbox": [197, 652, 565, 834], "area": 13196}]}
+{"frame": 581, "rails_detected": 2, "rails": [{"rank": 1, "label": "voie1", "cx": 387.64675577833475, "bbox": [167, 692, 554, 1276], "area": 71820}, {"rank": 2, "label": "voie2", "cx": 414.06715967401146, "bbox": [196, 652, 565, 834], "area": 13252}]}
+{"frame": 582, "rails_detected": 2, "rails": [{"rank": 1, "label": "voie1", "cx": 387.9700398539617, "bbox": [167, 692, 554, 1276], "area": 71762}, {"rank": 2, "label": "voie2", "cx": 413.94570612122124, "bbox": [196, 652, 565, 834], "area": 13298}]}
+{"frame": 583, "rails_detected": 2, "rails": [{"rank": 1, "label": "voie1", "cx": 384.5048117988725, "bbox": [166, 692, 551, 1276], "area": 70244}, {"rank": 2, "label": "voie2", "cx": 417.7551649707061, "bbox": [197, 652, 565, 836], "area": 12972}]}
+{"frame": 584, "rails_detected": 2, "rails": [{"rank": 1, "label": "voie1", "cx": 384.098592351969, "bbox": [166, 692, 552, 1276], "area": 70188}, {"rank": 2, "label": "voie2", "cx": 416.60947109471095, "bbox": [197, 652, 565, 836], "area": 13008}]}
+{"frame": 585, "rails_detected": 2, "rails": [{"rank": 1, "label": "voie1", "cx": 383.1713197969543, "bbox": [167, 692, 551, 1276], "area": 69344}, {"rank": 2, "label": "voie2", "cx": 416.9825501301087, "bbox": [197, 652, 565, 834], "area": 13066}]}
+{"frame": 586, "rails_detected": 2, "rails": [{"rank": 1, "label": "voie1", "cx": 384.5070777694997, "bbox": [168, 692, 554, 1232], "area": 69796}, {"rank": 2, "label": "voie2", "cx": 417.15957607872826, "bbox": [200, 652, 565, 834], "area": 13210}]}
+{"frame": 587, "rails_detected": 2, "rails": [{"rank": 1, "label": "voie1", "cx": 385.91353766116265, "bbox": [167, 690, 555, 1276], "area": 70736}, {"rank": 2, "label": "voie2", "cx": 417.0637336145849, "bbox": [200, 652, 565, 834], "area": 13274}]}
+{"frame": 588, "rails_detected": 2, "rails": [{"rank": 1, "label": "voie1", "cx": 387.91901604635615, "bbox": [167, 692, 553, 1276], "area": 71792}, {"rank": 2, "label": "voie2", "cx": 415.2977596124735, "bbox": [198, 652, 565, 836], "area": 13212}]}
+{"frame": 589, "rails_detected": 2, "rails": [{"rank": 1, "label": "voie1", "cx": 384.5535172655156, "bbox": [173, 698, 555, 1276], "area": 68576}, {"rank": 2, "label": "voie2", "cx": 412.9666053488043, "bbox": [200, 652, 565, 834], "area": 14134}]}
+{"frame": 590, "rails_detected": 2, "rails": [{"rank": 1, "label": "voie1", "cx": 383.9231130276629, "bbox": [173, 698, 554, 1276], "area": 68178}, {"rank": 2, "label": "voie2", "cx": 412.92662503548115, "bbox": [200, 652, 565, 834], "area": 14092}]}
+{"frame": 591, "rails_detected": 2, "rails": [{"rank": 1, "label": "voie1", "cx": 384.395617541505, "bbox": [174, 700, 555, 1276], "area": 68546}, {"rank": 2, "label": "voie2", "cx": 412.83420347114435, "bbox": [198, 652, 565, 834], "area": 14174}]}
+{"frame": 592, "rails_detected": 2, "rails": [{"rank": 1, "label": "voie1", "cx": 388.5824194508204, "bbox": [174, 708, 552, 1276], "area": 70578}, {"rank": 2, "label": "voie2", "cx": 413.87665723223597, "bbox": [196, 652, 565, 836], "area": 13426}]}
+{"frame": 593, "rails_detected": 2, "rails": [{"rank": 1, "label": "voie1", "cx": 387.616488660892, "bbox": [168, 692, 556, 1276], "area": 71346}, {"rank": 2, "label": "voie2", "cx": 417.39230392956136, "bbox": [197, 652, 565, 834], "area": 12266}]}
+{"frame": 594, "rails_detected": 2, "rails": [{"rank": 1, "label": "voie1", "cx": 374.90748068006184, "bbox": [169, 692, 552, 1198], "area": 64700}, {"rank": 2, "label": "voie2", "cx": 425.56812339331617, "bbox": [206, 652, 565, 832], "area": 12448}]}
+{"frame": 595, "rails_detected": 2, "rails": [{"rank": 1, "label": "voie1", "cx": 376.355475212942, "bbox": [169, 692, 552, 1198], "area": 65276}, {"rank": 2, "label": "voie2", "cx": 413.5268123918855, "bbox": [192, 644, 565, 832], "area": 12718}]}
+{"frame": 596, "rails_detected": 2, "rails": [{"rank": 1, "label": "voie1", "cx": 375.9632426835582, "bbox": [166, 690, 551, 1198], "area": 65674}, {"rank": 2, "label": "voie2", "cx": 413.8839145460258, "bbox": [189, 644, 565, 832], "area": 12732}]}
+{"frame": 597, "rails_detected": 2, "rails": [{"rank": 1, "label": "voie1", "cx": 377.6953226439593, "bbox": [169, 690, 551, 1222], "area": 66234}, {"rank": 2, "label": "voie2", "cx": 410.7461489088575, "bbox": [189, 644, 565, 832], "area": 12464}]}
+{"frame": 598, "rails_detected": 2, "rails": [{"rank": 1, "label": "voie1", "cx": 379.3703241895262, "bbox": [166, 690, 552, 1230], "area": 67368}, {"rank": 2, "label": "voie2", "cx": 411.80006647831146, "bbox": [187, 644, 565, 832], "area": 12034}]}
+{"frame": 599, "rails_detected": 2, "rails": [{"rank": 1, "label": "voie1", "cx": 381.54939422180803, "bbox": [167, 690, 553, 1230], "area": 68672}, {"rank": 2, "label": "voie2", "cx": 411.0431582469053, "bbox": [186, 644, 565, 834], "area": 11956}]}
+{"frame": 600, "rails_detected": 2, "rails": [{"rank": 1, "label": "voie1", "cx": 384.9193594839007, "bbox": [171, 692, 551, 1276], "area": 69444}, {"rank": 2, "label": "voie2", "cx": 405.73213156230236, "bbox": [174, 636, 565, 834], "area": 12648}]}
+{"frame": 601, "rails_detected": 2, "rails": [{"rank": 1, "label": "voie1", "cx": 382.2653481059159, "bbox": [171, 694, 552, 1230], "area": 68054}, {"rank": 2, "label": "voie2", "cx": 406.8161280200816, "bbox": [174, 636, 565, 836], "area": 12748}]}
+{"frame": 602, "rails_detected": 2, "rails": [{"rank": 1, "label": "voie1", "cx": 381.29912740994047, "bbox": [169, 700, 552, 1230], "area": 67844}, {"rank": 2, "label": "voie2", "cx": 402.42605028892706, "bbox": [169, 636, 561, 834], "area": 12806}]}
+{"frame": 603, "rails_detected": 2, "rails": [{"rank": 1, "label": "voie1", "cx": 382.39563899596857, "bbox": [173, 696, 551, 1230], "area": 67966}, {"rank": 2, "label": "voie2", "cx": 405.8064155761251, "bbox": [174, 636, 565, 834], "area": 12532}]}
+{"frame": 604, "rails_detected": 2, "rails": [{"rank": 1, "label": "voie1", "cx": 382.80909064233106, "bbox": [173, 696, 551, 1230], "area": 68158}, {"rank": 2, "label": "voie2", "cx": 406.0948275862069, "bbox": [174, 636, 565, 834], "area": 12528}]}
+{"frame": 605, "rails_detected": 2, "rails": [{"rank": 1, "label": "voie1", "cx": 381.26920027019884, "bbox": [169, 692, 551, 1230], "area": 68098}, {"rank": 2, "label": "voie2", "cx": 407.96032489846925, "bbox": [174, 636, 565, 836], "area": 12804}]}
+{"frame": 606, "rails_detected": 2, "rails": [{"rank": 1, "label": "voie1", "cx": 379.1124096708003, "bbox": [169, 692, 549, 1228], "area": 67254}, {"rank": 2, "label": "voie2", "cx": 406.58701787394165, "bbox": [174, 636, 565, 836], "area": 12756}]}
+{"frame": 607, "rails_detected": 2, "rails": [{"rank": 1, "label": "voie1", "cx": 380.60540984568445, "bbox": [169, 692, 551, 1230], "area": 68172}, {"rank": 2, "label": "voie2", "cx": 406.80899056151014, "bbox": [175, 636, 565, 836], "area": 12502}]}
+{"frame": 608, "rails_detected": 2, "rails": [{"rank": 1, "label": "voie1", "cx": 380.75333352870496, "bbox": [168, 692, 551, 1230], "area": 68246}, {"rank": 2, "label": "voie2", "cx": 406.46023468057365, "bbox": [169, 636, 565, 836], "area": 12272}]}
+{"frame": 609, "rails_detected": 2, "rails": [{"rank": 1, "label": "voie1", "cx": 385.49468913751593, "bbox": [167, 692, 552, 1276], "area": 70610}, {"rank": 2, "label": "voie2", "cx": 406.30088635644194, "bbox": [169, 636, 565, 836], "area": 12636}]}
+{"frame": 610, "rails_detected": 2, "rails": [{"rank": 1, "label": "voie1", "cx": 386.7813306406373, "bbox": [167, 692, 552, 1276], "area": 71304}, {"rank": 2, "label": "voie2", "cx": 405.4015431602636, "bbox": [169, 636, 565, 836], "area": 12442}]}
+{"frame": 611, "rails_detected": 2, "rails": [{"rank": 1, "label": "voie1", "cx": 387.2197685172211, "bbox": [165, 696, 552, 1276], "area": 71366}, {"rank": 2, "label": "voie2", "cx": 412.46419009370817, "bbox": [184, 644, 565, 836], "area": 11952}]}
+{"frame": 612, "rails_detected": 2, "rails": [{"rank": 1, "label": "voie1", "cx": 385.1594843567293, "bbox": [165, 698, 551, 1276], "area": 70126}, {"rank": 2, "label": "voie2", "cx": 412.31094938802516, "bbox": [183, 644, 565, 844], "area": 12092}]}
+{"frame": 613, "rails_detected": 2, "rails": [{"rank": 1, "label": "voie1", "cx": 384.5821882661497, "bbox": [165, 694, 551, 1276], "area": 70156}, {"rank": 2, "label": "voie2", "cx": 407.9072440944882, "bbox": [165, 636, 565, 844], "area": 12700}]}
+{"frame": 614, "rails_detected": 2, "rails": [{"rank": 1, "label": "voie1", "cx": 385.02798286648255, "bbox": [160, 694, 551, 1276], "area": 70972}, {"rank": 2, "label": "voie2", "cx": 404.8916060806345, "bbox": [169, 636, 561, 834], "area": 12104}]}
+{"frame": 615, "rails_detected": 2, "rails": [{"rank": 1, "label": "voie1", "cx": 378.839630957278, "bbox": [160, 694, 551, 1230], "area": 68068}, {"rank": 2, "label": "voie2", "cx": 406.07077840552415, "bbox": [170, 636, 565, 834], "area": 12744}]}
+{"frame": 616, "rails_detected": 2, "rails": [{"rank": 1, "label": "voie1", "cx": 383.5756889283973, "bbox": [165, 692, 551, 1276], "area": 69746}, {"rank": 2, "label": "voie2", "cx": 404.82727419615446, "bbox": [165, 636, 565, 844], "area": 12378}]}
