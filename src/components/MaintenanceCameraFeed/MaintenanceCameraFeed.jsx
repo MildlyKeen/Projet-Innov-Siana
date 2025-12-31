@@ -6,20 +6,22 @@ const MaintenanceCameraFeed = () => {
     <div className="maintenance-camera-feed">
       <div className="camera-header">
         <h5 className="mb-0">📹 Caméra de Maintenance</h5>
-        <small className="text-muted">Flux en direct du site</small>
+        <small className="text-muted">Flux en direct du site avec détection ML</small>
       </div>
       <div className="video-container">
-        <video
-          className="maintenance-video"
-          controls
-          autoPlay
-          muted
-          loop
-          src="/maintenance-video.mp4"
-          poster="/maintenance-poster.jpg" // optional poster image
-        >
-          Votre navigateur ne supporte pas la lecture vidéo.
-        </video>
+        <div className="video-section">
+          <h6>Vidéo</h6>
+          <video
+            className="maintenance-video"
+            controls
+            autoPlay
+            muted
+            loop
+            src="/videos/video.mp4"
+          >
+            Votre navigateur ne supporte pas la lecture vidéo.
+          </video>
+        </div>
       </div>
     </div>
   );
