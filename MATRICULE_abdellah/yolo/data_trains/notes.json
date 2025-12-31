@@ -1,0 +1,33 @@
+{
+  "categories": [
+    {
+      "id": 0,
+      "name": "train1"
+    },
+    {
+      "id": 1,
+      "name": "train2"
+    },
+    {
+      "id": 2,
+      "name": "train3"
+    },
+    {
+      "id": 3,
+      "name": "train4"
+    },
+    {
+      "id": 4,
+      "name": "train5"
+    },
+    {
+      "id": 5,
+      "name": "train6"
+    }
+  ],
+  "info": {
+    "year": 2025,
+    "version": "1.0",
+    "contributor": "Label Studio"
+  }
+}

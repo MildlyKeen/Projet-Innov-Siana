@@ -1,0 +1,12 @@
+path: 1_datasets/segmentation_rails
+train: images/train
+val: images/val
+test: images/test
+
+names:
+  0: voie1
+  1: voie2
+  2: voie3
+  3: voie4
+  4: voie5
+  5: voie6

@@ -1,0 +1,78 @@
+.dashboard {
+  padding: 0;
+}
+
+.stat-card {
+  border: none;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.stat-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.stat-card-primary {
+  border-left: 4px solid #007bff;
+}
+
+.stat-card-warning {
+  border-left: 4px solid #ffc107;
+}
+
+.stat-card-success {
+  border-left: 4px solid #28a745;
+}
+
+.stat-card-info {
+  border-left: 4px solid #17a2b8;
+}
+
+.stat-icon {
+  font-size: 2.5rem;
+  opacity: 0.3;
+}
+
+.chart-card {
+  border: none;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.chart-container {
+  height: 300px;
+  position: relative;
+}
+
+.chart-container-small {
+  height: 300px;
+  position: relative;
+}
+
+@media (max-width: 992px) {
+  .chart-container {
+    height: 250px;
+  }
+  
+  .chart-container-small {
+    height: 250px;
+  }
+}
+
+@media (max-width: 576px) {
+  .stat-icon {
+    font-size: 1.8rem;
+  }
+  
+  .stat-card h3 {
+    font-size: 1.5rem;
+  }
+  
+  .chart-container {
+    height: 220px;
+  }
+  
+  .chart-container-small {
+    height: 220px;
+  }
+}
