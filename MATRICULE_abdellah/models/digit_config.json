@@ -1,0 +1,17 @@
+{
+  "type": "digit_recognition",
+  "digits": [
+    "0",
+    "1",
+    "2",
+    "6",
+    "7",
+    "8"
+  ],
+  "accuracy_train": 0.9583333333333334,
+  "accuracy_test": 0.7833333333333333,
+  "digit_size": [
+    50,
+    100
+  ]
+}

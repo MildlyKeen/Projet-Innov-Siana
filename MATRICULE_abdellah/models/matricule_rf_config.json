@@ -1,0 +1,20 @@
+{
+  "model_type": "RandomForest",
+  "matricules": [
+    "1201",
+    "1202",
+    "1203",
+    "1206",
+    "1207",
+    "1208",
+    "1210",
+    "1212"
+  ],
+  "nb_images": 133,
+  "accuracy_train": 1.0,
+  "accuracy_test": 0.8518518518518519,
+  "image_size": [
+    160,
+    80
+  ]
+}

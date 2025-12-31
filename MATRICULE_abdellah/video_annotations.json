@@ -1,0 +1,45 @@
+{
+  "video": "video entrainement OCR.mp4",
+  "annotations": [
+    {
+      "frame": 30,
+      "bbox": [
+        886,
+        513,
+        56,
+        54
+      ],
+      "matricule": "1203"
+    },
+    {
+      "frame": 35,
+      "bbox": [
+        934,
+        521,
+        64,
+        62
+      ],
+      "matricule": "1203"
+    },
+    {
+      "frame": 40,
+      "bbox": [
+        1012,
+        547,
+        70,
+        57
+      ],
+      "matricule": "1203"
+    },
+    {
+      "frame": 45,
+      "bbox": [
+        1140,
+        568,
+        100,
+        80
+      ],
+      "matricule": "1203"
+    }
+  ]
+}
