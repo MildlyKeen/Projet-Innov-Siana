@@ -1,10 +1,4 @@
-Parfait 👍
-Voici un **README.md complet, clair et professionnel**, prêt à être **copié-collé tel quel** à la racine du dossier **`M1_M2_M3/`**.
-Il est écrit pour qu’un **nouvel utilisateur (ou un jury / backend dev)** puisse comprendre, installer et exécuter le pipeline sans ambiguïté.
 
----
-
-```md
 # Smart Yard – Pipeline Unifié M1_M2_M3
 
 Ce dépôt contient le **pipeline complet Smart Yard**, intégrant les travaux des **trois membres (M1, M2, M3)** dans une architecture **unifiée, robuste et prête pour l’intégration backend**.
