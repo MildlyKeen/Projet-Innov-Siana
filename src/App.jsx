@@ -3,6 +3,9 @@ import Header from './components/Header/Header';
 import Dashboard from './components/Dashboard/Dashboard';
 import MaintenanceCameraFeed from './components/MaintenanceCameraFeed';
 import AnalyticsDashboard from './components/AnalyticsDashboard';
+import LiveOperationsFeed from './components/LiveOperationsFeed';
+import TrafficTimeline from './components/TrafficTimeline';
+import MaintenanceHeatmap from './components/MaintenanceHeatmap';
 import { startSimulation, getTracksState, setSimulationInterval, getPreviousDayDwell } from './services/mockData';
 import {
   getStatistics,
@@ -42,7 +45,7 @@ function App() {
     // Start the mock simulation which triggers updates every 10 seconds
     // Centralized subscription: update `tracks`, `trackUtilization` and `statistics`.
     const unsubscribe = startSimulation((updatedTracks) => {
-      setTracks(updatedTracks);
+      setTracks(updatedTracks.map(t => ({...t})));
 
       const now = Date.now();
       setLastUpdated(new Date(now));
@@ -84,11 +87,47 @@ function App() {
       setTrafficData(getTrafficData());
     }, 5 * 60 * 1000); // 5 minutes
 
+    // New: Poll for live inference results
+    /* const pollInterval = setInterval(async () => {
+      try {
+        const [response1, response2] = await Promise.all([
+          fetch('/live_results.json').catch(() => null),
+          fetch('/live_results2.json').catch(() => null)
+        ]);
+        const data1 = response1 ? await response1.json() : null;
+        const data2 = response2 ? await response2.json() : null;
+        
+        const occupancy = {};
+        for (let i = 1; i <= 6; i++) {
+          const key = `voie${i}`;
+          const occ1 = data1?.occupancy?.[key] || false;
+          const occ2 = data2?.occupancy?.[key] || false;
+          occupancy[key] = occ1 || occ2;  // Mark occupied if either video detects it
+        }
+        
+        if (Object.keys(occupancy).length > 0) {
+          // Update tracks based on occupancy
+          setTracks((prev) => prev.map((track) => ({
+            ...track,
+            status: occupancy[`voie${track.id}`] ? 'occupied' : 'free'
+          })));
+          // Update utilization
+          const labels = prev.map((t) => `Voie ${t.id}`);
+          const values = prev.map((t) => occupancy[`voie${t.id}`] ? 100 : 0);
+          setTrackUtilization({ labels, values });
+        }
+      } catch (err) {
+        // No live data yet or error
+      }
+    }, 2000);  // Poll every 2 seconds
+    */
+
     // trackUtilization already initialized when component mounts
 
     return () => {
       if (unsubscribe) unsubscribe();
       clearInterval(trafficInterval);
+      /* clearInterval(pollInterval); */
     };
   }, [simulationInterval]);
 
@@ -183,6 +222,29 @@ function App() {
           </div>
           <div className="col-12 col-lg-5 mb-3">
             <AnalyticsDashboard tracks={tracks} lastUpdated={lastUpdated} previousDayDwell={getPreviousDayDwell()} tracksHistory={tracksHistory} alertThreshold={alertThreshold} />
+          </div>
+        </div>
+        <div className="row mt-4">
+          <div className="col-12 col-md-4 mb-3">
+            <div className="card h-100">
+              <div className="card-body">
+                <LiveOperationsFeed />
+              </div>
+            </div>
+          </div>
+          <div className="col-12 col-md-4 mb-3">
+            <div className="card h-100">
+              <div className="card-body">
+                <TrafficTimeline />
+              </div>
+            </div>
+          </div>
+          <div className="col-12 col-md-4 mb-3">
+            <div className="card h-100">
+              <div className="card-body">
+                <MaintenanceHeatmap />
+              </div>
+            </div>
           </div>
         </div>
       </main>

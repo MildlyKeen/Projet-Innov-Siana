@@ -10,12 +10,12 @@ from ultralytics import YOLO
 # -----------------------------
 # CONFIG
 # -----------------------------
-TRAINS_MODEL = r"runs/detect/train5/weights/best.pt"
-RAILS_MODEL  = r"runs/segment/train2/weights/best.onnx"
+TRAINS_MODEL = r"c:\Users\lenovo\OneDrive - Ecole Centrale Casablanca\Bureau\Projet INNOV\Projet-Innov-Siana-1\yolo\models\trains\best.onnx"
+RAILS_MODEL  = r"c:\Users\lenovo\OneDrive - Ecole Centrale Casablanca\Bureau\Projet INNOV\Projet-Innov-Siana-1\yolo\models\rails\best.onnx"
 
-SOURCE_VIDEO = r"video.mp4"  # <-- change ce chemin
+SOURCE_VIDEO = r"c:\Users\lenovo\OneDrive - Ecole Centrale Casablanca\Bureau\Projet INNOV\Projet-Innov-Siana-1\yolo\video2.mp4"  # <-- change ce chemin
 
-OUT_VIDEO = r"7_outputs/overlays/trains_rails_overlay.mp4"
+OUT_VIDEO = r"7_outputs/overlays/trains_rails_overlay2.mp4"
 
 # Sorties "par frame"
 OUT_JSONL_FRAMES = r"7_outputs/predictions/trains_rails_per_frame.jsonl"
@@ -259,6 +259,17 @@ def main():
             "occupancy": {voie: ids for voie, ids in occupancy_map.items()},
         }
         f_frames.write(json.dumps(payload_frame, ensure_ascii=False) + "\n")
+
+        # New: Write live results for app polling
+        live_data = {
+            "frame": frame_idx,
+            "timestamp": t_s,
+            "rails": [{"rank": r["rank"], "label": r["label"], "bbox": r["bbox"]} for r in rails_list],
+            "trains": trains_ranked,
+            "occupancy": {f"voie{rank}": bool(len(ids) > 0) for rank, ids in occupancy_map.items()}
+        }
+        with open("7_outputs/live_results2.json", "w") as f:
+            json.dump(live_data, f)
 
         # 4) Générer des événements d'occupation (quand un train change de voie)
         for t in trains_ranked:

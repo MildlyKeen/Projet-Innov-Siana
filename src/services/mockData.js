@@ -1,325 +1,292 @@
-// Mock data service for simulating railway tracks state
-// Simulates 6 railway tracks with real-time state changes
+/**
+ * Advanced Mock Data Service for Smart Yard
+ * Simulates realistic railway yard operations with state transitions,
+ * scheduling, and historical event logging.
+ */
 
-// Initial state for 6 railway tracks
-let tracksState = [
-  {
-    id: 1,
-    status: 'occupied',
-    trainId: 'Rame-A',
-    timestamp: new Date().toISOString(),
-  },
-  {
-    id: 2,
-    status: 'free',
-    trainId: null,
-    timestamp: null,
-  },
-  {
-    id: 3,
-    status: 'occupied',
-    trainId: 'Rame-B',
-    timestamp: new Date(Date.now() - 3600000).toISOString(), // 1 hour ago
-  },
-  {
-    id: 4,
-    status: 'free',
-    trainId: null,
-    timestamp: null,
-  },
-  {
-    id: 5,
-    status: 'anomaly',
-    trainId: 'Rame-C',
-    timestamp: new Date(Date.now() - 7200000).toISOString(), // 2 hours ago
-  },
-  {
-    id: 6,
-    status: 'occupied',
-    trainId: 'Rame-D',
-    timestamp: new Date(Date.now() - 1800000).toISOString(), // 30 minutes ago
-  },
+// --- CONSTANTS & CONFIGURATION ---
+
+const TRACK_COUNT = 6;
+const DEFAULT_INTERVAL_MS = 10000;
+const STORAGE_KEY_ACC = 'smartyard_daily_stats';
+const STORAGE_KEY_STATE = 'smartyard_current_state';
+
+// Train Metadata Generators
+const OPERATORS = ['SNCF', 'DB', 'Renfe', 'SBB', 'Eurostar'];
+const TRAIN_TYPES = ['TGV', 'TER', 'Intercités', 'FRET', 'Maintenance'];
+const TRAIN_NAMES = [
+  'TGV-8842', 'TER-9001', 'FRET-X22', 'IC-1102', 'TGV-LYRIA',
+  'TGV-INOUI', 'Z-50000', 'B-81500', 'Maintenance-01'
 ];
 
-// Possible train IDs for simulation
-const trainIds = ['Rame-A', 'Rame-B', 'Rame-C', 'Rame-D', 'Rame-E', 'Rame-F', 'TGV-2841', 'IC-1523', 'TER-9247'];
+// Probabilities (0-1)
+const PROB_NEW_ARRIVAL = 0.4; // Chance a free track gets a train per tick
+const PROB_DEPARTURE = 0.2;   // Chance a train leaves early per tick
+const PROB_ANOMALY = 0.05;    // Chance of equipment failure
+const PROB_RECOVERY = 0.2;    // Chance an anomaly is fixed per tick
 
-// Possible statuses with weights to bias simulation towards 'occupied'
-const weightedStatuses = [
-  { status: 'occupied', weight: 0.55 },
-  { status: 'free', weight: 0.30 },
-  { status: 'anomaly', weight: 0.15 },
-];
+// --- STATE MANAGEMENT ---
 
-// Plain list used for validations and manual setting
-const statuses = ['free', 'occupied', 'anomaly'];
+let _simulationIntervalId = null;
+let _simulationIntervalMs = DEFAULT_INTERVAL_MS;
+const _subscribers = new Set();
 
-const pickStatus = () => {
-  const r = Math.random();
-  let cum = 0;
-  for (const s of weightedStatuses) {
-    cum += s.weight;
-    if (r <= cum) return s.status;
+// Event Log (Circular Buffer)
+const MAX_LOG_SIZE = 50;
+let _eventLog = [];
+
+// Daily Accumulators (Time in 'occupied' state per track)
+let _currentDayAcc = {}; 
+let _previousDayAcc = {};
+let _currentDayStr = new Date().toISOString().slice(0, 10);
+
+// Initial State Generation (or Load from LocalStorage)
+const generateInitialState = () => {
+  const savedState = localStorage.getItem(STORAGE_KEY_STATE);
+  if (savedState) {
+    try {
+      const parsed = JSON.parse(savedState);
+      // Validate structure roughly
+      if (Array.isArray(parsed) && parsed.length === TRACK_COUNT) {
+        return parsed;
+      }
+    } catch (e) {
+      console.warn('[MockData] Failed to load saved state, resetting.');
+    }
   }
-  return weightedStatuses[weightedStatuses.length - 1].status;
+
+  // Default fresh state
+  return Array.from({ length: TRACK_COUNT }, (_, i) => ({
+    id: i + 1,
+    status: 'free',
+    trainId: null,
+    trainType: null,
+    operator: null,
+    timestamp: null,
+    plannedDeparture: null,
+  }));
 };
 
+let tracksState = generateInitialState();
+
+// Initialize accumulators
+try {
+  const rawAcc = localStorage.getItem(STORAGE_KEY_ACC);
+  _previousDayAcc = rawAcc ? JSON.parse(rawAcc) : {};
+} catch (e) {
+  _previousDayAcc = {};
+}
+tracksState.forEach(t => { _currentDayAcc[t.id] = 0; });
+
+// --- HELPER FUNCTIONS ---
+
+const getRandomItem = (arr) => arr[Math.floor(Math.random() * arr.length)];
+
+const logEvent = (type, message, trackId) => {
+  const event = {
+    id: Date.now() + Math.random(), // simple unique id
+    timestamp: new Date().toISOString(),
+    type, // 'info', 'warning', 'success', 'error'
+    message,
+    trackId
+  };
+  _eventLog.unshift(event);
+  if (_eventLog.length > MAX_LOG_SIZE) _eventLog.pop();
+  return event;
+};
+
+// --- SIMULATION LOGIC (The "Tick") ---
+
+const simulateTick = () => {
+  const now = new Date();
+  
+  // 1. Handle Day Rollover for Stats
+  const todayStr = now.toISOString().slice(0, 10);
+  if (todayStr !== _currentDayStr) {
+    _previousDayAcc = { ..._currentDayAcc };
+    _currentDayAcc = {}; // Reset for new day
+    tracksState.forEach(t => { _currentDayAcc[t.id] = 0; });
+    _currentDayStr = todayStr;
+    localStorage.setItem(STORAGE_KEY_ACC, JSON.stringify(_previousDayAcc));
+    logEvent('info', 'Stats journalières réinitialisées', null);
+  }
+
+  // 2. Process Each Track
+  tracksState.forEach(track => {
+    // A. Update Accumulators
+    if (track.status === 'occupied' || track.status === 'anomaly') {
+      _currentDayAcc[track.id] = (_currentDayAcc[track.id] || 0) + _simulationIntervalMs;
+    }
+
+    // B. State Machine Transitions
+    
+    // Case 1: Track is FREE -> Maybe a train arrives
+    if (track.status === 'free') {
+      if (Math.random() < PROB_NEW_ARRIVAL) {
+        const train = getRandomItem(TRAIN_NAMES);
+        track.status = 'occupied';
+        track.trainId = train;
+        track.trainType = getRandomItem(TRAIN_TYPES);
+        track.operator = getRandomItem(OPERATORS);
+        track.timestamp = now.toISOString();
+        
+        // Schedule departure 1-4 hours from now
+        const durationHours = 1 + Math.random() * 3;
+        track.plannedDeparture = new Date(now.getTime() + durationHours * 60 * 60 * 1000).toISOString();
+        
+        logEvent('success', `Arrivée du train ${train} (${track.trainType})`, track.id);
+      }
+    }
+
+    // Case 2: Track is OCCUPIED -> Maybe it leaves OR has an anomaly
+    else if (track.status === 'occupied') {
+      // Anomaly Check
+      if (Math.random() < PROB_ANOMALY) {
+        track.status = 'anomaly';
+        logEvent('error', `Anomalie détectée sur la voie ${track.id} (Train ${track.trainId})`, track.id);
+      } 
+      // Scheduled Departure Check
+      else {
+        const isScheduledToLeave = track.plannedDeparture && new Date(track.plannedDeparture) <= now;
+        const isEarlyDeparture = Math.random() < PROB_DEPARTURE;
+        
+        if (isScheduledToLeave || isEarlyDeparture) {
+          logEvent('info', `Départ du train ${track.trainId}`, track.id);
+          // Reset track
+          track.status = 'free';
+          track.trainId = null;
+          track.trainType = null;
+          track.operator = null;
+          track.timestamp = null;
+          track.plannedDeparture = null;
+        }
+      }
+    }
+
+    // Case 3: Track has ANOMALY -> Maybe it gets fixed
+    else if (track.status === 'anomaly') {
+      if (Math.random() < PROB_RECOVERY) {
+        track.status = 'occupied'; // Returns to occupied (train didn't leave yet)
+        logEvent('success', `Anomalie résolue sur la voie ${track.id}`, track.id);
+      }
+    }
+  });
+
+  // 3. Persist State (to survive page refresh)
+  localStorage.setItem(STORAGE_KEY_STATE, JSON.stringify(tracksState));
+
+  // 4. Notify Subscribers
+  notifySubscribers();
+};
+
+const notifySubscribers = () => {
+  const snapshot = getTracksState();
+  _subscribers.forEach(cb => {
+    try { cb(snapshot); } catch (e) { console.error(e); }
+  });
+};
+
+// --- PUBLIC API ---
+
 /**
- * Get current tracks state
- * @returns {Array} Array of 6 railway tracks with their current state
+ * Get current immutable snapshot of tracks
  */
 export const getTracksState = () => {
-  return [...tracksState]; // Return a copy to prevent external modifications
+  // Deep copy to prevent mutation bugs in React
+  return JSON.parse(JSON.stringify(tracksState));
 };
 
 /**
- * Simulate random state change on a track
- * @private
+ * Get recent event history
  */
-const simulateStateChange = () => {
-  // Select a random track
-  const trackIndex = Math.floor(Math.random() * tracksState.length);
-  const track = tracksState[trackIndex];
-  
-  // Select a status (weighted) so that occupied states happen more often
-  const newStatus = pickStatus();
-  
-  // Update track state
-  track.status = newStatus;
-  
-  if (newStatus === 'occupied' || newStatus === 'anomaly') {
-    // Assign a train ID if occupied or anomaly
-    track.trainId = trainIds[Math.floor(Math.random() * trainIds.length)];
-    track.timestamp = new Date().toISOString();
-  } else {
-    // Clear train ID if free
-    track.trainId = null;
-    track.timestamp = null;
-  }
-  
-  console.log(`[MockData] Track ${track.id} state changed to: ${newStatus}`, track);
+export const getRecentEvents = () => {
+  return [..._eventLog];
 };
 
 /**
- * Start simulating state changes every 3 seconds
- * Mimics a WebSocket flow with real-time updates
- * @param {Function} callback - Function to call when state changes (optional)
- * @returns {Function} Unsubscribe function to stop simulation
+ * Get yesterday's dwell hours per track
  */
-// Single simulation loop with multiple subscribers support
-let _simulationIntervalId = null;
-const _subscribers = new Set();
-let _simulationIntervalMs = 10000;
-
-// Daily accumulators (milliseconds) per track id
-let _currentDayAcc = {}; // { '1': ms, '2': ms }
-let _previousDayAcc = {}; // persisted previous day totals
-let _currentDay = new Date().toISOString().slice(0,10); // YYYY-MM-DD
-
-// initialize accumulators with current tracks
-const _initAccumulators = () => {
-  _currentDayAcc = {};
-  _previousDayAcc = _loadPreviousDayAcc();
-  for (const t of tracksState) {
-    _currentDayAcc[t.id] = _currentDayAcc[t.id] || 0;
-    _previousDayAcc[t.id] = _previousDayAcc[t.id] || 0;
-  }
+export const getPreviousDayDwell = () => {
+  return tracksState.map(t => ({
+    id: t.id,
+    hours: Math.round(((_previousDayAcc[t.id] || 0) / 1000 / 60 / 60) * 10) / 10
+  }));
 };
 
-const _loadPreviousDayAcc = () => {
-  try {
-    const raw = localStorage.getItem('mockdata_prev_day_acc');
-    if (!raw) return {};
-    return JSON.parse(raw);
-  } catch {
-    return {};
-  }
-};
-
-const _savePreviousDayAcc = () => {
-  try {
-    localStorage.setItem('mockdata_prev_day_acc', JSON.stringify(_previousDayAcc));
-  } catch {
-    // ignore
-  }
-};
-
-_initAccumulators();
-
-export const startSimulation = (callback, intervalMs = 10000) => {
+/**
+ * Start or join the simulation loop
+ */
+export const startSimulation = (callback, intervalMs = DEFAULT_INTERVAL_MS) => {
   if (callback && typeof callback === 'function') {
     _subscribers.add(callback);
+    // Send immediate initial data
+    callback(getTracksState());
   }
 
-  // update configured interval if caller provided a value
-  if (intervalMs && typeof intervalMs === 'number') _simulationIntervalMs = intervalMs;
+  // Update interval if different
+  if (intervalMs !== _simulationIntervalMs) {
+    setSimulationInterval(intervalMs);
+  }
 
+  // Ensure loop is running
   if (!_simulationIntervalId) {
-    _simulationIntervalId = setInterval(() => {
-      simulateStateChange();
-
-      // update daily accumulators: for each occupied/anomaly track add intervalMs
-      const now = new Date();
-      const today = now.toISOString().slice(0,10);
-      if (today !== _currentDay) {
-        // roll over: move current -> previous, reset current
-        _previousDayAcc = { ..._currentDayAcc };
-        _currentDayAcc = {};
-        _currentDay = today;
-        _savePreviousDayAcc();
-      }
-
-      const snapshot = getTracksState();
-      for (const t of snapshot) {
-        if (t.status === 'occupied' || t.status === 'anomaly') {
-          _currentDayAcc[t.id] = (_currentDayAcc[t.id] || 0) + _simulationIntervalMs;
-        } else {
-          _currentDayAcc[t.id] = _currentDayAcc[t.id] || 0;
-        }
-      }
-
-      // notify all subscribers with a fresh snapshot
-      for (const cb of _subscribers) {
-        try {
-          cb(snapshot);
-        } catch (err) {
-          console.error('[MockData] subscriber callback error', err);
-        }
-      }
-    }, _simulationIntervalMs);
-
-  console.log(`[MockData] Simulation started - state changes every ${_simulationIntervalMs} ms`);
-  } else {
-    console.log('[MockData] Simulation already running; added subscriber');
+    _simulationIntervalId = setInterval(simulateTick, _simulationIntervalMs);
+    console.log(`[MockData] Simulation started (${_simulationIntervalMs}ms)`);
   }
 
-  // Return unsubscribe function for this specific callback
+  // Unsubscribe function
   return () => {
-    if (callback && typeof callback === 'function') {
-      _subscribers.delete(callback);
-    }
+    if (callback) _subscribers.delete(callback);
     if (_subscribers.size === 0 && _simulationIntervalId) {
       clearInterval(_simulationIntervalId);
       _simulationIntervalId = null;
-      console.log('[MockData] Simulation stopped (no subscribers)');
+      console.log('[MockData] Simulation stopped');
     }
   };
 };
 
 /**
- * Manually set a track state (useful for testing)
- * @param {number} trackId - Track ID (1-6)
- * @param {string} status - Status ('free', 'occupied', 'anomaly')
- * @param {string} trainId - Train ID (optional)
+ * Change simulation speed dynamically
  */
-export const setTrackState = (trackId, status, trainId = null) => {
-  const track = tracksState.find(t => t.id === trackId);
-  
-  if (!track) {
-    console.error(`[MockData] Track ${trackId} not found`);
-    return;
-  }
-  
-  if (!statuses.includes(status)) {
-    console.error(`[MockData] Invalid status: ${status}`);
-    return;
-  }
-  
-  track.status = status;
-  track.trainId = trainId;
-  track.timestamp = status !== 'free' ? new Date().toISOString() : null;
-  
-  console.log(`[MockData] Track ${trackId} manually set to ${status}`, track);
-};
-
-/**
- * Reset all tracks to initial state
- */
-export const resetTracksState = () => {
-  tracksState = [
-    {
-      id: 1,
-      status: 'occupied',
-      trainId: 'Rame-A',
-      timestamp: new Date().toISOString(),
-    },
-    {
-      id: 2,
-      status: 'free',
-      trainId: null,
-      timestamp: null,
-    },
-    {
-      id: 3,
-      status: 'occupied',
-      trainId: 'Rame-B',
-      timestamp: new Date(Date.now() - 3600000).toISOString(),
-    },
-    {
-      id: 4,
-      status: 'free',
-      trainId: null,
-      timestamp: null,
-    },
-    {
-      id: 5,
-      status: 'anomaly',
-      trainId: 'Rame-C',
-      timestamp: new Date(Date.now() - 7200000).toISOString(),
-    },
-    {
-      id: 6,
-      status: 'occupied',
-      trainId: 'Rame-D',
-      timestamp: new Date(Date.now() - 1800000).toISOString(),
-    },
-  ];
-  
-  console.log('[MockData] Tracks state reset to initial values');
-};
-
-// Allow programmatic change of the simulation interval and restart loop
 export const setSimulationInterval = (intervalMs) => {
   if (!intervalMs || typeof intervalMs !== 'number') return;
   _simulationIntervalMs = intervalMs;
+
   if (_simulationIntervalId) {
     clearInterval(_simulationIntervalId);
-    _simulationIntervalId = null;
-    // restart loop with new interval
-    _simulationIntervalId = setInterval(() => {
-      simulateStateChange();
-
-      const now = new Date();
-      const today = now.toISOString().slice(0,10);
-      if (today !== _currentDay) {
-        _previousDayAcc = { ..._currentDayAcc };
-        _currentDayAcc = {};
-        _currentDay = today;
-        _savePreviousDayAcc();
-      }
-
-      const snapshot = getTracksState();
-      for (const t of snapshot) {
-        if (t.status === 'occupied' || t.status === 'anomaly') {
-          _currentDayAcc[t.id] = (_currentDayAcc[t.id] || 0) + _simulationIntervalMs;
-        } else {
-          _currentDayAcc[t.id] = _currentDayAcc[t.id] || 0;
-        }
-      }
-
-      for (const cb of _subscribers) {
-        try { cb(snapshot); } catch (e) { console.error(e); }
-      }
-    }, _simulationIntervalMs);
+    _simulationIntervalId = setInterval(simulateTick, _simulationIntervalMs);
+    console.log(`[MockData] Interval updated to ${_simulationIntervalMs}ms`);
   }
 };
 
-export const getPreviousDayDwell = () => {
-  // returns array of { id, hours }
-  const out = [];
-  for (const t of tracksState) {
-    const ms = _previousDayAcc[t.id] || 0;
-    out.push({ id: t.id, hours: Math.round((ms / 1000 / 60 / 60) * 10) / 10 });
+/**
+ * Manual override for testing/demos
+ */
+export const setTrackState = (trackId, status, trainId = null) => {
+  const track = tracksState.find(t => t.id === trackId);
+  if (!track) return;
+
+  track.status = status;
+  if (status === 'free') {
+    track.trainId = null;
+    track.trainType = null;
+    track.timestamp = null;
+  } else {
+    track.trainId = trainId || 'MANUAL-TEST';
+    track.trainType = 'TEST';
+    track.timestamp = new Date().toISOString();
   }
-  return out;
+  
+  logEvent('warning', `Modification manuelle de la voie ${trackId}`, trackId);
+  notifySubscribers();
+};
+
+/**
+ * Reset everything (Panic Button)
+ */
+export const resetTracksState = () => {
+  tracksState = generateInitialState().map(t => ({ ...t, status: 'free', trainId: null, timestamp: null }));
+  localStorage.removeItem(STORAGE_KEY_STATE);
+  logEvent('warning', 'Réinitialisation complète du système', null);
+  notifySubscribers();
 };
