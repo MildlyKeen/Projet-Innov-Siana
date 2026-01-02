@@ -1,0 +1,10 @@
+event,track_id,from_voie,to_voie,start_frame,end_frame,start_time_s,end_time_s,duration_s
+voie_change,1,voie2,,0,1,0.000,0.017,0.017
+voie_change,1,,voie2,2,3,0.033,0.050,0.017
+voie_change,1,voie2,,4,14,0.067,0.233,0.167
+voie_change,1,,voie2,15,15,0.250,0.250,0.000
+voie_change,1,voie2,,16,19,0.267,0.317,0.050
+voie_change,1,,voie2,20,29,0.333,0.483,0.150
+voie_change,1,voie2,,30,31,0.500,0.517,0.017
+end_of_video,1,,,32,1227,0.533,20.450,19.917
+end_of_video,2,,,945,1227,15.750,20.450,4.700

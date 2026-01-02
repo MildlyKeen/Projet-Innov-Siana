@@ -1,0 +1,9 @@
+{"event": "voie_change", "track_id": 1, "from_voie": "voie2", "to_voie": null, "start_frame": 0, "end_frame": 1, "start_time_s": 0.0, "end_time_s": 0.016666666666666666, "duration_s": 0.016666666666666666}
+{"event": "voie_change", "track_id": 1, "from_voie": null, "to_voie": "voie2", "start_frame": 2, "end_frame": 3, "start_time_s": 0.03333333333333333, "end_time_s": 0.05, "duration_s": 0.01666666666666667}
+{"event": "voie_change", "track_id": 1, "from_voie": "voie2", "to_voie": null, "start_frame": 4, "end_frame": 14, "start_time_s": 0.06666666666666667, "end_time_s": 0.23333333333333334, "duration_s": 0.16666666666666669}
+{"event": "voie_change", "track_id": 1, "from_voie": null, "to_voie": "voie2", "start_frame": 15, "end_frame": 15, "start_time_s": 0.25, "end_time_s": 0.25, "duration_s": 0.0}
+{"event": "voie_change", "track_id": 1, "from_voie": "voie2", "to_voie": null, "start_frame": 16, "end_frame": 19, "start_time_s": 0.26666666666666666, "end_time_s": 0.31666666666666665, "duration_s": 0.04999999999999999}
+{"event": "voie_change", "track_id": 1, "from_voie": null, "to_voie": "voie2", "start_frame": 20, "end_frame": 29, "start_time_s": 0.3333333333333333, "end_time_s": 0.48333333333333334, "duration_s": 0.15000000000000002}
+{"event": "voie_change", "track_id": 1, "from_voie": "voie2", "to_voie": null, "start_frame": 30, "end_frame": 31, "start_time_s": 0.5, "end_time_s": 0.5166666666666667, "duration_s": 0.01666666666666672}
+{"event": "end_of_video", "track_id": 1, "from_voie": null, "to_voie": null, "start_frame": 32, "end_frame": 1227, "start_time_s": 0.5333333333333333, "end_time_s": 20.45, "duration_s": 19.916666666666664}
+{"event": "end_of_video", "track_id": 2, "from_voie": null, "to_voie": null, "start_frame": 945, "end_frame": 1227, "start_time_s": 15.75, "end_time_s": 20.45, "duration_s": 4.699999999999999}

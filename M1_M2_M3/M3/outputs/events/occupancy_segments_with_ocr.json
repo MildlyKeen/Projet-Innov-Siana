@@ -1,0 +1,18 @@
+[
+  {
+    "track": "voie2",
+    "train_track_id": 1,
+    "train_number": "40034",
+    "arrival_frame": 0,
+    "departure_frame": 230,
+    "camera_id": "cam_01"
+  },
+  {
+    "track": "voie1",
+    "train_track_id": 1,
+    "train_number": "40084",
+    "arrival_frame": 648,
+    "departure_frame": 896,
+    "camera_id": "cam_01"
+  }
+]

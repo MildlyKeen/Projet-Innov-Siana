@@ -1,0 +1,51 @@
+{
+  "source_video": "8_inputs/video2.mp4",
+  "max_slots": 6,
+  "calib_frames": 180,
+  "calib_stride": 2,
+  "calib_method": "kmeans_1d_median",
+  "slots": [
+    {
+      "rank": 1,
+      "label": "train1",
+      "center_x": 80.99993133544922,
+      "x_left": 0.0,
+      "x_right": 84.93690490722656
+    },
+    {
+      "rank": 2,
+      "label": "train2",
+      "center_x": 88.8738784790039,
+      "x_left": 84.93690490722656,
+      "x_right": 111.43658447265625
+    },
+    {
+      "rank": 3,
+      "label": "train3",
+      "center_x": 133.99929809570312,
+      "x_left": 111.43658447265625,
+      "x_right": 152.23236083984375
+    },
+    {
+      "rank": 4,
+      "label": "train4",
+      "center_x": 170.4654083251953,
+      "x_left": 152.23236083984375,
+      "x_right": 186.73269653320312
+    },
+    {
+      "rank": 5,
+      "label": "train5",
+      "center_x": 203.0,
+      "x_left": 186.73269653320312,
+      "x_right": 243.18374633789062
+    },
+    {
+      "rank": 6,
+      "label": "train6",
+      "center_x": 283.36749267578125,
+      "x_left": 243.18374633789062,
+      "x_right": 406.0
+    }
+  ]
+}

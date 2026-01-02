@@ -1,0 +1,5 @@
+{"event": "ARRIVAL", "state": "occupée", "track": "voie2", "train_track_id": 1, "start_frame": 0, "frame": 2}
+{"event": "DEPARTURE", "state": "libre", "track": "voie2", "train_track_id": 1, "end_frame": 230, "frame": 230}
+{"event": "ARRIVAL", "state": "occupée", "track": "voie1", "train_track_id": 1, "start_frame": 648, "frame": 650}
+{"event": "DEPARTURE", "state": "libre", "track": "voie1", "train_track_id": 1, "end_frame": 896, "frame": 896}
+{"event": "ARRIVAL", "state": "occupée", "track": "voie1", "train_track_id": 1, "start_frame": 990, "frame": 992}
