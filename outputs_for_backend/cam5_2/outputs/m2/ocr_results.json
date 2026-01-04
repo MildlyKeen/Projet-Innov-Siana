@@ -1,0 +1,58 @@
+[
+  {
+    "event": "TRAIN_ID_STABLE",
+    "train_number": "39140",
+    "frame_index": 2,
+    "time_sec": 0.033,
+    "camera_id": "cam_01"
+  },
+  {
+    "event": "TRAIN_ID_STABLE",
+    "train_number": "3940",
+    "frame_index": 237,
+    "time_sec": 3.95,
+    "camera_id": "cam_01"
+  },
+  {
+    "event": "TRAIN_ID_STABLE",
+    "train_number": "39140",
+    "frame_index": 244,
+    "time_sec": 4.067,
+    "camera_id": "cam_01"
+  },
+  {
+    "event": "TRAIN_ID_STABLE",
+    "train_number": "3940",
+    "frame_index": 259,
+    "time_sec": 4.317,
+    "camera_id": "cam_01"
+  },
+  {
+    "event": "TRAIN_ID_STABLE",
+    "train_number": "39140",
+    "frame_index": 261,
+    "time_sec": 4.35,
+    "camera_id": "cam_01"
+  },
+  {
+    "event": "TRAIN_ID_STABLE",
+    "train_number": "3940",
+    "frame_index": 262,
+    "time_sec": 4.367,
+    "camera_id": "cam_01"
+  },
+  {
+    "event": "TRAIN_ID_STABLE",
+    "train_number": "39140",
+    "frame_index": 269,
+    "time_sec": 4.483,
+    "camera_id": "cam_01"
+  },
+  {
+    "event": "TRAIN_ID_STABLE",
+    "train_number": "340",
+    "frame_index": 277,
+    "time_sec": 4.617,
+    "camera_id": "cam_01"
+  }
+]

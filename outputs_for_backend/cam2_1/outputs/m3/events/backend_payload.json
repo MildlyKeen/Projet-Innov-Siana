@@ -1,0 +1,200 @@
+[
+  {
+    "event_id": "9eb6b583e53d",
+    "event_type": "TRACK_OCCUPANCY",
+    "state": "OCCUPIED",
+    "track_label": "voie1",
+    "track_id": 1,
+    "train_track_id": 1,
+    "train_number": null,
+    "camera_id": "cam_01",
+    "arrival_frame": 79,
+    "departure_frame": 98,
+    "duration_frames": 19,
+    "arrival_time_sec": 2.633,
+    "departure_time_sec": 3.267,
+    "duration_sec": 0.633,
+    "generated_at": "2026-01-02T23:27:09.875424Z",
+    "pipeline": {
+      "member": "member3",
+      "version": "m3_fusion_v1",
+      "fps_assumed": 30.0
+    }
+  },
+  {
+    "event_id": "4dbe1536a58f",
+    "event_type": "TRACK_OCCUPANCY",
+    "state": "OCCUPIED",
+    "track_label": "voie1",
+    "track_id": 1,
+    "train_track_id": 1,
+    "train_number": null,
+    "camera_id": "cam_01",
+    "arrival_frame": 103,
+    "departure_frame": 115,
+    "duration_frames": 12,
+    "arrival_time_sec": 3.433,
+    "departure_time_sec": 3.833,
+    "duration_sec": 0.4,
+    "generated_at": "2026-01-02T23:27:09.875424Z",
+    "pipeline": {
+      "member": "member3",
+      "version": "m3_fusion_v1",
+      "fps_assumed": 30.0
+    }
+  },
+  {
+    "event_id": "fdc79dd56094",
+    "event_type": "TRACK_OCCUPANCY",
+    "state": "OCCUPIED",
+    "track_label": "voie1",
+    "track_id": 1,
+    "train_track_id": 1,
+    "train_number": null,
+    "camera_id": "cam_01",
+    "arrival_frame": 117,
+    "departure_frame": 128,
+    "duration_frames": 11,
+    "arrival_time_sec": 3.9,
+    "departure_time_sec": 4.267,
+    "duration_sec": 0.367,
+    "generated_at": "2026-01-02T23:27:09.875424Z",
+    "pipeline": {
+      "member": "member3",
+      "version": "m3_fusion_v1",
+      "fps_assumed": 30.0
+    }
+  },
+  {
+    "event_id": "65164480f1eb",
+    "event_type": "TRACK_OCCUPANCY",
+    "state": "OCCUPIED",
+    "track_label": "voie1",
+    "track_id": 1,
+    "train_track_id": 1,
+    "train_number": null,
+    "camera_id": "cam_01",
+    "arrival_frame": 135,
+    "departure_frame": 142,
+    "duration_frames": 7,
+    "arrival_time_sec": 4.5,
+    "departure_time_sec": 4.733,
+    "duration_sec": 0.233,
+    "generated_at": "2026-01-02T23:27:09.875424Z",
+    "pipeline": {
+      "member": "member3",
+      "version": "m3_fusion_v1",
+      "fps_assumed": 30.0
+    }
+  },
+  {
+    "event_id": "0d47681389ec",
+    "event_type": "TRACK_OCCUPANCY",
+    "state": "OCCUPIED",
+    "track_label": "voie1",
+    "track_id": 1,
+    "train_track_id": 1,
+    "train_number": null,
+    "camera_id": "cam_01",
+    "arrival_frame": 145,
+    "departure_frame": 156,
+    "duration_frames": 11,
+    "arrival_time_sec": 4.833,
+    "departure_time_sec": 5.2,
+    "duration_sec": 0.367,
+    "generated_at": "2026-01-02T23:27:09.875424Z",
+    "pipeline": {
+      "member": "member3",
+      "version": "m3_fusion_v1",
+      "fps_assumed": 30.0
+    }
+  },
+  {
+    "event_id": "e5ad59f182b3",
+    "event_type": "TRACK_OCCUPANCY",
+    "state": "OCCUPIED",
+    "track_label": "voie1",
+    "track_id": 1,
+    "train_track_id": 1,
+    "train_number": null,
+    "camera_id": "cam_01",
+    "arrival_frame": 169,
+    "departure_frame": 178,
+    "duration_frames": 9,
+    "arrival_time_sec": 5.633,
+    "departure_time_sec": 5.933,
+    "duration_sec": 0.3,
+    "generated_at": "2026-01-02T23:27:09.875424Z",
+    "pipeline": {
+      "member": "member3",
+      "version": "m3_fusion_v1",
+      "fps_assumed": 30.0
+    }
+  },
+  {
+    "event_id": "0d344e6c9a56",
+    "event_type": "TRACK_OCCUPANCY",
+    "state": "OCCUPIED",
+    "track_label": "voie1",
+    "track_id": 1,
+    "train_track_id": 1,
+    "train_number": null,
+    "camera_id": "cam_01",
+    "arrival_frame": 311,
+    "departure_frame": 508,
+    "duration_frames": 197,
+    "arrival_time_sec": 10.367,
+    "departure_time_sec": 16.933,
+    "duration_sec": 6.567,
+    "generated_at": "2026-01-02T23:27:09.875424Z",
+    "pipeline": {
+      "member": "member3",
+      "version": "m3_fusion_v1",
+      "fps_assumed": 30.0
+    }
+  },
+  {
+    "event_id": "bbefe47a6e32",
+    "event_type": "TRACK_OCCUPANCY",
+    "state": "OCCUPIED",
+    "track_label": "voie2",
+    "track_id": 2,
+    "train_track_id": 1,
+    "train_number": null,
+    "camera_id": "cam_01",
+    "arrival_frame": 513,
+    "departure_frame": 521,
+    "duration_frames": 8,
+    "arrival_time_sec": 17.1,
+    "departure_time_sec": 17.367,
+    "duration_sec": 0.267,
+    "generated_at": "2026-01-02T23:27:09.875424Z",
+    "pipeline": {
+      "member": "member3",
+      "version": "m3_fusion_v1",
+      "fps_assumed": 30.0
+    }
+  },
+  {
+    "event_id": "4cac33e32a0c",
+    "event_type": "TRACK_OCCUPANCY",
+    "state": "OCCUPIED",
+    "track_label": "voie1",
+    "track_id": 1,
+    "train_track_id": 1,
+    "train_number": "91700",
+    "camera_id": "cam_01",
+    "arrival_frame": 526,
+    "departure_frame": 542,
+    "duration_frames": 16,
+    "arrival_time_sec": 17.533,
+    "departure_time_sec": 18.067,
+    "duration_sec": 0.533,
+    "generated_at": "2026-01-02T23:27:09.875424Z",
+    "pipeline": {
+      "member": "member3",
+      "version": "m3_fusion_v1",
+      "fps_assumed": 30.0
+    }
+  }
+]

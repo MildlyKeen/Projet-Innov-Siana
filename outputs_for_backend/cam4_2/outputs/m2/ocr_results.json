@@ -1,0 +1,9 @@
+[
+  {
+    "event": "TRAIN_ID_STABLE",
+    "train_number": "7648",
+    "frame_index": 87,
+    "time_sec": 1.45,
+    "camera_id": "cam_01"
+  }
+]

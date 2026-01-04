@@ -1,0 +1,16 @@
+[
+  {
+    "event": "TRAIN_ID_STABLE",
+    "train_number": "40496",
+    "frame_index": 1,
+    "time_sec": 0.017,
+    "camera_id": "cam_01"
+  },
+  {
+    "event": "TRAIN_ID_STABLE",
+    "train_number": "404",
+    "frame_index": 896,
+    "time_sec": 14.933,
+    "camera_id": "cam_01"
+  }
+]

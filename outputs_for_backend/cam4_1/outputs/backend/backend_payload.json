@@ -1,0 +1,156 @@
+[
+  {
+    "event_id": "75ac39370310",
+    "event_type": "TRACK_OCCUPANCY",
+    "state": "OCCUPIED",
+    "track_label": "voie1",
+    "track_id": 1,
+    "train_track_id": 1,
+    "train_number": "40433",
+    "camera_id": "cam_01",
+    "arrival_frame": 0,
+    "departure_frame": 202,
+    "duration_frames": 202,
+    "arrival_time_sec": 0.0,
+    "departure_time_sec": 6.733,
+    "duration_sec": 6.733,
+    "generated_at": "2026-01-03T15:33:41.202785Z",
+    "pipeline": {
+      "member": "member3",
+      "version": "m3_fusion_v1",
+      "fps_assumed": 30.0
+    }
+  },
+  {
+    "event_id": "071e8512cef2",
+    "event_type": "TRACK_OCCUPANCY",
+    "state": "OCCUPIED",
+    "track_label": "voie1",
+    "track_id": 1,
+    "train_track_id": 1,
+    "train_number": null,
+    "camera_id": "cam_01",
+    "arrival_frame": 207,
+    "departure_frame": 214,
+    "duration_frames": 7,
+    "arrival_time_sec": 6.9,
+    "departure_time_sec": 7.133,
+    "duration_sec": 0.233,
+    "generated_at": "2026-01-03T15:33:41.202785Z",
+    "pipeline": {
+      "member": "member3",
+      "version": "m3_fusion_v1",
+      "fps_assumed": 30.0
+    }
+  },
+  {
+    "event_id": "b3cca19ac58a",
+    "event_type": "TRACK_OCCUPANCY",
+    "state": "OCCUPIED",
+    "track_label": "voie1",
+    "track_id": 1,
+    "train_track_id": 2,
+    "train_number": "49433",
+    "camera_id": "cam_01",
+    "arrival_frame": 215,
+    "departure_frame": 226,
+    "duration_frames": 11,
+    "arrival_time_sec": 7.167,
+    "departure_time_sec": 7.533,
+    "duration_sec": 0.367,
+    "generated_at": "2026-01-03T15:33:41.202785Z",
+    "pipeline": {
+      "member": "member3",
+      "version": "m3_fusion_v1",
+      "fps_assumed": 30.0
+    }
+  },
+  {
+    "event_id": "531afc6115b1",
+    "event_type": "TRACK_OCCUPANCY",
+    "state": "OCCUPIED",
+    "track_label": "voie1",
+    "track_id": 1,
+    "train_track_id": 2,
+    "train_number": "40433",
+    "camera_id": "cam_01",
+    "arrival_frame": 231,
+    "departure_frame": 234,
+    "duration_frames": 3,
+    "arrival_time_sec": 7.7,
+    "departure_time_sec": 7.8,
+    "duration_sec": 0.1,
+    "generated_at": "2026-01-03T15:33:41.202785Z",
+    "pipeline": {
+      "member": "member3",
+      "version": "m3_fusion_v1",
+      "fps_assumed": 30.0
+    }
+  },
+  {
+    "event_id": "ba82c68e510d",
+    "event_type": "TRACK_OCCUPANCY",
+    "state": "OCCUPIED",
+    "track_label": "voie1",
+    "track_id": 1,
+    "train_track_id": 2,
+    "train_number": "41433",
+    "camera_id": "cam_01",
+    "arrival_frame": 236,
+    "departure_frame": 250,
+    "duration_frames": 14,
+    "arrival_time_sec": 7.867,
+    "departure_time_sec": 8.333,
+    "duration_sec": 0.467,
+    "generated_at": "2026-01-03T15:33:41.202785Z",
+    "pipeline": {
+      "member": "member3",
+      "version": "m3_fusion_v1",
+      "fps_assumed": 30.0
+    }
+  },
+  {
+    "event_id": "a5719110fdf8",
+    "event_type": "TRACK_OCCUPANCY",
+    "state": "OCCUPIED",
+    "track_label": "voie1",
+    "track_id": 1,
+    "train_track_id": 2,
+    "train_number": "41433",
+    "camera_id": "cam_01",
+    "arrival_frame": 253,
+    "departure_frame": 268,
+    "duration_frames": 15,
+    "arrival_time_sec": 8.433,
+    "departure_time_sec": 8.933,
+    "duration_sec": 0.5,
+    "generated_at": "2026-01-03T15:33:41.202785Z",
+    "pipeline": {
+      "member": "member3",
+      "version": "m3_fusion_v1",
+      "fps_assumed": 30.0
+    }
+  },
+  {
+    "event_id": "de11b0df5464",
+    "event_type": "TRACK_OCCUPANCY",
+    "state": "OCCUPIED",
+    "track_label": "voie1",
+    "track_id": 1,
+    "train_track_id": 2,
+    "train_number": "40433",
+    "camera_id": "cam_01",
+    "arrival_frame": 271,
+    "departure_frame": 286,
+    "duration_frames": 15,
+    "arrival_time_sec": 9.033,
+    "departure_time_sec": 9.533,
+    "duration_sec": 0.5,
+    "generated_at": "2026-01-03T15:33:41.202785Z",
+    "pipeline": {
+      "member": "member3",
+      "version": "m3_fusion_v1",
+      "fps_assumed": 30.0
+    }
+  }
+]
