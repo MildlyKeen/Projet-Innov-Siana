@@ -9,7 +9,7 @@ export const getStatistics = () => {
     maintenanceTrains: 3,
     availableTrains: 8,
     availableTracks: 5,
-    averageTraffic: 18,
+    averageTraffic: getPreviousDayFlow(),
   };
 };
 
@@ -24,14 +24,22 @@ export const getTrafficData = () => {
     const hour = new Date();
     hour.setHours(hour.getHours() - i);
     hours.push(`${hour.getHours()}h`);
-    // Generate random traffic data
-    values.push(Math.floor(Math.random() * 15) + 8);
+    // Generate simulated maintenance center flow (0..6 trains per hour)
+    values.push(Math.floor(Math.random() * 7));
   }
   
   return {
     labels: hours,
     values: values,
   };
+};
+
+// Return total flow (sum) for previous day (simulated)
+export const getPreviousDayFlow = () => {
+  // simulate 24 hourly counts between 0..6 and return sum
+  let sum = 0;
+  for (let i = 0; i < 24; i++) sum += Math.floor(Math.random() * 7);
+  return sum;
 };
 
 /**

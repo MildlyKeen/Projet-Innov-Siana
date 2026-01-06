@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { Line, Bar, Doughnut } from 'react-chartjs-2';
 import {
   Chart as ChartJS,
@@ -28,15 +28,34 @@ ChartJS.register(
 );
 
 const Dashboard = ({ statistics, trafficData, trackUtilization }) => {
+  const [voies, setVoies] = useState([]);
+
+  useEffect(() => {
+    let mounted = true;
+    async function fetchVoies() {
+      try {
+        const res = await fetch('/api/voies');
+        if (!res.ok) return;
+        const data = await res.json();
+        if (mounted) setVoies(data);
+      } catch (e) {
+        // ignore
+      }
+    }
+    fetchVoies();
+    const iv = setInterval(fetchVoies, 3000);
+    return () => { mounted = false; clearInterval(iv); };
+  }, []);
+
   // Line chart configuration for traffic
   const trafficChartData = {
     labels: trafficData.labels,
     datasets: [
       {
-        label: 'Trains par heure',
+        label: 'Flux maintenance (trains)',
         data: trafficData.values,
-        borderColor: 'rgb(75, 192, 192)',
-        backgroundColor: 'rgba(75, 192, 192, 0.2)',
+        borderColor: 'rgb(54, 162, 235)',
+        backgroundColor: 'rgba(54, 162, 235, 0.15)',
         tension: 0.4,
       },
     ],
@@ -57,6 +76,7 @@ const Dashboard = ({ statistics, trafficData, trackUtilization }) => {
     scales: {
       y: {
         beginAtZero: true,
+        max: 6,
       },
     },
   };
@@ -192,18 +212,9 @@ const Dashboard = ({ statistics, trafficData, trackUtilization }) => {
         </div>
       </div>
 
-      {/* Charts */}
+      {/* Charts: show only the doughnut now (traffic chart removed) */}
       <div className="row">
-        <div className="col-12 col-lg-8 mb-4">
-          <div className="card chart-card">
-            <div className="card-body">
-              <div className="chart-container">
-                <Line data={trafficChartData} options={trafficChartOptions} />
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="col-12 col-lg-4 mb-4">
+        <div className="col-12 col-lg-4 mb-4 mx-auto">
           <div className="card chart-card">
             <div className="card-body">
               <div className="chart-container-small">
@@ -220,6 +231,33 @@ const Dashboard = ({ statistics, trafficData, trackUtilization }) => {
             <div className="card-body">
               <div className="chart-container">
                 <Bar data={utilizationChartData} options={utilizationChartOptions} />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      {/* Camera feeds aligned under each histogram bar */}
+      <div className="row mt-3 voie-cameras-row">
+        <div className="col-12">
+          <div className="card">
+            <div className="card-body">
+              <div className="voie-cameras-grid">
+                {Array.from({ length: 6 }, (_, i) => {
+                  const voieNum = i + 1;
+                  const v = voies.find((x) => x.voie === voieNum) || null;
+                  const label = `Camera Voie ${voieNum}`;
+                  const src = v && v.video_url ? (import.meta.env.DEV ? `http://localhost:3001${v.video_url}` : v.video_url) : null;
+                  return (
+                    <div key={voieNum} className="voie-camera-col">
+                      <div className="voie-camera-label">{label}</div>
+                      {src ? (
+                        <video className="voie-camera-video" src={src} controls muted playsInline />
+                      ) : (
+                        <div className="voie-camera-placeholder">Aucune vidéo</div>
+                      )}
+                    </div>
+                  );
+                })}
               </div>
             </div>
           </div>

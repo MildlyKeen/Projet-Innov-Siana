@@ -4,7 +4,6 @@ import Dashboard from './components/Dashboard/Dashboard';
 import MaintenanceCameraFeed from './components/MaintenanceCameraFeed';
 import AnalyticsDashboard from './components/AnalyticsDashboard';
 import LiveOperationsFeed from './components/LiveOperationsFeed';
-import TrafficTimeline from './components/TrafficTimeline';
 import MaintenanceHeatmap from './components/MaintenanceHeatmap';
 import { startSimulation, getTracksState, setSimulationInterval, getPreviousDayDwell } from './services/mockData';
 import {
@@ -225,21 +224,15 @@ function App() {
           </div>
         </div>
         <div className="row mt-4">
-          <div className="col-12 col-md-4 mb-3">
+          <div className="col-12 col-md-6 mb-3">
             <div className="card h-100">
               <div className="card-body">
                 <LiveOperationsFeed />
               </div>
             </div>
           </div>
-          <div className="col-12 col-md-4 mb-3">
-            <div className="card h-100">
-              <div className="card-body">
-                <TrafficTimeline />
-              </div>
-            </div>
-          </div>
-          <div className="col-12 col-md-4 mb-3">
+
+          <div className="col-12 col-md-6 mb-3">
             <div className="card h-100">
               <div className="card-body">
                 <MaintenanceHeatmap />
