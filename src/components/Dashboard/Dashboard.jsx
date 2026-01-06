@@ -154,6 +154,15 @@ const Dashboard = ({ statistics, trafficData, trackUtilization }) => {
     },
   };
 
+  const fallbackCameraSources = [
+    '/videos/trains_rails_overlay.mp4',
+    '/videos/trains_rails_overlay2.mp4',
+    '/videos/video.mp4',
+    '/videos/video2.mp4',
+    '/videos/trains_rails_overlay.mp4',
+    '/videos/video2.mp4',
+  ];
+
   return (
     <div className="dashboard">
       {/* Statistics Cards */}
@@ -244,14 +253,27 @@ const Dashboard = ({ statistics, trafficData, trackUtilization }) => {
               <div className="voie-cameras-grid">
                 {Array.from({ length: 6 }, (_, i) => {
                   const voieNum = i + 1;
-                  const v = voies.find((x) => x.voie === voieNum) || null;
+                  const v = voies.find((x) => x.voie_index === voieNum) || null;
                   const label = `Camera Voie ${voieNum}`;
-                  const src = v && v.video_url ? (import.meta.env.DEV ? `http://localhost:3001${v.video_url}` : v.video_url) : null;
+                  const srcFromApi = v && v.video_url
+                    ? (v.video_url.startsWith('http')
+                      ? v.video_url
+                      : `${import.meta.env.DEV ? 'http://localhost:3001' : ''}${v.video_url}`)
+                    : null;
+                  const src = srcFromApi || fallbackCameraSources[i] || null;
                   return (
                     <div key={voieNum} className="voie-camera-col">
                       <div className="voie-camera-label">{label}</div>
                       {src ? (
-                        <video className="voie-camera-video" src={src} controls muted playsInline />
+                        <video
+                          className="voie-camera-video"
+                          src={src}
+                          controls
+                          autoPlay
+                          loop
+                          muted
+                          playsInline
+                        />
                       ) : (
                         <div className="voie-camera-placeholder">Aucune vidéo</div>
                       )}
