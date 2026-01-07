@@ -1,22 +1,7 @@
-import React, { useState, useEffect } from 'react';
-import { getRecentEvents, startSimulation } from '../../services/mockData';
+import React from 'react';
 import './LiveOperationsFeed.css';
 
-const LiveOperationsFeed = () => {
-  const [events, setEvents] = useState([]);
-
-  useEffect(() => {
-    const unsubscribe = startSimulation((tracks) => {
-      // Update events whenever simulation ticks
-      setEvents(getRecentEvents());
-    });
-
-    // Initial load
-    setEvents(getRecentEvents());
-
-    return unsubscribe;
-  }, []);
-
+const LiveOperationsFeed = ({ events = [] }) => {
   const getEventIcon = (type) => {
     switch (type) {
       case 'success': return '✅';
@@ -45,10 +30,10 @@ const LiveOperationsFeed = () => {
                 <div className="event-message">{event.message}</div>
                 <div className="event-meta">
                   <small className="event-time">
-                    {new Date(event.timestamp).toLocaleTimeString()}
+                    {new Date(event.timestamp).toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })}
                   </small>
-                  {event.trackId && (
-                    <small className="event-track">Voie {event.trackId}</small>
+                  {event.trackLabel && (
+                    <small className="event-track">{event.trackLabel}</small>
                   )}
                 </div>
               </div>

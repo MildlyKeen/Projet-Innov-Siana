@@ -136,37 +136,110 @@ app.get('/api/voies', (req, res) => {
       };
     }).filter(entry => entry.videoUrl);
 
-    const sortedByDuration = cameraEntries
-      .sort((a, b) => (b.occupancy.video_duration_sec || 0) - (a.occupancy.video_duration_sec || 0));
+    const entryByFolder = new Map(cameraEntries.map(entry => [entry.camFolder, entry]));
+    const desiredOrder = ['cam1_1', 'cam2_1', 'cam3_2'];
+    const trainByCamera = ['40034', '91700', '43983'];
 
-    const selected = sortedByDuration.slice(0, 3).map((entry, index) => {
-      const baseTrackIndex = index * 2 + 1;
-      const normalizedTracks = (entry.occupancy.tracks || []).map((track, trackIdx) => {
-        const match = /([0-9]+)/.exec(track.label || '');
-        const localIndex = match ? Number(match[1]) : (trackIdx + 1);
-        const globalIndex = baseTrackIndex + Math.max(0, localIndex - 1);
-        return {
-          ...track,
-          global_index: globalIndex,
-          global_label: `Voie ${globalIndex}`,
+    const cycleSettings = [
+      { emptySeconds: 3, occupiedUntil: 20 },
+      { emptySeconds: 1, occupiedUntil: 12 },
+      { emptySeconds: 4, occupiedUntil: 8 },
+    ];
+    const selected = desiredOrder
+      .map((folder, orderIndex) => {
+        const entry = entryByFolder.get(folder);
+        if (!entry) return null;
+
+        const baseTrackIndex = orderIndex * 2 + 1;
+        const targetTrain = trainByCamera[orderIndex] || null;
+        const referenceEvent = (entry.occupancy?.occupancy_events || [])[0] || {};
+        const fps = (referenceEvent.pipeline && referenceEvent.pipeline.fps_assumed) || 30;
+        const { emptySeconds, occupiedUntil } = cycleSettings[orderIndex];
+        const cycleLengthSec = emptySeconds + Math.max(0, occupiedUntil - emptySeconds);
+        const occupiedOffsetSec = emptySeconds;
+        const occupiedDurationSec = Math.max(0, occupiedUntil - emptySeconds);
+        const cycles = 4;
+        const videoDurationSec = cycleLengthSec * cycles;
+        const now = Date.now();
+
+        const normalizedEvents = Array.from({ length: cycles }, (_, cycleIndex) => {
+          const cycleStart = cycleIndex * cycleLengthSec;
+          const start = cycleStart + occupiedOffsetSec;
+          const end = cycleStart + occupiedUntil;
+          const duration = Math.max(0, end - start);
+          const arrivalFrame = Math.round(start * fps);
+          const departureFrame = Math.max(arrivalFrame + 1, Math.round(end * fps));
+          const generatedAt = new Date(now - (cycles - cycleIndex - 1) * cycleLengthSec * 1000).toISOString();
+
+          return {
+            event_id: `${entry.camFolder}-${targetTrain || 'train'}-${cycleIndex}`,
+            event_type: 'TRACK_OCCUPANCY',
+            state: 'OCCUPIED',
+            track_label: `voie${baseTrackIndex + 1}`,
+            track_id: baseTrackIndex + 1,
+            train_track_id: baseTrackIndex + 1,
+            train_number: targetTrain,
+            camera_id: referenceEvent.camera_id || entry.camFolder,
+            arrival_frame: arrivalFrame,
+            departure_frame: departureFrame,
+            duration_frames: Math.max(1, departureFrame - arrivalFrame),
+            arrival_time_sec: Number(start.toFixed(3)),
+            departure_time_sec: Number(end.toFixed(3)),
+            duration_sec: Number(duration.toFixed(3)),
+            generated_at: generatedAt,
+            pipeline: referenceEvent.pipeline || { member: 'synthetic', version: 'v1', fps_assumed: fps },
+          };
+        }).filter(evt => evt.duration_sec > 0 && evt.arrival_time_sec < videoDurationSec);
+
+        const lastEvent = normalizedEvents.length ? normalizedEvents[normalizedEvents.length - 1] : null;
+
+        const emptyTrack = {
+          label: `voie${baseTrackIndex}`,
+          track_id: baseTrackIndex,
+          count: 0,
+          total_duration_sec: 0,
+          unique_trains: [],
+          last_event: null,
+          global_index: baseTrackIndex,
+          global_label: `Voie ${baseTrackIndex}`,
         };
-      });
 
-      const enrichedOccupancy = {
-        ...entry.occupancy,
-        tracks: normalizedTracks,
-      };
+        const occupiedTrack = {
+          label: `voie${baseTrackIndex + 1}`,
+          track_id: baseTrackIndex + 1,
+          count: normalizedEvents.length,
+          total_duration_sec: videoDurationSec,
+          unique_trains: targetTrain ? [targetTrain] : [],
+          last_event: lastEvent,
+          global_index: baseTrackIndex + 1,
+          global_label: `Voie ${baseTrackIndex + 1}`,
+        };
 
-      return {
-        voie_index: index + 1,
-        camera_label: `Caméra ${index + 1}`,
+        const tracks = [emptyTrack, occupiedTrack];
+
+        const enrichedOccupancy = {
+          total_events: normalizedEvents.length,
+          occupancy_events: normalizedEvents,
+          tracks,
+          unique_train_numbers: targetTrain ? [targetTrain] : [],
+          video_duration_sec: videoDurationSec,
+          last_generated_at: lastEvent ? lastEvent.generated_at : new Date(now).toISOString(),
+        };
+
+        const voieRangeStart = baseTrackIndex;
+        const voieRangeEnd = baseTrackIndex + 1;
+
+        return {
+          voie_index: orderIndex + 1,
+          camera_label: `Camera ${orderIndex + 1} (Voies ${voieRangeStart}-${voieRangeEnd})`,
         folder: entry.camFolder,
         video_url: entry.videoUrl,
-        video_duration_sec: entry.occupancy.video_duration_sec || 0,
-        train_numbers: entry.occupancy.unique_train_numbers || [],
+          video_duration_sec: videoDurationSec,
+          train_numbers: targetTrain ? [targetTrain] : [],
         occupancy: enrichedOccupancy,
       };
-    });
+      })
+      .filter(Boolean);
 
     const allTracks = selected.flatMap(cam => (cam.occupancy.tracks || []).map(track => ({
       ...track,

@@ -1,23 +1,13 @@
-import React, { useState, useEffect } from 'react';
-import { getTracksState, getPreviousDayDwell, startSimulation } from '../../services/mockData';
+import React, { useMemo } from 'react';
 import './MaintenanceHeatmap.css';
 
-const MaintenanceHeatmap = () => {
-  const [tracks, setTracks] = useState([]);
-  const [previousDayDwell, setPreviousDayDwell] = useState([]);
-
-  useEffect(() => {
-    const unsubscribe = startSimulation((newTracks) => {
-      setTracks(newTracks);
-      setPreviousDayDwell(getPreviousDayDwell());
-    });
-
-    // Initial load
-    setTracks(getTracksState());
-    setPreviousDayDwell(getPreviousDayDwell());
-
-    return unsubscribe;
-  }, []);
+const MaintenanceHeatmap = ({ tracks = [], previousDayDwell = [] }) => {
+  const dwellMap = useMemo(() => {
+    return previousDayDwell.reduce((acc, entry) => {
+      acc[entry.id] = entry.hours || 0;
+      return acc;
+    }, {});
+  }, [previousDayDwell]);
 
   const getTrackClass = (track) => {
     let baseClass = 'track-cell';
@@ -26,8 +16,7 @@ const MaintenanceHeatmap = () => {
     else baseClass += ' status-free';
 
     // Add health indicator based on dwell time
-    const prev = previousDayDwell.find(p => p.id === track.id);
-    const dwellHours = prev ? prev.hours : 0;
+    const dwellHours = dwellMap[track.id] || 0;
     if (dwellHours > 20) baseClass += ' health-high-usage';
     else if (dwellHours > 10) baseClass += ' health-medium-usage';
     else baseClass += ' health-low-usage';
@@ -45,8 +34,7 @@ const MaintenanceHeatmap = () => {
   };
 
   const getHealthScore = (track) => {
-    const prev = previousDayDwell.find(p => p.id === track.id);
-    const dwellHours = prev ? prev.hours : 0;
+    const dwellHours = dwellMap[track.id] || 0;
     // Simple health score: lower dwell time = better health
     const score = Math.max(0, 100 - (dwellHours * 2));
     return Math.round(score);
@@ -71,7 +59,7 @@ const MaintenanceHeatmap = () => {
                 Santé: {getHealthScore(track)}%
               </div>
               <div className="track-dwell">
-                {previousDayDwell.find(p => p.id === track.id)?.hours || 0}h (hier)
+                {dwellMap[track.id] || 0}h (hier)
               </div>
             </div>
           </div>
