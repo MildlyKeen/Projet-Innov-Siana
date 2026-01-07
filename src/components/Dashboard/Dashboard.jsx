@@ -38,7 +38,7 @@ const Dashboard = ({ statistics, trafficData, trackUtilization }) => {
         if (!res.ok) return;
         const data = await res.json();
         if (mounted) setVoies(data);
-      } catch (e) {
+      } catch {
         // ignore
       }
     }
@@ -47,39 +47,7 @@ const Dashboard = ({ statistics, trafficData, trackUtilization }) => {
     return () => { mounted = false; clearInterval(iv); };
   }, []);
 
-  // Line chart configuration for traffic
-  const trafficChartData = {
-    labels: trafficData.labels,
-    datasets: [
-      {
-        label: 'Flux maintenance (trains)',
-        data: trafficData.values,
-        borderColor: 'rgb(54, 162, 235)',
-        backgroundColor: 'rgba(54, 162, 235, 0.15)',
-        tension: 0.4,
-      },
-    ],
-  };
 
-  const trafficChartOptions = {
-    responsive: true,
-    maintainAspectRatio: false,
-    plugins: {
-      legend: {
-        position: 'top',
-      },
-      title: {
-        display: true,
-        text: 'Trafic Ferroviaire (24h)',
-      },
-    },
-    scales: {
-      y: {
-        beginAtZero: true,
-        max: 6,
-      },
-    },
-  };
 
   // Bar chart for track utilization
   const utilizationChartData = {
@@ -206,19 +174,7 @@ const Dashboard = ({ statistics, trafficData, trackUtilization }) => {
             </div>
           </div>
         </div>
-        <div className="col-12 col-md-6 col-lg-3 mb-3">
-          <div className="card stat-card stat-card-info">
-            <div className="card-body">
-              <div className="d-flex justify-content-between align-items-center">
-                <div>
-                  <p className="text-muted mb-1">Trafic Moyen</p>
-                  <h3 className="mb-0">{statistics.averageTraffic}/h</h3>
-                </div>
-                <div className="stat-icon">📊</div>
-              </div>
-            </div>
-          </div>
-        </div>
+
       </div>
 
       {/* Charts: show only the doughnut now (traffic chart removed) */}
@@ -245,46 +201,7 @@ const Dashboard = ({ statistics, trafficData, trackUtilization }) => {
           </div>
         </div>
       </div>
-      {/* Camera feeds aligned under each histogram bar */}
-      <div className="row mt-3 voie-cameras-row">
-        <div className="col-12">
-          <div className="card">
-            <div className="card-body">
-              <div className="voie-cameras-grid">
-                {Array.from({ length: 6 }, (_, i) => {
-                  const voieNum = i + 1;
-                  const v = voies.find((x) => x.voie_index === voieNum) || null;
-                  const label = `Camera Voie ${voieNum}`;
-                  const srcFromApi = v && v.video_url
-                    ? (v.video_url.startsWith('http')
-                      ? v.video_url
-                      : `${import.meta.env.DEV ? 'http://localhost:3001' : ''}${v.video_url}`)
-                    : null;
-                  const src = srcFromApi || fallbackCameraSources[i] || null;
-                  return (
-                    <div key={voieNum} className="voie-camera-col">
-                      <div className="voie-camera-label">{label}</div>
-                      {src ? (
-                        <video
-                          className="voie-camera-video"
-                          src={src}
-                          controls
-                          autoPlay
-                          loop
-                          muted
-                          playsInline
-                        />
-                      ) : (
-                        <div className="voie-camera-placeholder">Aucune vidéo</div>
-                      )}
-                    </div>
-                  );
-                })}
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+
     </div>
   );
 };
