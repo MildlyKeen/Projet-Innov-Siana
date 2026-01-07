@@ -233,6 +233,7 @@ const Dashboard = ({ statistics, trafficData, trackUtilization, cameras = [], la
         </div>
       </div>
 
+      {/* Utilization chart with camera feeds under each pair of tracks */}
       <div className="row">
         <div className="col-12">
           <div className="card chart-card">
@@ -244,19 +245,21 @@ const Dashboard = ({ statistics, trafficData, trackUtilization, cameras = [], la
           </div>
         </div>
       </div>
-      {/* Camera feeds aligned under each histogram bar */}
+
+      {/* Camera feeds directly under corresponding tracks */}
       <div className="row mt-3 voie-cameras-row">
         <div className="col-12">
           <div className="card">
             <div className="card-body">
-              <div className="voie-cameras-grid">
-                {cameraCards.map(card => (
-                  <div key={card.key} className="voie-camera-col">
-                    <div className="voie-camera-label">{card.label}</div>
-                    {card.src ? (
+              <div className="voie-cameras-grid-paired">
+                {/* Camera 1 under voies 1-2 */}
+                {cameraCards[0] && (
+                  <div className="voie-camera-col">
+                    <div className="voie-camera-label">{cameraCards[0].label}</div>
+                    {cameraCards[0].src ? (
                       <video
                         className="voie-camera-video"
-                        src={card.src}
+                        src={cameraCards[0].src}
                         controls
                         autoPlay
                         loop
@@ -267,11 +270,57 @@ const Dashboard = ({ statistics, trafficData, trackUtilization, cameras = [], la
                       <div className="voie-camera-placeholder">Aucune vidéo</div>
                     )}
                     <div className="voie-camera-meta">
-                      <div><strong>Voies :</strong> {card.voie}</div>
-                      <div><strong>Trains :</strong> {card.trains}</div>
+                      <div><strong>Voies :</strong> {cameraCards[0].voie}</div>
+                      <div><strong>Trains :</strong> {cameraCards[0].trains}</div>
                     </div>
                   </div>
-                ))}
+                )}
+                {/* Camera 2 under voies 3-4 */}
+                {cameraCards[1] && (
+                  <div className="voie-camera-col">
+                    <div className="voie-camera-label">{cameraCards[1].label}</div>
+                    {cameraCards[1].src ? (
+                      <video
+                        className="voie-camera-video"
+                        src={cameraCards[1].src}
+                        controls
+                        autoPlay
+                        loop
+                        muted
+                        playsInline
+                      />
+                    ) : (
+                      <div className="voie-camera-placeholder">Aucune vidéo</div>
+                    )}
+                    <div className="voie-camera-meta">
+                      <div><strong>Voies :</strong> {cameraCards[1].voie}</div>
+                      <div><strong>Trains :</strong> {cameraCards[1].trains}</div>
+                    </div>
+                  </div>
+                )}
+                {/* Camera 3 under voies 5-6 */}
+                {cameraCards[2] && (
+                  <div className="voie-camera-col">
+                    <div className="voie-camera-label">{cameraCards[2].label}</div>
+                    {cameraCards[2].src ? (
+                      <video
+                        className="voie-camera-video"
+                        src={cameraCards[2].src}
+                        controls
+                        autoPlay
+                        loop
+                        muted
+                        playsInline
+                      />
+                    ) : (
+                      <div className="voie-camera-placeholder">Aucune vidéo</div>
+                    )}
+                    <div className="voie-camera-meta">
+                      <div><strong>Voies :</strong> {cameraCards[2].voie}</div>
+                      <div><strong>Trains :</strong> {cameraCards[2].trains}</div>
+                    </div>
+                  </div>
+                )}
               </div>
               {lastUpdated && (
                 <div className="text-end text-muted small mt-2">
