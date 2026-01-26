@@ -1,0 +1,14 @@
+{"event": "ARRIVAL", "state": "occupée", "track": "voie1", "train_track_id": 1, "start_frame": 0, "frame": 2}
+{"event": "DEPARTURE", "state": "libre", "track": "voie1", "train_track_id": 1, "end_frame": 202, "frame": 202}
+{"event": "ARRIVAL", "state": "occupée", "track": "voie1", "train_track_id": 1, "start_frame": 207, "frame": 209}
+{"event": "DEPARTURE", "state": "libre", "track": "voie1", "train_track_id": 1, "end_frame": 214, "frame": 214}
+{"event": "ARRIVAL", "state": "occupée", "track": "voie1", "train_track_id": 2, "start_frame": 215, "frame": 217}
+{"event": "DEPARTURE", "state": "libre", "track": "voie1", "train_track_id": 2, "end_frame": 226, "frame": 226}
+{"event": "ARRIVAL", "state": "occupée", "track": "voie1", "train_track_id": 2, "start_frame": 231, "frame": 233}
+{"event": "DEPARTURE", "state": "libre", "track": "voie1", "train_track_id": 2, "end_frame": 234, "frame": 234}
+{"event": "ARRIVAL", "state": "occupée", "track": "voie1", "train_track_id": 2, "start_frame": 236, "frame": 238}
+{"event": "DEPARTURE", "state": "libre", "track": "voie1", "train_track_id": 2, "end_frame": 250, "frame": 250}
+{"event": "ARRIVAL", "state": "occupée", "track": "voie1", "train_track_id": 2, "start_frame": 253, "frame": 255}
+{"event": "DEPARTURE", "state": "libre", "track": "voie1", "train_track_id": 2, "end_frame": 268, "frame": 268}
+{"event": "ARRIVAL", "state": "occupée", "track": "voie1", "train_track_id": 2, "start_frame": 271, "frame": 273}
+{"event": "DEPARTURE", "state": "libre", "track": "voie1", "train_track_id": 2, "end_frame": 286, "frame": 286}

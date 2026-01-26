@@ -14,7 +14,7 @@
     "arrival_time_sec": 0.0,
     "departure_time_sec": 0.567,
     "duration_sec": 0.567,
-    "generated_at": "2026-01-02T15:56:13.098884Z",
+    "generated_at": "2026-01-04T02:35:00.456373Z",
     "pipeline": {
       "member": "member3",
       "version": "m3_fusion_v1",
@@ -36,7 +36,7 @@
     "arrival_time_sec": 0.867,
     "departure_time_sec": 1.533,
     "duration_sec": 0.667,
-    "generated_at": "2026-01-02T15:56:13.098884Z",
+    "generated_at": "2026-01-04T02:35:00.456373Z",
     "pipeline": {
       "member": "member3",
       "version": "m3_fusion_v1",
@@ -58,7 +58,7 @@
     "arrival_time_sec": 1.633,
     "departure_time_sec": 1.7,
     "duration_sec": 0.067,
-    "generated_at": "2026-01-02T15:56:13.098884Z",
+    "generated_at": "2026-01-04T02:35:00.456373Z",
     "pipeline": {
       "member": "member3",
       "version": "m3_fusion_v1",
@@ -80,7 +80,7 @@
     "arrival_time_sec": 1.733,
     "departure_time_sec": 1.833,
     "duration_sec": 0.1,
-    "generated_at": "2026-01-02T15:56:13.098884Z",
+    "generated_at": "2026-01-04T02:35:00.456373Z",
     "pipeline": {
       "member": "member3",
       "version": "m3_fusion_v1",
@@ -102,7 +102,7 @@
     "arrival_time_sec": 1.933,
     "departure_time_sec": 2.033,
     "duration_sec": 0.1,
-    "generated_at": "2026-01-02T15:56:13.098884Z",
+    "generated_at": "2026-01-04T02:35:00.456373Z",
     "pipeline": {
       "member": "member3",
       "version": "m3_fusion_v1",
@@ -124,7 +124,7 @@
     "arrival_time_sec": 2.067,
     "departure_time_sec": 2.167,
     "duration_sec": 0.1,
-    "generated_at": "2026-01-02T15:56:13.098884Z",
+    "generated_at": "2026-01-04T02:35:00.456373Z",
     "pipeline": {
       "member": "member3",
       "version": "m3_fusion_v1",
@@ -146,7 +146,7 @@
     "arrival_time_sec": 2.2,
     "departure_time_sec": 2.267,
     "duration_sec": 0.067,
-    "generated_at": "2026-01-02T15:56:13.098884Z",
+    "generated_at": "2026-01-04T02:35:00.456373Z",
     "pipeline": {
       "member": "member3",
       "version": "m3_fusion_v1",
@@ -168,7 +168,7 @@
     "arrival_time_sec": 2.3,
     "departure_time_sec": 2.367,
     "duration_sec": 0.067,
-    "generated_at": "2026-01-02T15:56:13.098884Z",
+    "generated_at": "2026-01-04T02:35:00.456373Z",
     "pipeline": {
       "member": "member3",
       "version": "m3_fusion_v1",
@@ -190,7 +190,7 @@
     "arrival_time_sec": 2.4,
     "departure_time_sec": 3.967,
     "duration_sec": 1.567,
-    "generated_at": "2026-01-02T15:56:13.098884Z",
+    "generated_at": "2026-01-04T02:35:00.456373Z",
     "pipeline": {
       "member": "member3",
       "version": "m3_fusion_v1",
@@ -212,7 +212,7 @@
     "arrival_time_sec": 4.067,
     "departure_time_sec": 5.033,
     "duration_sec": 0.967,
-    "generated_at": "2026-01-02T15:56:13.098884Z",
+    "generated_at": "2026-01-04T02:35:00.456373Z",
     "pipeline": {
       "member": "member3",
       "version": "m3_fusion_v1",
@@ -234,7 +234,7 @@
     "arrival_time_sec": 5.067,
     "departure_time_sec": 5.167,
     "duration_sec": 0.1,
-    "generated_at": "2026-01-02T15:56:13.098884Z",
+    "generated_at": "2026-01-04T02:35:00.456373Z",
     "pipeline": {
       "member": "member3",
       "version": "m3_fusion_v1",
@@ -256,7 +256,7 @@
     "arrival_time_sec": 5.2,
     "departure_time_sec": 6.033,
     "duration_sec": 0.833,
-    "generated_at": "2026-01-02T15:56:13.098884Z",
+    "generated_at": "2026-01-04T02:35:00.456373Z",
     "pipeline": {
       "member": "member3",
       "version": "m3_fusion_v1",
@@ -278,7 +278,7 @@
     "arrival_time_sec": 6.133,
     "departure_time_sec": 6.267,
     "duration_sec": 0.133,
-    "generated_at": "2026-01-02T15:56:13.098884Z",
+    "generated_at": "2026-01-04T02:35:00.456373Z",
     "pipeline": {
       "member": "member3",
       "version": "m3_fusion_v1",
@@ -300,7 +300,7 @@
     "arrival_time_sec": 6.3,
     "departure_time_sec": 6.433,
     "duration_sec": 0.133,
-    "generated_at": "2026-01-02T15:56:13.098884Z",
+    "generated_at": "2026-01-04T02:35:00.456373Z",
     "pipeline": {
       "member": "member3",
       "version": "m3_fusion_v1",
@@ -322,7 +322,7 @@
     "arrival_time_sec": 6.667,
     "departure_time_sec": 6.9,
     "duration_sec": 0.233,
-    "generated_at": "2026-01-02T15:56:13.098884Z",
+    "generated_at": "2026-01-04T02:35:00.456373Z",
     "pipeline": {
       "member": "member3",
       "version": "m3_fusion_v1",
@@ -344,7 +344,7 @@
     "arrival_time_sec": 7.0,
     "departure_time_sec": 7.167,
     "duration_sec": 0.167,
-    "generated_at": "2026-01-02T15:56:13.098884Z",
+    "generated_at": "2026-01-04T02:35:00.456373Z",
     "pipeline": {
       "member": "member3",
       "version": "m3_fusion_v1",
@@ -366,7 +366,7 @@
     "arrival_time_sec": 7.267,
     "departure_time_sec": 7.367,
     "duration_sec": 0.1,
-    "generated_at": "2026-01-02T15:56:13.098884Z",
+    "generated_at": "2026-01-04T02:35:00.456373Z",
     "pipeline": {
       "member": "member3",
       "version": "m3_fusion_v1",
@@ -388,7 +388,7 @@
     "arrival_time_sec": 7.4,
     "departure_time_sec": 7.5,
     "duration_sec": 0.1,
-    "generated_at": "2026-01-02T15:56:13.098884Z",
+    "generated_at": "2026-01-04T02:35:00.456373Z",
     "pipeline": {
       "member": "member3",
       "version": "m3_fusion_v1",
@@ -410,7 +410,7 @@
     "arrival_time_sec": 7.533,
     "departure_time_sec": 7.7,
     "duration_sec": 0.167,
-    "generated_at": "2026-01-02T15:56:13.098884Z",
+    "generated_at": "2026-01-04T02:35:00.456373Z",
     "pipeline": {
       "member": "member3",
       "version": "m3_fusion_v1",
@@ -432,7 +432,7 @@
     "arrival_time_sec": 7.733,
     "departure_time_sec": 7.9,
     "duration_sec": 0.167,
-    "generated_at": "2026-01-02T15:56:13.098884Z",
+    "generated_at": "2026-01-04T02:35:00.456373Z",
     "pipeline": {
       "member": "member3",
       "version": "m3_fusion_v1",
@@ -454,7 +454,7 @@
     "arrival_time_sec": 7.933,
     "departure_time_sec": 8.033,
     "duration_sec": 0.1,
-    "generated_at": "2026-01-02T15:56:13.098884Z",
+    "generated_at": "2026-01-04T02:35:00.456373Z",
     "pipeline": {
       "member": "member3",
       "version": "m3_fusion_v1",
@@ -476,7 +476,7 @@
     "arrival_time_sec": 8.067,
     "departure_time_sec": 8.233,
     "duration_sec": 0.167,
-    "generated_at": "2026-01-02T15:56:13.098884Z",
+    "generated_at": "2026-01-04T02:35:00.456373Z",
     "pipeline": {
       "member": "member3",
       "version": "m3_fusion_v1",
@@ -498,7 +498,7 @@
     "arrival_time_sec": 8.333,
     "departure_time_sec": 9.233,
     "duration_sec": 0.9,
-    "generated_at": "2026-01-02T15:56:13.098884Z",
+    "generated_at": "2026-01-04T02:35:00.456373Z",
     "pipeline": {
       "member": "member3",
       "version": "m3_fusion_v1",
@@ -520,7 +520,7 @@
     "arrival_time_sec": 9.333,
     "departure_time_sec": 19.867,
     "duration_sec": 10.533,
-    "generated_at": "2026-01-02T15:56:13.098884Z",
+    "generated_at": "2026-01-04T02:35:00.456373Z",
     "pipeline": {
       "member": "member3",
       "version": "m3_fusion_v1",
@@ -542,7 +542,7 @@
     "arrival_time_sec": 19.933,
     "departure_time_sec": 20.3,
     "duration_sec": 0.367,
-    "generated_at": "2026-01-02T15:56:13.098884Z",
+    "generated_at": "2026-01-04T02:35:00.456373Z",
     "pipeline": {
       "member": "member3",
       "version": "m3_fusion_v1",
@@ -564,7 +564,7 @@
     "arrival_time_sec": 20.4,
     "departure_time_sec": 20.8,
     "duration_sec": 0.4,
-    "generated_at": "2026-01-02T15:56:13.098884Z",
+    "generated_at": "2026-01-04T02:35:00.456373Z",
     "pipeline": {
       "member": "member3",
       "version": "m3_fusion_v1",
@@ -586,7 +586,7 @@
     "arrival_time_sec": 21.133,
     "departure_time_sec": 21.433,
     "duration_sec": 0.3,
-    "generated_at": "2026-01-02T15:56:13.098884Z",
+    "generated_at": "2026-01-04T02:35:00.456373Z",
     "pipeline": {
       "member": "member3",
       "version": "m3_fusion_v1",
@@ -608,7 +608,7 @@
     "arrival_time_sec": 21.533,
     "departure_time_sec": 22.233,
     "duration_sec": 0.7,
-    "generated_at": "2026-01-02T15:56:13.098884Z",
+    "generated_at": "2026-01-04T02:35:00.456373Z",
     "pipeline": {
       "member": "member3",
       "version": "m3_fusion_v1",
@@ -630,7 +630,7 @@
     "arrival_time_sec": 22.4,
     "departure_time_sec": 22.5,
     "duration_sec": 0.1,
-    "generated_at": "2026-01-02T15:56:13.098884Z",
+    "generated_at": "2026-01-04T02:35:00.456373Z",
     "pipeline": {
       "member": "member3",
       "version": "m3_fusion_v1",
@@ -652,7 +652,7 @@
     "arrival_time_sec": 22.6,
     "departure_time_sec": 23.167,
     "duration_sec": 0.567,
-    "generated_at": "2026-01-02T15:56:13.098884Z",
+    "generated_at": "2026-01-04T02:35:00.456373Z",
     "pipeline": {
       "member": "member3",
       "version": "m3_fusion_v1",
@@ -674,7 +674,7 @@
     "arrival_time_sec": 23.267,
     "departure_time_sec": 26.367,
     "duration_sec": 3.1,
-    "generated_at": "2026-01-02T15:56:13.098884Z",
+    "generated_at": "2026-01-04T02:35:00.456373Z",
     "pipeline": {
       "member": "member3",
       "version": "m3_fusion_v1",
@@ -696,7 +696,7 @@
     "arrival_time_sec": 26.467,
     "departure_time_sec": 26.7,
     "duration_sec": 0.233,
-    "generated_at": "2026-01-02T15:56:13.098884Z",
+    "generated_at": "2026-01-04T02:35:00.456373Z",
     "pipeline": {
       "member": "member3",
       "version": "m3_fusion_v1",
@@ -718,7 +718,7 @@
     "arrival_time_sec": 26.8,
     "departure_time_sec": 27.833,
     "duration_sec": 1.033,
-    "generated_at": "2026-01-02T15:56:13.098884Z",
+    "generated_at": "2026-01-04T02:35:00.456373Z",
     "pipeline": {
       "member": "member3",
       "version": "m3_fusion_v1",
@@ -740,7 +740,7 @@
     "arrival_time_sec": 27.933,
     "departure_time_sec": 28.1,
     "duration_sec": 0.167,
-    "generated_at": "2026-01-02T15:56:13.098884Z",
+    "generated_at": "2026-01-04T02:35:00.456373Z",
     "pipeline": {
       "member": "member3",
       "version": "m3_fusion_v1",
@@ -762,7 +762,7 @@
     "arrival_time_sec": 28.333,
     "departure_time_sec": 28.5,
     "duration_sec": 0.167,
-    "generated_at": "2026-01-02T15:56:13.098884Z",
+    "generated_at": "2026-01-04T02:35:00.456373Z",
     "pipeline": {
       "member": "member3",
       "version": "m3_fusion_v1",
@@ -784,7 +784,7 @@
     "arrival_time_sec": 28.8,
     "departure_time_sec": 29.033,
     "duration_sec": 0.233,
-    "generated_at": "2026-01-02T15:56:13.098884Z",
+    "generated_at": "2026-01-04T02:35:00.456373Z",
     "pipeline": {
       "member": "member3",
       "version": "m3_fusion_v1",
@@ -806,7 +806,7 @@
     "arrival_time_sec": 29.4,
     "departure_time_sec": 29.633,
     "duration_sec": 0.233,
-    "generated_at": "2026-01-02T15:56:13.098884Z",
+    "generated_at": "2026-01-04T02:35:00.456373Z",
     "pipeline": {
       "member": "member3",
       "version": "m3_fusion_v1",
@@ -828,7 +828,7 @@
     "arrival_time_sec": 21.933,
     "departure_time_sec": 22.0,
     "duration_sec": 0.067,
-    "generated_at": "2026-01-02T15:56:13.098884Z",
+    "generated_at": "2026-01-04T02:35:00.456373Z",
     "pipeline": {
       "member": "member3",
       "version": "m3_fusion_v1",
@@ -850,7 +850,7 @@
     "arrival_time_sec": 22.6,
     "departure_time_sec": 22.733,
     "duration_sec": 0.133,
-    "generated_at": "2026-01-02T15:56:13.098884Z",
+    "generated_at": "2026-01-04T02:35:00.456373Z",
     "pipeline": {
       "member": "member3",
       "version": "m3_fusion_v1",
@@ -872,7 +872,7 @@
     "arrival_time_sec": 23.8,
     "departure_time_sec": 23.9,
     "duration_sec": 0.1,
-    "generated_at": "2026-01-02T15:56:13.098884Z",
+    "generated_at": "2026-01-04T02:35:00.456373Z",
     "pipeline": {
       "member": "member3",
       "version": "m3_fusion_v1",
@@ -894,7 +894,7 @@
     "arrival_time_sec": 23.167,
     "departure_time_sec": 23.233,
     "duration_sec": 0.067,
-    "generated_at": "2026-01-02T15:56:13.098884Z",
+    "generated_at": "2026-01-04T02:35:00.456373Z",
     "pipeline": {
       "member": "member3",
       "version": "m3_fusion_v1",
@@ -916,7 +916,7 @@
     "arrival_time_sec": 27.5,
     "departure_time_sec": 27.567,
     "duration_sec": 0.067,
-    "generated_at": "2026-01-02T15:56:13.098884Z",
+    "generated_at": "2026-01-04T02:35:00.456373Z",
     "pipeline": {
       "member": "member3",
       "version": "m3_fusion_v1",
@@ -938,7 +938,7 @@
     "arrival_time_sec": 27.667,
     "departure_time_sec": 27.967,
     "duration_sec": 0.3,
-    "generated_at": "2026-01-02T15:56:13.098884Z",
+    "generated_at": "2026-01-04T02:35:00.456373Z",
     "pipeline": {
       "member": "member3",
       "version": "m3_fusion_v1",
@@ -960,7 +960,7 @@
     "arrival_time_sec": 28.667,
     "departure_time_sec": 28.767,
     "duration_sec": 0.1,
-    "generated_at": "2026-01-02T15:56:13.098884Z",
+    "generated_at": "2026-01-04T02:35:00.456373Z",
     "pipeline": {
       "member": "member3",
       "version": "m3_fusion_v1",
@@ -982,7 +982,7 @@
     "arrival_time_sec": 28.867,
     "departure_time_sec": 28.933,
     "duration_sec": 0.067,
-    "generated_at": "2026-01-02T15:56:13.098884Z",
+    "generated_at": "2026-01-04T02:35:00.456373Z",
     "pipeline": {
       "member": "member3",
       "version": "m3_fusion_v1",
@@ -1004,7 +1004,7 @@
     "arrival_time_sec": 29.0,
     "departure_time_sec": 29.1,
     "duration_sec": 0.1,
-    "generated_at": "2026-01-02T15:56:13.098884Z",
+    "generated_at": "2026-01-04T02:35:00.456373Z",
     "pipeline": {
       "member": "member3",
       "version": "m3_fusion_v1",
@@ -1026,7 +1026,7 @@
     "arrival_time_sec": 29.233,
     "departure_time_sec": 29.833,
     "duration_sec": 0.6,
-    "generated_at": "2026-01-02T15:56:13.098884Z",
+    "generated_at": "2026-01-04T02:35:00.456373Z",
     "pipeline": {
       "member": "member3",
       "version": "m3_fusion_v1",
@@ -1048,7 +1048,7 @@
     "arrival_time_sec": 31.667,
     "departure_time_sec": 31.933,
     "duration_sec": 0.267,
-    "generated_at": "2026-01-02T15:56:13.098884Z",
+    "generated_at": "2026-01-04T02:35:00.456373Z",
     "pipeline": {
       "member": "member3",
       "version": "m3_fusion_v1",
@@ -1070,7 +1070,7 @@
     "arrival_time_sec": 32.067,
     "departure_time_sec": 32.267,
     "duration_sec": 0.2,
-    "generated_at": "2026-01-02T15:56:13.098884Z",
+    "generated_at": "2026-01-04T02:35:00.456373Z",
     "pipeline": {
       "member": "member3",
       "version": "m3_fusion_v1",
@@ -1092,7 +1092,7 @@
     "arrival_time_sec": 33.067,
     "departure_time_sec": 33.133,
     "duration_sec": 0.067,
-    "generated_at": "2026-01-02T15:56:13.098884Z",
+    "generated_at": "2026-01-04T02:35:00.456373Z",
     "pipeline": {
       "member": "member3",
       "version": "m3_fusion_v1",
@@ -1114,7 +1114,7 @@
     "arrival_time_sec": 34.0,
     "departure_time_sec": 34.133,
     "duration_sec": 0.133,
-    "generated_at": "2026-01-02T15:56:13.098884Z",
+    "generated_at": "2026-01-04T02:35:00.456373Z",
     "pipeline": {
       "member": "member3",
       "version": "m3_fusion_v1",
@@ -1136,7 +1136,7 @@
     "arrival_time_sec": 34.767,
     "departure_time_sec": 34.9,
     "duration_sec": 0.133,
-    "generated_at": "2026-01-02T15:56:13.098884Z",
+    "generated_at": "2026-01-04T02:35:00.456373Z",
     "pipeline": {
       "member": "member3",
       "version": "m3_fusion_v1",
@@ -1158,7 +1158,7 @@
     "arrival_time_sec": 35.167,
     "departure_time_sec": 35.3,
     "duration_sec": 0.133,
-    "generated_at": "2026-01-02T15:56:13.098884Z",
+    "generated_at": "2026-01-04T02:35:00.456373Z",
     "pipeline": {
       "member": "member3",
       "version": "m3_fusion_v1",
@@ -1180,7 +1180,7 @@
     "arrival_time_sec": 35.467,
     "departure_time_sec": 35.533,
     "duration_sec": 0.067,
-    "generated_at": "2026-01-02T15:56:13.098884Z",
+    "generated_at": "2026-01-04T02:35:00.456373Z",
     "pipeline": {
       "member": "member3",
       "version": "m3_fusion_v1",
@@ -1202,7 +1202,7 @@
     "arrival_time_sec": 35.6,
     "departure_time_sec": 35.833,
     "duration_sec": 0.233,
-    "generated_at": "2026-01-02T15:56:13.098884Z",
+    "generated_at": "2026-01-04T02:35:00.456373Z",
     "pipeline": {
       "member": "member3",
       "version": "m3_fusion_v1",
@@ -1224,7 +1224,7 @@
     "arrival_time_sec": 36.133,
     "departure_time_sec": 36.3,
     "duration_sec": 0.167,
-    "generated_at": "2026-01-02T15:56:13.098884Z",
+    "generated_at": "2026-01-04T02:35:00.456373Z",
     "pipeline": {
       "member": "member3",
       "version": "m3_fusion_v1",
@@ -1246,7 +1246,7 @@
     "arrival_time_sec": 37.767,
     "departure_time_sec": 37.833,
     "duration_sec": 0.067,
-    "generated_at": "2026-01-02T15:56:13.098884Z",
+    "generated_at": "2026-01-04T02:35:00.456373Z",
     "pipeline": {
       "member": "member3",
       "version": "m3_fusion_v1",
@@ -1268,7 +1268,7 @@
     "arrival_time_sec": 38.0,
     "departure_time_sec": 38.233,
     "duration_sec": 0.233,
-    "generated_at": "2026-01-02T15:56:13.098884Z",
+    "generated_at": "2026-01-04T02:35:00.456373Z",
     "pipeline": {
       "member": "member3",
       "version": "m3_fusion_v1",
@@ -1290,7 +1290,7 @@
     "arrival_time_sec": 38.667,
     "departure_time_sec": 39.133,
     "duration_sec": 0.467,
-    "generated_at": "2026-01-02T15:56:13.098884Z",
+    "generated_at": "2026-01-04T02:35:00.456373Z",
     "pipeline": {
       "member": "member3",
       "version": "m3_fusion_v1",
@@ -1312,7 +1312,7 @@
     "arrival_time_sec": 39.933,
     "departure_time_sec": 40.3,
     "duration_sec": 0.367,
-    "generated_at": "2026-01-02T15:56:13.098884Z",
+    "generated_at": "2026-01-04T02:35:00.456373Z",
     "pipeline": {
       "member": "member3",
       "version": "m3_fusion_v1",
@@ -1334,7 +1334,7 @@
     "arrival_time_sec": 40.667,
     "departure_time_sec": 40.767,
     "duration_sec": 0.1,
-    "generated_at": "2026-01-02T15:56:13.098884Z",
+    "generated_at": "2026-01-04T02:35:00.456373Z",
     "pipeline": {
       "member": "member3",
       "version": "m3_fusion_v1",
@@ -1356,7 +1356,7 @@
     "arrival_time_sec": 32.4,
     "departure_time_sec": 33.967,
     "duration_sec": 1.567,
-    "generated_at": "2026-01-02T15:56:13.098884Z",
+    "generated_at": "2026-01-04T02:35:00.456373Z",
     "pipeline": {
       "member": "member3",
       "version": "m3_fusion_v1",
@@ -1378,7 +1378,7 @@
     "arrival_time_sec": 34.067,
     "departure_time_sec": 36.3,
     "duration_sec": 2.233,
-    "generated_at": "2026-01-02T15:56:13.098884Z",
+    "generated_at": "2026-01-04T02:35:00.456373Z",
     "pipeline": {
       "member": "member3",
       "version": "m3_fusion_v1",
@@ -1400,7 +1400,7 @@
     "arrival_time_sec": 36.533,
     "departure_time_sec": 39.033,
     "duration_sec": 2.5,
-    "generated_at": "2026-01-02T15:56:13.098884Z",
+    "generated_at": "2026-01-04T02:35:00.456373Z",
     "pipeline": {
       "member": "member3",
       "version": "m3_fusion_v1",
@@ -1422,7 +1422,7 @@
     "arrival_time_sec": 39.133,
     "departure_time_sec": 40.233,
     "duration_sec": 1.1,
-    "generated_at": "2026-01-02T15:56:13.098884Z",
+    "generated_at": "2026-01-04T02:35:00.456373Z",
     "pipeline": {
       "member": "member3",
       "version": "m3_fusion_v1",
@@ -1444,7 +1444,7 @@
     "arrival_time_sec": 40.4,
     "departure_time_sec": 40.5,
     "duration_sec": 0.1,
-    "generated_at": "2026-01-02T15:56:13.098884Z",
+    "generated_at": "2026-01-04T02:35:00.456373Z",
     "pipeline": {
       "member": "member3",
       "version": "m3_fusion_v1",
@@ -1466,7 +1466,7 @@
     "arrival_time_sec": 34.833,
     "departure_time_sec": 34.9,
     "duration_sec": 0.067,
-    "generated_at": "2026-01-02T15:56:13.098884Z",
+    "generated_at": "2026-01-04T02:35:00.456373Z",
     "pipeline": {
       "member": "member3",
       "version": "m3_fusion_v1",
@@ -1488,7 +1488,7 @@
     "arrival_time_sec": 35.267,
     "departure_time_sec": 35.433,
     "duration_sec": 0.167,
-    "generated_at": "2026-01-02T15:56:13.098884Z",
+    "generated_at": "2026-01-04T02:35:00.456373Z",
     "pipeline": {
       "member": "member3",
       "version": "m3_fusion_v1",
@@ -1510,7 +1510,7 @@
     "arrival_time_sec": 35.733,
     "departure_time_sec": 35.967,
     "duration_sec": 0.233,
-    "generated_at": "2026-01-02T15:56:13.098884Z",
+    "generated_at": "2026-01-04T02:35:00.456373Z",
     "pipeline": {
       "member": "member3",
       "version": "m3_fusion_v1",
@@ -1532,7 +1532,7 @@
     "arrival_time_sec": 36.133,
     "departure_time_sec": 36.5,
     "duration_sec": 0.367,
-    "generated_at": "2026-01-02T15:56:13.098884Z",
+    "generated_at": "2026-01-04T02:35:00.456373Z",
     "pipeline": {
       "member": "member3",
       "version": "m3_fusion_v1",
@@ -1554,7 +1554,7 @@
     "arrival_time_sec": 36.6,
     "departure_time_sec": 36.9,
     "duration_sec": 0.3,
-    "generated_at": "2026-01-02T15:56:13.098884Z",
+    "generated_at": "2026-01-04T02:35:00.456373Z",
     "pipeline": {
       "member": "member3",
       "version": "m3_fusion_v1",
@@ -1576,7 +1576,7 @@
     "arrival_time_sec": 37.333,
     "departure_time_sec": 37.433,
     "duration_sec": 0.1,
-    "generated_at": "2026-01-02T15:56:13.098884Z",
+    "generated_at": "2026-01-04T02:35:00.456373Z",
     "pipeline": {
       "member": "member3",
       "version": "m3_fusion_v1",
@@ -1598,7 +1598,7 @@
     "arrival_time_sec": 38.133,
     "departure_time_sec": 38.433,
     "duration_sec": 0.3,
-    "generated_at": "2026-01-02T15:56:13.098884Z",
+    "generated_at": "2026-01-04T02:35:00.456373Z",
     "pipeline": {
       "member": "member3",
       "version": "m3_fusion_v1",
@@ -1620,7 +1620,7 @@
     "arrival_time_sec": 38.533,
     "departure_time_sec": 39.233,
     "duration_sec": 0.7,
-    "generated_at": "2026-01-02T15:56:13.098884Z",
+    "generated_at": "2026-01-04T02:35:00.456373Z",
     "pipeline": {
       "member": "member3",
       "version": "m3_fusion_v1",
@@ -1642,7 +1642,7 @@
     "arrival_time_sec": 39.733,
     "departure_time_sec": 39.833,
     "duration_sec": 0.1,
-    "generated_at": "2026-01-02T15:56:13.098884Z",
+    "generated_at": "2026-01-04T02:35:00.456373Z",
     "pipeline": {
       "member": "member3",
       "version": "m3_fusion_v1",
@@ -1664,7 +1664,7 @@
     "arrival_time_sec": 40.0,
     "departure_time_sec": 40.9,
     "duration_sec": 0.9,
-    "generated_at": "2026-01-02T15:56:13.098884Z",
+    "generated_at": "2026-01-04T02:35:00.456373Z",
     "pipeline": {
       "member": "member3",
       "version": "m3_fusion_v1",

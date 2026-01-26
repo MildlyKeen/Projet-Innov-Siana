@@ -1,0 +1,194 @@
+[
+  {
+    "track": "voie2",
+    "train_track_id": 1,
+    "train_number": "39140",
+    "arrival_frame": 11,
+    "departure_frame": 13,
+    "camera_id": "cam_01"
+  },
+  {
+    "track": "voie2",
+    "train_track_id": 1,
+    "train_number": null,
+    "arrival_frame": 15,
+    "departure_frame": 19,
+    "camera_id": "cam_01"
+  },
+  {
+    "track": "voie3",
+    "train_track_id": 1,
+    "train_number": null,
+    "arrival_frame": 21,
+    "departure_frame": 23,
+    "camera_id": "cam_01"
+  },
+  {
+    "track": "voie3",
+    "train_track_id": 1,
+    "train_number": null,
+    "arrival_frame": 25,
+    "departure_frame": 30,
+    "camera_id": "cam_01"
+  },
+  {
+    "track": "voie2",
+    "train_track_id": 1,
+    "train_number": null,
+    "arrival_frame": 163,
+    "departure_frame": 176,
+    "camera_id": "cam_01"
+  },
+  {
+    "track": "voie1",
+    "train_track_id": 1,
+    "train_number": "39140",
+    "arrival_frame": 177,
+    "departure_frame": 281,
+    "camera_id": "cam_01"
+  },
+  {
+    "track": "voie1",
+    "train_track_id": 6,
+    "train_number": null,
+    "arrival_frame": 232,
+    "departure_frame": 236,
+    "camera_id": "cam_01"
+  },
+  {
+    "track": "voie1",
+    "train_track_id": 6,
+    "train_number": null,
+    "arrival_frame": 241,
+    "departure_frame": 244,
+    "camera_id": "cam_01"
+  },
+  {
+    "track": "voie1",
+    "train_track_id": 6,
+    "train_number": null,
+    "arrival_frame": 257,
+    "departure_frame": 266,
+    "camera_id": "cam_01"
+  },
+  {
+    "track": "voie1",
+    "train_track_id": 6,
+    "train_number": null,
+    "arrival_frame": 269,
+    "departure_frame": 271,
+    "camera_id": "cam_01"
+  },
+  {
+    "track": "voie1",
+    "train_track_id": 6,
+    "train_number": null,
+    "arrival_frame": 275,
+    "departure_frame": 282,
+    "camera_id": "cam_01"
+  },
+  {
+    "track": "voie2",
+    "train_track_id": 6,
+    "train_number": null,
+    "arrival_frame": 283,
+    "departure_frame": 288,
+    "camera_id": "cam_01"
+  },
+  {
+    "track": "voie1",
+    "train_track_id": 6,
+    "train_number": "39140",
+    "arrival_frame": 315,
+    "departure_frame": 320,
+    "camera_id": "cam_01"
+  },
+  {
+    "track": "voie1",
+    "train_track_id": 6,
+    "train_number": null,
+    "arrival_frame": 373,
+    "departure_frame": 378,
+    "camera_id": "cam_01"
+  },
+  {
+    "track": "voie1",
+    "train_track_id": 6,
+    "train_number": null,
+    "arrival_frame": 405,
+    "departure_frame": 410,
+    "camera_id": "cam_01"
+  },
+  {
+    "track": "voie1",
+    "train_track_id": 6,
+    "train_number": null,
+    "arrival_frame": 455,
+    "departure_frame": 459,
+    "camera_id": "cam_01"
+  },
+  {
+    "track": "voie1",
+    "train_track_id": 6,
+    "train_number": null,
+    "arrival_frame": 537,
+    "departure_frame": 542,
+    "camera_id": "cam_01"
+  },
+  {
+    "track": "voie1",
+    "train_track_id": 10,
+    "train_number": null,
+    "arrival_frame": 392,
+    "departure_frame": 394,
+    "camera_id": "cam_01"
+  },
+  {
+    "track": "voie1",
+    "train_track_id": 11,
+    "train_number": null,
+    "arrival_frame": 407,
+    "departure_frame": 410,
+    "camera_id": "cam_01"
+  },
+  {
+    "track": "voie1",
+    "train_track_id": 11,
+    "train_number": null,
+    "arrival_frame": 413,
+    "departure_frame": 434,
+    "camera_id": "cam_01"
+  },
+  {
+    "track": "voie1",
+    "train_track_id": 11,
+    "train_number": null,
+    "arrival_frame": 437,
+    "departure_frame": 561,
+    "camera_id": "cam_01"
+  },
+  {
+    "track": "voie1",
+    "train_track_id": 12,
+    "train_number": null,
+    "arrival_frame": 432,
+    "departure_frame": 436,
+    "camera_id": "cam_01"
+  },
+  {
+    "track": "voie1",
+    "train_track_id": 13,
+    "train_number": null,
+    "arrival_frame": 503,
+    "departure_frame": 506,
+    "camera_id": "cam_01"
+  },
+  {
+    "track": "voie1",
+    "train_track_id": 13,
+    "train_number": null,
+    "arrival_frame": 547,
+    "departure_frame": 554,
+    "camera_id": "cam_01"
+  }
+]

@@ -1,0 +1,386 @@
+[
+  {
+    "event": "ARRIVAL",
+    "state": "occupée",
+    "track": "voie2",
+    "train_track_id": 1,
+    "start_frame": 11,
+    "frame": 13
+  },
+  {
+    "event": "DEPARTURE",
+    "state": "libre",
+    "track": "voie2",
+    "train_track_id": 1,
+    "end_frame": 13,
+    "frame": 13
+  },
+  {
+    "event": "ARRIVAL",
+    "state": "occupée",
+    "track": "voie2",
+    "train_track_id": 1,
+    "start_frame": 15,
+    "frame": 17
+  },
+  {
+    "event": "DEPARTURE",
+    "state": "libre",
+    "track": "voie2",
+    "train_track_id": 1,
+    "end_frame": 19,
+    "frame": 19
+  },
+  {
+    "event": "ARRIVAL",
+    "state": "occupée",
+    "track": "voie3",
+    "train_track_id": 1,
+    "start_frame": 21,
+    "frame": 23
+  },
+  {
+    "event": "DEPARTURE",
+    "state": "libre",
+    "track": "voie3",
+    "train_track_id": 1,
+    "end_frame": 23,
+    "frame": 23
+  },
+  {
+    "event": "ARRIVAL",
+    "state": "occupée",
+    "track": "voie3",
+    "train_track_id": 1,
+    "start_frame": 25,
+    "frame": 27
+  },
+  {
+    "event": "DEPARTURE",
+    "state": "libre",
+    "track": "voie3",
+    "train_track_id": 1,
+    "end_frame": 30,
+    "frame": 30
+  },
+  {
+    "event": "ARRIVAL",
+    "state": "occupée",
+    "track": "voie2",
+    "train_track_id": 1,
+    "start_frame": 163,
+    "frame": 165
+  },
+  {
+    "event": "DEPARTURE",
+    "state": "libre",
+    "track": "voie2",
+    "train_track_id": 1,
+    "end_frame": 176,
+    "frame": 176
+  },
+  {
+    "event": "ARRIVAL",
+    "state": "occupée",
+    "track": "voie1",
+    "train_track_id": 1,
+    "start_frame": 177,
+    "frame": 179
+  },
+  {
+    "event": "DEPARTURE",
+    "state": "libre",
+    "track": "voie1",
+    "train_track_id": 1,
+    "end_frame": 281,
+    "frame": 281
+  },
+  {
+    "event": "ARRIVAL",
+    "state": "occupée",
+    "track": "voie1",
+    "train_track_id": 6,
+    "start_frame": 232,
+    "frame": 234
+  },
+  {
+    "event": "DEPARTURE",
+    "state": "libre",
+    "track": "voie1",
+    "train_track_id": 6,
+    "end_frame": 236,
+    "frame": 236
+  },
+  {
+    "event": "ARRIVAL",
+    "state": "occupée",
+    "track": "voie1",
+    "train_track_id": 6,
+    "start_frame": 241,
+    "frame": 243
+  },
+  {
+    "event": "DEPARTURE",
+    "state": "libre",
+    "track": "voie1",
+    "train_track_id": 6,
+    "end_frame": 244,
+    "frame": 244
+  },
+  {
+    "event": "ARRIVAL",
+    "state": "occupée",
+    "track": "voie1",
+    "train_track_id": 6,
+    "start_frame": 257,
+    "frame": 259
+  },
+  {
+    "event": "DEPARTURE",
+    "state": "libre",
+    "track": "voie1",
+    "train_track_id": 6,
+    "end_frame": 266,
+    "frame": 266
+  },
+  {
+    "event": "ARRIVAL",
+    "state": "occupée",
+    "track": "voie1",
+    "train_track_id": 6,
+    "start_frame": 269,
+    "frame": 271
+  },
+  {
+    "event": "DEPARTURE",
+    "state": "libre",
+    "track": "voie1",
+    "train_track_id": 6,
+    "end_frame": 271,
+    "frame": 271
+  },
+  {
+    "event": "ARRIVAL",
+    "state": "occupée",
+    "track": "voie1",
+    "train_track_id": 6,
+    "start_frame": 275,
+    "frame": 277
+  },
+  {
+    "event": "DEPARTURE",
+    "state": "libre",
+    "track": "voie1",
+    "train_track_id": 6,
+    "end_frame": 282,
+    "frame": 282
+  },
+  {
+    "event": "ARRIVAL",
+    "state": "occupée",
+    "track": "voie2",
+    "train_track_id": 6,
+    "start_frame": 283,
+    "frame": 285
+  },
+  {
+    "event": "DEPARTURE",
+    "state": "libre",
+    "track": "voie2",
+    "train_track_id": 6,
+    "end_frame": 288,
+    "frame": 288
+  },
+  {
+    "event": "ARRIVAL",
+    "state": "occupée",
+    "track": "voie1",
+    "train_track_id": 6,
+    "start_frame": 315,
+    "frame": 317
+  },
+  {
+    "event": "DEPARTURE",
+    "state": "libre",
+    "track": "voie1",
+    "train_track_id": 6,
+    "end_frame": 320,
+    "frame": 320
+  },
+  {
+    "event": "ARRIVAL",
+    "state": "occupée",
+    "track": "voie1",
+    "train_track_id": 6,
+    "start_frame": 373,
+    "frame": 375
+  },
+  {
+    "event": "DEPARTURE",
+    "state": "libre",
+    "track": "voie1",
+    "train_track_id": 6,
+    "end_frame": 378,
+    "frame": 378
+  },
+  {
+    "event": "ARRIVAL",
+    "state": "occupée",
+    "track": "voie1",
+    "train_track_id": 6,
+    "start_frame": 405,
+    "frame": 407
+  },
+  {
+    "event": "DEPARTURE",
+    "state": "libre",
+    "track": "voie1",
+    "train_track_id": 6,
+    "end_frame": 410,
+    "frame": 410
+  },
+  {
+    "event": "ARRIVAL",
+    "state": "occupée",
+    "track": "voie1",
+    "train_track_id": 6,
+    "start_frame": 455,
+    "frame": 457
+  },
+  {
+    "event": "DEPARTURE",
+    "state": "libre",
+    "track": "voie1",
+    "train_track_id": 6,
+    "end_frame": 459,
+    "frame": 459
+  },
+  {
+    "event": "ARRIVAL",
+    "state": "occupée",
+    "track": "voie1",
+    "train_track_id": 6,
+    "start_frame": 537,
+    "frame": 539
+  },
+  {
+    "event": "DEPARTURE",
+    "state": "libre",
+    "track": "voie1",
+    "train_track_id": 6,
+    "end_frame": 542,
+    "frame": 542
+  },
+  {
+    "event": "ARRIVAL",
+    "state": "occupée",
+    "track": "voie1",
+    "train_track_id": 10,
+    "start_frame": 392,
+    "frame": 394
+  },
+  {
+    "event": "DEPARTURE",
+    "state": "libre",
+    "track": "voie1",
+    "train_track_id": 10,
+    "end_frame": 394,
+    "frame": 394
+  },
+  {
+    "event": "ARRIVAL",
+    "state": "occupée",
+    "track": "voie1",
+    "train_track_id": 11,
+    "start_frame": 407,
+    "frame": 409
+  },
+  {
+    "event": "DEPARTURE",
+    "state": "libre",
+    "track": "voie1",
+    "train_track_id": 11,
+    "end_frame": 410,
+    "frame": 410
+  },
+  {
+    "event": "ARRIVAL",
+    "state": "occupée",
+    "track": "voie1",
+    "train_track_id": 11,
+    "start_frame": 413,
+    "frame": 415
+  },
+  {
+    "event": "DEPARTURE",
+    "state": "libre",
+    "track": "voie1",
+    "train_track_id": 11,
+    "end_frame": 434,
+    "frame": 434
+  },
+  {
+    "event": "ARRIVAL",
+    "state": "occupée",
+    "track": "voie1",
+    "train_track_id": 11,
+    "start_frame": 437,
+    "frame": 439
+  },
+  {
+    "event": "DEPARTURE",
+    "state": "libre",
+    "track": "voie1",
+    "train_track_id": 11,
+    "end_frame": 561,
+    "frame": 561
+  },
+  {
+    "event": "ARRIVAL",
+    "state": "occupée",
+    "track": "voie1",
+    "train_track_id": 12,
+    "start_frame": 432,
+    "frame": 434
+  },
+  {
+    "event": "DEPARTURE",
+    "state": "libre",
+    "track": "voie1",
+    "train_track_id": 12,
+    "end_frame": 436,
+    "frame": 436
+  },
+  {
+    "event": "ARRIVAL",
+    "state": "occupée",
+    "track": "voie1",
+    "train_track_id": 13,
+    "start_frame": 503,
+    "frame": 505
+  },
+  {
+    "event": "DEPARTURE",
+    "state": "libre",
+    "track": "voie1",
+    "train_track_id": 13,
+    "end_frame": 506,
+    "frame": 506
+  },
+  {
+    "event": "ARRIVAL",
+    "state": "occupée",
+    "track": "voie1",
+    "train_track_id": 13,
+    "start_frame": 547,
+    "frame": 549
+  },
+  {
+    "event": "DEPARTURE",
+    "state": "libre",
+    "track": "voie1",
+    "train_track_id": 13,
+    "end_frame": 554,
+    "frame": 554
+  }
+]

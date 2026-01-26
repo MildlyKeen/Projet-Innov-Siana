@@ -1,0 +1,1 @@
+# No external dependencies for M3 (stdlib only)

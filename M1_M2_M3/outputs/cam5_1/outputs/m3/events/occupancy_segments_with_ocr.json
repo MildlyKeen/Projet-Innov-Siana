@@ -1,0 +1,50 @@
+[
+  {
+    "track": "voie1",
+    "train_track_id": 1,
+    "train_number": "37650",
+    "arrival_frame": 0,
+    "departure_frame": 187,
+    "camera_id": "cam_01"
+  },
+  {
+    "track": "voie1",
+    "train_track_id": 1,
+    "train_number": null,
+    "arrival_frame": 237,
+    "departure_frame": 246,
+    "camera_id": "cam_01"
+  },
+  {
+    "track": "voie1",
+    "train_track_id": 1,
+    "train_number": "37650",
+    "arrival_frame": 249,
+    "departure_frame": 336,
+    "camera_id": "cam_01"
+  },
+  {
+    "track": "voie1",
+    "train_track_id": 2,
+    "train_number": null,
+    "arrival_frame": 188,
+    "departure_frame": 194,
+    "camera_id": "cam_01"
+  },
+  {
+    "track": "voie1",
+    "train_track_id": 2,
+    "train_number": null,
+    "arrival_frame": 199,
+    "departure_frame": 202,
+    "camera_id": "cam_01"
+  },
+  {
+    "track": "voie1",
+    "train_track_id": 2,
+    "train_number": null,
+    "arrival_frame": 205,
+    "departure_frame": 212,
+    "camera_id": "cam_01"
+  }
+]
