@@ -88,7 +88,7 @@ def main():
     ROOT = Path(__file__).resolve().parent
 
     # Global venv python
-    PY = ROOT / "venv" / "Scripts" / "python.exe"
+    PY = sys.executable
 
     # Members roots
     M1 = ROOT / "M1"
